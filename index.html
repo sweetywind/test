@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>국회전자도서관</title>
+<meta content="initial-scale=1, width=device-width" name="viewport">
+
+<!-- CSS -->
+<link rel="stylesheet" href="style/reset.css">
+<link rel="stylesheet" href="style/common.css">
+<link rel="stylesheet" href="style/sub.css">
+<!-- SCRIPT -->
+<script src="script/jquery-1.8.3.min.js"></script>
+<script src="script/sub.js"></script>
+
+<!-- 검색상세 -->
+<link rel="stylesheet" href="style/search/detail.css">
+
+<!-- 검색 SCRIPT -->
+<script src="script/search/facet.js"></script>
+<script src="script/search/detail.js"></script>
+
+</head>
+<body>
+<div id="wrap">
+	<div id="skipNavi">
+		<a href="#gnb">메뉴바로가기</a>
+		<a href="#container">본문바로가기</a>
+	</div>
+	<header id="header">
+		<h1><a href=""><img src="images/logo.png" alt="국회전자도서관"></a></h1>
+		<nav id="gnb" class="pcMenu">
+			<h2 class="skip">탑메뉴</h2>
+			<ul>
+				<li><a href="">처음방문이세요?</a></li>
+				<li><a href="">로그인</a></li>
+				<li><a href="">회원가입</a></li>
+				<li class="myLibrary"><a href="">My Library</a></li>
+			</ul>
+		</nav>
+		<nav class="mobileMenu">
+			<h2 class="skip">메뉴</h2>
+			<a href="#" class="open"><img src="images/menuOpen.png" alt="메뉴열기"></a>
+			<span class="menuBg"></span>
+			<div>
+				<div class="menuTop">
+					<div class="mobileMenu1">
+						<a href="#" class="home"><img src="images/home.png" alt="Home"></a>
+						<a href="#" class="menuSearch"><img src="images/menuSearch.png" alt="Search"></a>
+					</div>
+					<div class="mobileMenu2">
+						<span>퓨쳐누리님</span>
+						<a href="#">Logout</a>
+					</div>
+					<!-- <div class="mobileMenu3">
+						<a href="#" class="membership">회원가입</a>
+						<a href="#" class="login">Login</a>
+					</div> -->
+				</div>
+				<ul>
+					<li><a href="">처음방문이세요?</a></li>
+					<li><a href="">테마컬렉션</a></li>
+				</ul>
+				<a href="#" class="close"><img src="images/menuClose.png" alt="메뉴열기"></a>
+			</div>
+		</nav>
+		<section id="search">
+			<h2 class="skip">검색</h2>
+			<div class="keyword">
+				<ul>
+					<li><a href="#"><span>1</span> 인기검색어1</a></li>
+					<li><a href="#"><span>2</span> 인기검색어2</a></li>
+					<li><a href="#"><span>3</span> 인기검색어3</a></li>
+					<li><a href="#"><span>4</span> 인기검색어4</a></li>
+					<li><a href="#"><span>5</span> 인기검색어5</a></li>
+				</ul>
+			</div>
+			<div class="searchForm">
+				<form>
+					<fieldset>
+						<legend class="skip">검색</legend>
+						<div class="selectW">
+							<div class="selectBoxW">
+								<label for="srchSelect">기본검색</label>
+								<!--selectbox display:none-->
+								<select id="srchSelect" title="전체">				
+									<option value="" selected="selected">기본검색</option>
+									<option value="">검색옵션1</option>
+									<option value="">검색옵션2</option>
+								</select>
+								<!--//selectbox display:none-->
+							</div>
+							<div class="srchSelectBox"> 
+								<div class="optList"> 
+									<ul> 
+										<li><a href="#">기본검색</a></li>
+										<li><a href="#">검색옵션1</a></li>
+										<li><a href="#">검색옵션2</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<input type="text" placeholder="검색어를 입력해주세요" class="inputText">
+						<input type="submit" value="검색" class="searchBtn">
+					</fieldset>
+				</form>
+				<a href="#" class="searchBtn2">상세<br>검색</a>
+				<a href="#" class="searchBtn3">외부기관<br>검색</a>
+				<label><input type="checkbox"> 결과 내 검색</label>
+			</div>
+			<dl>
+				<dt>연관어</dt>
+				<dd>
+					<ul>
+						<li><a href="">#소상공인대출</a></li>
+						<li><a href="">#집화금지</a></li>
+						<li><a href="">#CORONA</a></li>
+						<li><a href="">#재배</a></li>
+						<li><a href="">#집단면역</a></li>
+						<li><a href="">#퍼펙트스톰</a></li>
+						<li><a href="">#최고</a></li>
+					</ul>
+				</dd>
+			</dl>
+		</section>
+	</header>
+	<div id="container">
+		<div class="searchBrief">
+			<section class="category">
+				<h2 class="skip">자료 카테고리</h2>
+				<div class="category1">
+					<ul>
+						<li class="on"><a href="">전체 <span>1,000,000</span></a></li>
+						<li><a href="">도서자료 <span>1,000,000</span></a></li>
+						<li><a href="">학위논문 <span>1,000,000</span></a></li>
+						<li><a href="">학술기사/연속간행물 <span>1,000,000</span></a></li>
+						<li><a href="">멀티미디어 <span>1,000,000</span></a></li>
+						<li><a href="">국회자료 <span>1,000,000</span></a></li>
+						<li><a href="">특화자료 <span>1,000,000</span></a></li>
+						<li><a href="">공공정책자료 <span>1,000,000</span></a></li>
+					</ul>
+				</div>
+				<div class="category2">
+					<ul>
+						<li><a href="">일반도서 <span>(100,000)</span></a></li>
+						<li><a href="">고서 <span>(100,000)</span></a></li>
+						<li><a href="">세미나자료 <span>(100,000)</span></a></li>
+						<li><a href="">웹자료 <span>(100,000)</span></a></li>
+					</ul>
+				</div>
+			</section>
+			<section class="brief">
+				<h2 class="skip">검색결과</h2>
+				<div class="briefHead">
+					<p>통합검색 <span class="highlight">"korea"</span> <span class="count">(전체 298,448건)</span></p>
+					<div class="inquire">
+						<div class="selectBox1">
+							<select name="cntPerPage" id="cntPerPage">
+								<option>10개씩 보기</option>
+								<option>20개씩 보기</option>
+								<option>50개씩 보기</option>
+								<option>100개씩 보기</option>
+								<option>500개씩 보기</option>
+							</select>
+						</div>
+						<div class="selectBox1">
+							<select>
+								<option>발행년도(내림차순)</option>
+								<option>발행년도(오름차순)</option>
+							</select>
+						</div>
+						<input type="button" value="적용">
+					</div>
+				</div>
+				<div class="briefContent">
+					<div class="facet">
+						<ul>
+							<li class="type1 on"><a href=""><span>인포그래픽</span></a>
+								<div>
+									<ul class="infoGraphicImg">
+										<li><a href="#"><img src="images/ico/infoGraphic.jpg"></a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="type1 on"><a href=""><span>원문</span></a>
+								<div>
+									<ul>
+										<li><p><a href="">원문 있는 자료원문 있는 자료원문 있는 자료원문 있는 자료원문 있는 자료 (1,000)</a> <button>열기</button></p>
+											<div>
+												<ul>
+													<li><a href=""><span>-</span> 하위1하위1하위1하위1하위1하위1</a></li>
+													<li><a href=""><span>-</span> 하위2</a></li>
+													<li><a href=""><span>-</span> 하위3</a></li>
+												</ul>
+											</div>
+										</li>
+										<li><a href="">원문 없는 자료 (1,000)</a></li>
+										<li><a href="">음성지원 자료 (1,000)</a></li>
+										<li><a href="">다운로드 자료 (1,000)</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="type1 on"><a href=""><span>발행연도</span></a>
+								<div>
+									<ul>
+										<li><a href="">2016-2020 (1,000)</a></li>
+										<li><a href="">2011-2015 (202)</a></li>
+										<li><a href="">2006-2010 (148)</a></li>
+										<li><a href="">2001-2005 (148)</a></li>
+										<li><a href="">1996-2000 (148)</a></li>
+									</ul>
+									<div class="more"><button>더보기</button></div>
+								</div>
+							</li>
+							<li class="type2">
+								<a href="#"><span>용어관계사전</span></a>
+							</li>
+						</ul>
+					</div>
+					<div class="briefList">
+						<div class="detailOptions">
+							<a href="#" class="searchOption1">내서재담기</a>
+							<a href="#" class="searchOption2">야간이용신청목록담기</a>
+							<a href="#" class="searchOption3">한자 한글변환</a>
+							<a href="#" class="searchOption4">목록으로</a>
+						</div>
+						<div class="searchDetail">
+							<div class="marc">
+								<div class="f_L">
+									<input type="checkbox" title="해당자료선택">
+									<span class="count">Doc, 1 of44895</span>
+									<span class="recommend">추천</span>
+								</div>
+								<div class="f_R">
+									<button>MARC</button>
+								</div>
+							</div>
+							<div class="detailContent">
+								<dl>
+									<dt>자료명/저자사항</dt>
+									<dd>버핏클럽 [전자자료] = Buffett club : the mook for intelligent investor. issue 2, Buffett's evolution / 지은이: 강영연, 강환국, 김재현, 김학렬, 박성현, 백우진, 사경인, 서준식, 송선재, 숙향 [외] </dd>
+								</dl>
+								<dl>
+									<dt>발행사항</dt>
+									<dd>서울 : 에프엔미디어, 2019</dd>
+								</dl>
+								<dl>
+									<dt>청구기호</dt>
+									<dd>332.6322 -19-55</dd>
+								</dl>
+								<dl>
+									<dt>자료실</dt>
+									<dd>사회과학자료실(208호)</dd>
+								</dl>
+								<dl>
+									<dt>형태사항</dt>
+									<dd>302 p. : 삽화, 도표, 초상화 ; 24 cm</dd>
+								</dl>
+								<dl>
+									<dt>표준번호/부호</dt>
+									<dd>ISBN: 9791188754144</dd>
+								</dl>
+								<dl>
+									<dt>제어번호</dt>
+									<dd>MONO1201961956</dd>
+								</dl>
+								<dl>
+									<dt>주기사항</dt>
+									<dd>전자자료(e-book)로도 이용가능 <br>이용가능한 다른 형태자료: 버핏클럽 : Buffett's evolution [전자자료] issue 2 </dd>
+								</dl>
+							</div>
+							<div class="detailContent2">
+								<p class="contentTitle">이용현황보기</p>
+								<div class="detailTable">
+									<table>
+										<caption class="skip">이용현황 안내표</caption>
+										<colgroup>
+											<col>
+											<col>
+											<col>
+											<col>
+											<col>
+										</colgroup>
+										<thead>
+											<tr>
+												<th scope="col">등록번호</th>
+												<th scope="col">청구기호</th>
+												<th scope="col">권별정보</th>
+												<th scope="col">자료실</th>
+												<th scope="col">이용여부</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>0002549137</td>
+												<td>332.6322 -19-55</td>
+												<td>v.2</td>
+												<td>사회과학자료실(208호)</td>
+												<td>이용가능</td>
+											</tr>
+											<tr>
+												<td>0002549137</td>
+												<td>332.6322 -19-55</td>
+												<td>v.2</td>
+												<td>사회과학자료실(208호)</td>
+												<td>이용가능</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div class="detailContent2">
+								<p class="contentTitle">목차보기</p>
+								<div class="scrollY">
+									[Editor’s letter]<br>
+									'버핏클럽'에 들어섬을 환영하며<br>
+									<br>
+									[Cover Story] <br>
+									2018년 버크셔 해서웨이 주주총회 참관기: 자본주의의 우드스탁, 놀라움 그 자체 | 이기원<br>
+									2018년 버크셔 해서웨이 주주총회 참관기: ‘그들이 옳았다’는 확신 얻은 여정 | 김태석<br>
+									2018년 버크셔 해서웨이 주주총회 Q&A: “올바른 투자 철학만 있으면 된다” | 이건<br>
+									<br>
+									[Focus]<br>
+								</div>
+							</div>
+							<div class="detailContent2 aladin">
+								<p class="contentTitle">출판사 책소개(알라딘 제공)</p>
+								<div class="scrollY">
+									<strong>더 강력하게 돌아왔다!</strong> <br>
+									<strong>수만 명 투자자들에게 검증받은</strong><br>
+									<strong>"잠든 사이 월급 버는" 시리즈 2탄</strong><br>
+									<br>
+									1907년 미국발 은행 패닉, 1929년 월스트리트 대폭락, 1973년 오일쇼크, 2000년 닷컴버블, 2009년 미국발 금융위기, 2020년 코로나19발 글로벌 증시 급락... <br>경제위기를 '기회'로, 모... 
+								</div>
+							</div>
+							<div class="detailContent2">
+								<p class="contentTitle">가상서가</p>
+								<div class="stack">
+									<a href="#" role="button" class="prev"><img src="images/button/prev.png" alt="이전"></a>
+									<a href="#" role="button" class="next"><img src="images/button/next.png" alt="다음"></a>
+									<div>
+										<ul>
+											<li><a href=""><img src="images/sample/sample2.jpg" alt="도서제목" title="도서제목"></a></li>
+											<li><a href=""><img src="images/sample/sample2.jpg" alt="도서제목" title="도서제목"></a></li>
+											<li><a href=""><img src="images/sample/sample2.jpg" alt="도서제목" title="도서제목"></a></li>
+											<li><a href=""><img src="images/sample/sample2.jpg" alt="도서제목" title="도서제목"></a></li>
+											<li><a href=""><img src="images/sample/sample2.jpg" alt="도서제목" title="도서제목"></a></li>
+											<li><a href=""><img src="images/sample/sample2.jpg" alt="도서제목" title="도서제목"></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="print">
+								<div class="f_L">
+									<a href="#">이전으로</a>
+									<a href="#">다음으로</a>
+									<a href="#">오류신고</a>
+									<a href="#">나의서평</a>
+								</div>
+								<div class="f_R">
+									<a href="#"><img src="images/ico/print.png" alt="인쇄"></a>
+								</div>
+							</div>
+						</div>
+						<div class="detailOptions">
+							<a href="#" class="searchOption1">내서재담기</a>
+							<a href="#" class="searchOption2">야간이용신청목록담기</a>
+							<a href="#" class="searchOption3">한자 한글변환</a>
+							<a href="#" class="searchOption4">목록으로</a>
+							<a href="#" class="searchOption5">알림톡 발송</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<footer id="footer">
+		<div>
+			<div class="privacy">
+				<dl>
+					<dt><a href="#" role="button">이용안내 더보기</a></dt>
+					<dd>
+						<ul>
+							<li><a href="">이용안내1</a></li>
+							<li><a href="">이용안내2</a></li>
+							<li><a href="">이용안내3</a></li>
+							<li><a href="">이용안내4</a></li>
+						</ul>
+					</dd>
+				</dl>
+				<a href="">개인정보처리방침</a>
+			</div>
+			<div class="footerMenu">
+				<ul>
+					<li class="footerMenu1"><a href="">협정기관 PC 인증안내</a></li>
+					<li class="footerMenu2"><a href="">프로그램 다운로드</a></li>
+					<li class="footerMenu3"><a href="">가까운도서관 찾기</a></li>
+				</ul>
+			</div>
+			<div class="address">
+				<address>우07233 서울특별시 영등포구 의사당대로 1(여의도동) <span>/</span> 전화문의:02-788-4211,080-788-4211(수신자 부담)</address>
+				<p class="copyright">Copyright &copy; 대한민국 국회도서관 All rights reserved.</p>
+			</div>
+		</div>
+	</footer>
+</div>
+</body>
+</html>
