@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/* Skip */
+.skip{position:absolute;left:0px;top:-500px;width:1px;height:1px;overflow:hidden;}
+
+/* Skip Navigation */
+#skipNavi{position:absolute;top:-1px;left:0;background-color:#333;z-index:999999}
+#skipNavi a{position:absolute;top:0;left:0;padding:10px 25px;margin-top:-100px;text-align:center;line-height:1;white-space:nowrap;background:#000}
+#skipNavi a:link{color:#333;}
+#skipNavi a:focus{margin-top:0;text-decoration:underline;color:#fff}
+
+/* input */
+input{font-family:NotoSans, sans-serif}
+input[type="image"]{-webkit-appearance:none;border-radius:0}
+input[type="submit"]{-webkit-appearance:none;border-radius:0;cursor:pointer}
+input[type="text"]{-webkit-appearance:none;border-radius:0}
+input[type="password"]{-webkit-appearance:none;border-radius:0}
+input[type="checkbox"]{border-radius:0}
+input[type="reset"]{-webkit-appearance:none;border-radius:0}
+input[type="button"]{-webkit-appearance:none;border-radius:0}
+select{border-radius:0;font-family:NotoSans, sans-serif}
