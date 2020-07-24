@@ -1,0 +1,205 @@
+@charset "utf-8";
+
+/* 검색 영역 */
+.dataSearch {position:relative;width:600px;height:80px;margin:0 auto;text-align:center;padding:40px 0 20px 0}
+.dataSearch form {overflow:hidden;display:inline-block}
+.dataSearch fieldset {float:left;}
+.dataSearch .searchSelect {position:absolute;top:90px;left:5px;}
+.dataSearch .searchSelect span {position:relative;display:inline-block;padding-left:20px;margin-right:30px}
+.dataSearch .searchSelect span input {position:absolute;left:0;top:1px;width:13px;height:13px}
+select.selectBox1, select.selectBox2 {height:35px}
+.dataSearch .selectBox1 {float:left;width:120px;margin-right:5px;padding-right:0}
+.dataSearch .searchW {float:left}
+.dataSearch .searchW .keyword {float:left;width:388px;height:14px;padding:9px 5px 8px 5px;border:2px solid #ffce4d;outline:none}
+.dataSearch .searchW .keyword input {border:0;width:95%;float: left;margin-left:10px;}
+.dataSearch .searchW .refine {position:absolute;top:90px;left:510px;padding-left:20px}
+.dataSearch .searchW .refine input {position:absolute;left:0;top:1px;width:13px;height:13px}
+.dataSearch .searchW .searchBtn {float:left;display:inline-block;width:66px;height:35px;margin-left:-2px;background:#ffce4d;border:1px solid #ffce4d;text-align:center;color:#4d4d4d}
+.dataSearch .searchW a.advanceBtn {float:left;display:inline-block;height:33px;margin-left:5px;padding:0 20px; border:1px solid #0067b3; vertical-align: top;line-height: 2.3em;background-color: #fff;color: #0067b3;}
+
+@media screen and (min-width:0) and (max-width:767px){
+.dataSearch {overflow:hidden;width:100%;height:auto;padding-bottom:80px}
+.dataSearch form {overflow:visible;position:relative;display:block;width:100%}
+.dataSearch fieldset {float:none;width:100%}
+.dataSearch .searchSelect {position:absolute;top:90px;}
+.dataSearch .selectBox1 {float:none;width:100%;margin:0 0 10px 0}
+
+.dataSearch .searchW {float:none;position:relative;width:auto;height:35px;padding-right:66px}
+.dataSearch .searchW .keyword {width:100%}
+.dataSearch .searchW .keyword input {width:100%;margin-left:0}
+.dataSearch .searchW .refine {left:5px;top:68px}
+.dataSearch .searchW .searchBtn {position:absolute;top:0;right:0}
+.dataSearch .searchW a.btnType3{position:absolute;top:0;right:0;}
+.dataSearch .searchSelect span {margin-right:20px}
+}
+
+.searchBrief {line-height:1}
+select.selectBox2 {float:left;height:35px;border:1px solid #ccc}
+
+.searchWords {overflow:hidden;margin-bottom:8px}
+.searchKeyword, .selectedFacet {float:left}
+.searchWords dt, .searchWords dd {float:left;padding-top:3px;color:#737373;line-height:1.2}
+.searchWords .keyword {color:#f37109}
+
+.result {position:relative}
+.searchCnt {display:inline-block; width:240px;padding-top:20px;font-size:14px;float: left;}
+.searchCnt span {color:#1a1a1a}
+
+.briefHeader.sort {height:45px;margin-bottom:10px;border-top:1px solid #b8b8b8}
+.briefHeader.sort .sortOptions {float:right;}
+.briefHeader.sort .selectBox2 {margin-left:-1px}
+.briefHeader.sort .typeList, .sort form {padding-top:10px}
+.briefHeader.sort .sortOptions form, .sort .sortOptions  fieldset {float:left;position:relative; }
+.sort .sortOptions fieldset {width:auto !important}
+.briefHeader.sort .sortOptions .searchOpt2, .sort .sortOptions .btnType6 {float:left;margin-left:-1px}
+.briefHeader.sort .sortOptions .searchOpt2 {padding-left:3px}
+.briefHeader.sort .sortOptions .btnType6 {position:relative;z-index:20}
+.briefHeader.sort .sortOptions .allExport {float:left;height:33px;padding:0 10px;margin:10px 0 0 10px;border:1px solid #ccc;font-size:13px;color:#666;line-height:35px}
+.briefHeader.sort .sortOptions .allExport input {vertical-align:-2px}
+
+
+@media screen and (min-width:0px) and (max-width:767px){
+
+.searchWords {margin-bottom:0}
+.searchWords .selectedFacet {float:none;clear:both;width:100%;margin:0;padding:10px 0 0 0;background:none}
+.searchWords .selectedFacet ul {overflow:hidden}
+.searchWords .selectedFacet li {margin-bottom:10px}
+
+.typeSelect {display:block;border:1px solid #ccc;padding:0 10px;height:33px}
+.typeList {position:relative;}
+.typeList ul {display:none;position:absolute;top:44px;left:0;width:105px;background-color:#fff;height:auto;z-index:110}
+.typeList ul li {float:none;margin:0}
+.typeList ul li span {display:inline;margin-left:10px;}
+.typeSelect img {vertical-align:middle;width:7px;height:4px;}
+.typeSelect img:first-child {width:14px;height:14px;margin-right:5px}
+
+.result {float:none;width:auto;margin:0}
+.searchCnt {position:relative;left:0;padding-top:10px}
+.breifPaging {display:none}
+.sort {height:auto}
+.sort .sortOptions {margin-bottom:10px}
+.sort .sortOptions form {overflow:hidden;float:none;padding-left:1px}
+.sort .sortOptions .allExport {float:right;margin-bottom:10px}
+}
+
+
+/*book List*/
+
+.searchKeyword {margin:10px 0;color:#737373}
+.searchKeyword span {color:#f37109}
+
+.contentHeader {padding:20px;margin:10px 0 40px 0;background:#eee;border:1px solid #e6e6e6}
+.contentHeader span{font-weight:600}
+
+.holdingCheck, .bookListW {clear:both;width:100%}
+.holdingCheck {margin-bottom:40px}
+.holdingCheck h4, .bookListW h4 {padding-left:15px;margin:20px 0 10px 0;background:url(../../../../image/ko/solution/common/subTitleBg.gif) no-repeat 0 2px;font-size:16px;color:#1a1a1a}
+.holdingCheck h4 span, .bookListW h4 span {color:#248bd8}
+
+.holdingCheck .holdingCheckList, .bookListW .bookList {padding:0 20px;border:1px solid #e6e6e6;border-top:1px solid #b3b3b3}
+.holdingCheck .items, .bookListW .items {position:relative;min-height:10px;padding:18px 0 16px 0;border-top:1px dashed #ddd}
+.bookListW .items {padding-bottom:10px}
+.holdingCheck .items:first-child, .bookListW .items:first-child {border-top:0 none}
+.holdingCheck dl {width:100%}
+.holdingCheck dt {width:100%;margin-bottom:5px}
+.holdingCheck dt a {font-size:16px;color:#1a1a1a}
+
+.holdingCheck .info {line-height:1.4}
+.holdingCheck .info .title {display:none}
+.holdingCheck .state {display:inline-block;padding:0 3px;height:16px;border:1px solid #b8b8b8;border-radius:3px;background-color:#eeeeee;font-size:11px;color:#666;text-align:center;line-height:16px}
+
+.btnW {overflow:hidden;border:1px solid #e6e6e6;border-top:0 none}
+.btnW a {display:block;float:left;width:50%;height:14px;padding:10px 0;text-align:center;color:#737373;}
+.btnW a span {display:inline-block;padding-right:15px;background:url(../../../../image/ko/solution/common/ico/reportBriefTop.png) no-repeat right center;vertical-align:middle}
+.btnW .moreBtn {border-left:1px solid #e6e6e6;margin-left:-2px;color:#248bd8;line-height:1.2}
+.btnW .moreBtn span {background-image:url(../../../../image/ko/solution/common/ico/reportBriefMore.png)}
+
+.bookListW .items dl dt.title {display:none}
+.bookListW .items dl dd.title {overflow:hidden;font-size:18px;margin-bottom:10px;color:#1a1a1a;line-height:1.2;font-weight:normal}
+.bookListW .items dl dd.title a {display:inline-block;margin:0 5px 5px 0;color:#1a1a1a}
+.bookListW .items dl dd.title span {color:#0eabc4}
+.bookListW .items dl dd.title button {display:inline-block;width:21px;height:20px;padding:0;background:url(../../../../image/ko/solution/common/btn/moreInfoBtn.png) no-repeat;border:0 none;text-indent:-9999em;cursor:pointer;vertical-align:top}
+
+/*간략정보*/
+.bookListW .basicInfo {overflow:hidden;padding-bottom:2px}
+.bookListW .basicInfo li {float:left;padding-left:9px;margin-left:3px;background:url(../../../../image/ko/solution/common/bg/lineSlash.png) no-repeat 0 center}
+.bookListW .basicInfo li:first-child {padding:0;margin:0;background:none}
+.bookListW .basicInfo dt {display:none}
+.bookListW .basicInfo dd.type img{vertical-align:middle}
+
+/*상세정보*/
+.bookListW .detailInfo {display:none;color:#737373}
+.bookListW .detailInfo li {margin-bottom:3px}
+.bookListW .detailInfo dl {overflow:hidden}
+.bookListW .detailInfo dt {display:inherit; float:left;width:85px;padding: 2px 0; font-weight:bold}
+.bookListW .detailInfo dd {margin:0 0 0 85px;padding: 2px 0; }
+.bookListW .detailInfo dd img {text-align: center;}
+.bookListW .media {margin:7px 0 17px 0}
+.bookListW .media a {display:inline-block;width:36px;height:16px;margin-right:5px;background:#9cafb8;color:#fff;text-align:center;font-size:12px;line-height:18px}
+
+/*소장처*/
+.bookListW .holding {margin-bottom:5px}
+.bookListW .holding p.location {display: inline-block;}
+.bookListW .holding p.location a {display: inline-block;padding:2px}
+.bookListW .holding p.location a.btnType9 {display: inline-block;padding:0 10px}
+.bookListW .holding p.location .availableBtn {display:inline-block;padding:2px 10px 2px 0;margin-left:10px;background:url(../../../../image/ko/solution/common/ico/availableDown.png) no-repeat right center;color:#305ed6;}
+.bookListW .holding p.location .availableBtn.on {background:url(../../../../image/ko/solution/common/ico/availableUp.png) no-repeat right center}
+.bookListW .holding p.location .availableBtn.disabled {color:#ff0000}
+
+.bookListW .holding .holdingW {display:none;margin-bottom:10px}
+.bookListW .holding .service dl { position:relative; top:0; float:right;width: 215px;}
+.bookListW .holding .service dl dt {position:absolute; float:right; top:-24px;right:0;display:inline-block;padding:2px 0px 2px 20px;background:url(../../../../image/ko/solution/common/ico/serviceInfoIco.png) no-repeat;cursor:pointer;z-index:80}
+.bookListW .holding .service dl dd {display:none; position:absolute;right:0;width:161px;padding:20px 0 20px 32px !important;background:#fff;border:1px solid #aaa;z-index:90}
+.bookListW .holding .service dl li {height:21px;font-size:13px;  margin-right: 20px;padding-bottom: 8px;}
+.bookListW .holding .service dl li img{vertical-align:middle;margin: 3px 12px 8px 0;}
+
+.listTable {margin-top:5px;border:1px solid #ddd;border-top:1px solid #b3b3b3;font-size: 13px;}
+.mobileTable tr th {padding:10px 0;line-height:1.2;}
+.mobileTable tr td {padding:20px 5px;line-height:1.2;}
+.mobileTable .status.available {color:#248bd8}
+.mobileTable .status.ing {color:#46b048}
+.mobileTable .status.disabled {color:#ee2b2d}
+.mobileTable .service img {display:inline-block;margin:7px 0 0 2px;vertical-align:middle}
+
+.mobileTable th.num {width:7%;text-align:center}
+.mobileTable th.location {width:21%}
+.mobileTable th.callNum {width:12%}
+.mobileTable th.possessLocation {width:12%}
+.mobileTable th.status {width:11.5%}
+.mobileTable th.returnDate {width:13%}
+.mobileTable th.reservation {width:12%}
+.mobileTable th.service {width:10%}
+
+.mobileTable td.num {text-align:center}s
+.mobileTable .reservation.available {color:#248bd8}
+.mobileTable .reservation.ing {color:#46b048}
+.mobileTable .reservation.disabled {color:#ee2b2d}
+.mobileTable .reservation span {display:block}
+
+@media screen and (min-width:0px) and (max-width:767px){
+.btnW a {display:none}
+.btnW .moreBtn {display:block;width:100%;border-left:0;margin:0}
+.bookListW .items dl dd.title {margin-bottom:10px}
+.bookListW .detailInfo {padding-top:27px;background:url(../../../../image/ko/solution/common/bg/previewLineM.png) no-repeat top center}
+
+/* 소장처 */
+.mobileTable thead {display:none}
+.mobileTable tr:first-child td {border-top:0 none}
+.mobileTable.breakpoint > tbody > tr > td.expand {padding:14px 23px 14px 10px;background:url(../../../../image/ko/solution/common/ico/tableOn.png) no-repeat 97% 50%;text-align:left}
+.mobileTable.breakpoint > tbody > tr.footable-detail-show > td.expand {background:url(../../../../image/ko/solution/common/ico/tableOff.png) no-repeat 97% 50%;}
+.mobileTable.breakpoint > tbody > tr.footable-detail-show {background:#fcf9ce}
+.mobileTable.breakpoint > tbody > tr.footable-row-detail > td.expand {background:none}
+.mobileTable.breakpoint > tbody > tr.footable-row-detail td {padding:20px 0 10px 0}
+.mobileTable > tbody > tr > td.footable-cell-detail {border-top:none}
+.mobileTable.breakpoint .footable-row-detail:hover {background:none}
+
+.mobileTable .footable-row-detail-inner div {margin-bottom:10px}
+.mobileTable .footable-row-detail-inner strong {display:inline-block;width:80px;height:18px;margin-right:20px;text-align:right;line-height:18px}
+.mobileTable .footable-row-detail-inner .serviceInfo {display:inline-block;overflow:hidden;vertical-align:top;margin-bottom:0}
+.mobileTable .footable-row-detail-inner .serviceInfo img {float:left;display:inline-block;margin-right:3px}
+.mobileTable .reservation span {display:inline}
+.mobileTable .service img {margin-top:0}
+.bookListW .holding div.service {display:none}
+}
+
+

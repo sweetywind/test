@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+.listTable td{text-align:left}
+.listTable td.author{text-align:left}
+.listTable td.expand{text-align:center}
+.listTable td.footable-last-column{text-align:center}
+.listTable td.footable-last-column a{margin:2px 0}

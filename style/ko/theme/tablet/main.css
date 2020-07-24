@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+/* Layout */
+#divWrapper{min-width:0}
+.header{padding:0 20px}
+.content1{width:auto;margin:40px 0;padding:0 20px}
+.content2{position:relative;width:auto;height:338px;padding:0 20px 77px}
+
+/* 상단공지 */
+.information .information1 .todayClose{width:auto}
+.information .todayClose > div{right:20px}
+.information2{height:auto}
+.information2 ul{width:auto;padding:29px 20px}
+.information2 ul li{float:none;width:auto !important;margin-top:17px;margin-left:0;padding-left:0;background:none}
+.information2 ul li:first-child{margin-top:0}
+
+/* Global Menu */
+#divGlobalMenu > div{width:auto;padding:0 20px}
+.globalMenu2 > li{display:none}
+.globalMenu2 > li:first-child{display:block}
+.globalMenu2 > li.login{display:block}
+.globalMenu2 > li.medicalLib{display:block}
+.globalMenu2 > li.medicalLib > ul{left:auto;right:0}
+
+/* Top Menu */
+#divTopMenu{width:auto}
+#divTopMenu ul{display:none}
+
+/* Whole Menu */
+.wholeMenu{left:auto;right:20px;width:300px;background:none}
+.wholeMenu > div{background:none}
+.wholeMenu > div > div{width:auto;margin:0}
+.wholeMenu > div > div h2{display:none}
+.wholeMenu > div > div > ul{background:none;padding:0;}
+.wholeMenu > div > div > ul > li{float:none;width:auto !important;margin:0 !important}
+.wholeMenu > div > div > ul > li > a{display:block;padding:15px 20px 15px 55px;border-top:1px solid #008aa5;;border-bottom:1px solid #00677b;color:#fff;font-size:16px;font-weight:bold}
+.wholeMenu > div > div > ul > li.wholeMenu1 > a{background:url(../../../../image/ko/local/wholeMenu1Bg.jpg) no-repeat 20px 50% #1a7890}
+.wholeMenu > div > div > ul > li.wholeMenu2 > a{background:url(../../../../image/ko/local/wholeMenu2Bg.jpg) no-repeat 20px 50% #1a7890}
+.wholeMenu > div > div > ul > li.wholeMenu3 > a{background:url(../../../../image/ko/local/wholeMenu3Bg.jpg) no-repeat 20px 50% #1a7890}
+.wholeMenu > div > div > ul > li.wholeMenu4 > a{background:url(../../../../image/ko/local/wholeMenu4Bg.jpg) no-repeat 20px 50% #1a7890}
+.wholeMenu > div > div > ul > li.wholeMenu5 > a{background:url(../../../../image/ko/local/wholeMenu5Bg.jpg) no-repeat 20px 50% #1a7890}
+.wholeMenu > div > div > ul > li.wholeMenu6 > a{background:url(../../../../image/ko/local/wholeMenu6Bg.jpg) no-repeat 20px 50% #1a7890}
+.wholeMenu > div > div > ul > li > ul{display:none}
+.wholeMenu > div > div > ul > li.on > ul{display:block}
+.wholeMenu > div > div > ul > li > ul > li{margin-top:0}
+.wholeMenu > div > div > ul > li > ul > li > a{display:block;padding:12px 20px 12px 55px;border-top:1px solid #26758c;background-color:#165d75;color:#ccffff;font-size:14px}
+.wholeMenu > div > div > ul > li > ul > li:first-child a{border-top:none}
+.wholeMenu > div > div > ul > li > ul > li > a:hover{color:#ccffff;text-decoration:none}
+.wholeMenu > div > div a.menuClose{display:none}
+
+/* Search */
+#divSearch > div{width:750px}
+
+/* Event Zone */
+.eventZone{width:50%}
+.eventZone > div{margin-right:15px}
+.eventZone ul li.on .eventImg{width:100%}
+.eventZone ul li .eventImg img{width:100%}
+
+/* Notice */
+.notice{width:50%;margin-left:0}
+.notice h2{margin-left:15px}
+.notice ul{margin-left:15px}
+
+/* Quick Link */
+.quickLink{float:none;clear:both;width:auto;height:auto;margin-left:0;padding-top:40px;overflow:hidden}
+.quickLink ul li{width:25%;height:172px;border-bottom:none;padding-bottom:0;text-align:center}
+.quickLink ul li a{display:block;width:auto;height:100%;margin:0 5px;background-color:#c4d0d8}
+.quickLink ul li a span:first-child{display:block;width:auto;padding-top:35px}
+.quickLink ul li a span.quickLinkTit{display:block;width:auto;margin:20px 0 0;color:#fff}
+.quickLink ul li a span img{width:auto !important;height:auto !important}
+
+/* Book */
+.book{width:100%}
+.book .bookList{width:480px;}
+.book .bookList > li ul li{margin-left:29px;}
+.book .bookList > li ul li.tabletHide{display:none;}
+
+/* 이용시간 */
+.book .useHour{margin-bottom:40px}
+
+/* 예약 */
+.reserveQna{float:right;width:100%;margin-top:-44px}
+.reserveQna .reserve{overflow:hidden;margin-left:510px}
+.reserveQna .reserve li{float:left;width:50%;height:125px}
+.reserveQna .reserve li.reserve1{background:url(../../../../image/ko/local/main/studyRoomT.jpg) no-repeat 50% 0 #e6f1f3}
+.reserveQna .reserve li.reserve2{background:url(../../../../image/ko/local/main/seatT.jpg) no-repeat 50% 0 #e6f1f3}
+.reserveQna .reserve li.reserve1 a span{display:block;width:100px;padding-top:70px;margin:0 auto;line-height:normal;text-align:center;}
+.reserveQna .reserve li.reserve2 a span{display:block;width:100px;padding-top:70px;margin:0 auto;line-height:normal;text-align:center;}
+.reserveQna .reserve li.reserve1 a{border-right:1px solid #fff}
+
+/* Question */
+.question{margin-left:510px;overflow:hidden}
+.question li{width:50%;height:125px}
+.question li.qna{width:50%;background:url(../../../../image/ko/local/main/qnaBgT.png) no-repeat 50% 35px #119ad2;border-right:none}
+.question li.qna a{border-right:1px solid #fff}
+.question li.faq{width:50%;background:url(../../../../image/ko/local/main/faqBgT.png) no-repeat 50% 32px #2f658f}
+.question li a{line-height:165px}
+
+/* 추천전자 학술정보 */
+.scholarship{display:none}
+
+/* 관련사이트 */
+.relatedSite > div{width:auto;padding:0 20px}
+.relatedSite > div .banner{margin-top:23px;}
+.relatedSite > div .banner li a img{display:none}
+.relatedSite > div .banner li span{display:block}
+.relatedSite > div .siteList > li:first-child{display:none}
+
+/* 주소 */
+.footer{width:auto;padding:35px 20px}
+.footer .footerLogo{right:20px}

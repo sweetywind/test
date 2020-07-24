@@ -1,0 +1,54 @@
+.listtable td.chk {
+	width: 3%;
+	text-align: center;
+}
+
+.listtable td.num {
+	width: 3%;
+	text-align: center;
+}
+
+.listtable td.title {
+	width: 24%;
+	text-align: left;
+}
+
+.listtable td.author {
+	width: 10%;
+	text-align: left;
+}
+
+.listtable td.location {
+	width: 15%;
+	text-align: left;
+}
+
+.listtable td.call_no {
+	width: 10%;
+	text-align: left;
+}
+
+.listtable td.accessio_no {
+	width: 5%;
+	text-align: left;
+}
+
+.listtable td.volumeno {
+	width: 10%;
+	text-align: left;
+}
+
+.listtable td.req_loan_status {
+	width: 5%;
+	text-align: center;
+}
+
+.listtable td.loan_date {
+	width: 5%;
+	text-align: center;
+}
+
+.listtable td.remark {
+	width: 10%;
+	text-align: left;
+}

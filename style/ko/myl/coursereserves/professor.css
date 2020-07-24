@@ -1,0 +1,80 @@
+﻿@charset "utf-8";
+
+/* Title */
+.title{margin:20px 0 15px}
+
+/* 교수 개인화 서비스 */
+.listTable2{position:relative}
+.listTable2 > div.btns{position:absolute;top:-40px;right:0;}
+.listTable2 > div.btns a{display:inline-block;padding:5px 10px;color:#fff}
+.listTable2 > div.btns a.btn1{background-color:#066111}
+.listTable2 > div.btns a.btn2{background-color:#6fae46}
+.listTable2 > div.btns a.btn3{background-color:#8e8e8e}
+@media screen and (min-width:0) and (max-width:767px){
+	.listTable2 > div.btns{position:static;margin-bottom:20px;text-align:left}
+}
+
+.typeSelectDetail{margin-bottom:50px;padding:20px;background-color:#f3f3f3}
+.typeSelectDetail li{margin-top:10px;padding-left:10px;background:url(../../../../image/ko/solution/common/ico/bullet_m.gif) no-repeat 0 6px;color:#292929;font-size:14px}
+.typeSelectDetail li:first-child{margin-top:0}
+.requestForm{text-align:center}
+.requestForm a{display:inline-block;width:32%;color:#fff;text-align:center;font-size:16px}
+.requestForm a.requestBtn1{float:left;background-color:#4a994a}
+.requestForm a.requestBtn2{background-color:#4f94a4}
+.requestForm a.requestBtn3{float:right;background-color:#8e8e8e}
+.requestForm a span{display:inline-block;padding:28px 0}
+.requestForm a.requestBtn1 span{padding-left:69px;background:url(../../../../image/ko/solution/common/ico/request1.png) no-repeat 0 50%}
+.requestForm a.requestBtn2 span{padding-left:68px;background:url(../../../../image/ko/solution/common/ico/request2.png) no-repeat 0 50%}
+.requestForm a.requestBtn3 span{padding-left:55px;background:url(../../../../image/ko/solution/common/ico/request3.png) no-repeat 0 50%}
+@media screen and (min-width:0) and (max-width:767px){
+	.requestForm a{display:block;width:auto;margin-bottom:10px;}
+	.requestForm a.requestBtn1{float:none}
+	.requestForm a.requestBtn3{float:none}
+}
+
+/* 검색 */
+.professorSearch{position:relative;width:818px;margin:0 auto;top:70px}
+.professorSearch > ul > li{float:left}
+.professorSearch > ul > li > a{position:relative;z-index:10;display:inline-block;width:176px;height:54px;background-color:#4a994a;color:#fff;font-size:16px;text-align:center;line-height:54px;}
+.professorSearch > ul > li.on > a{height:53px;background:url(../../../../image/ko/local/main/arrow4.png) no-repeat 50% 90% #fff;border:1px solid #d6d6d6;border-bottom-color:#fff;color:#4a994a;font-size:18px;line-height:53px}
+.professorSearch > ul > li > form{display:none;position:absolute;top:53px;left:0;width:100%;height:61px;border:1px solid #d6d6d6;padding-top:1px}
+.professorSearch > ul > li.on > form{display:block}
+.professorSearch > ul > li > form fieldset{position:relative;padding:0 80px 0 20px}
+.professorSearch > ul > li > form input[type='text']{width:100%;height:15px;padding:23px 0;color:#5c5c5c;border:none}
+.professorSearch > ul > li > form input[type='image']{position:absolute;top:17px;right:29px}
+@media screen and (min-width:768px) and (max-width:1024px){
+	.professorSearch{width:auto;margin:0 10px}
+}
+@media screen and (min-width:0) and (max-width:767px){
+	.professorSearch{width:auto;margin:0 10px}
+	.professorSearch > ul > li > a{width:139px}
+}
+
+
+.listTable tr th {padding:10px 10px}
+.listTable tr td {padding:14px 4px}
+.listTable td.check				{width:5%; text-align:center;}
+.listTable td.num				{width:2%; text-align:center;}
+.listTable td.subject_name		{width:auto; text-align:left;padding-left:10px;}
+.listTable td.estimate_year		{width:8%; text-align:center;}
+.listTable td.estimate_year_term{width:12%; text-align:center;}
+.listTable td.term_name			{width:50px; text-align:center;}
+.listTable td.set_flag_name		{width:80px; text-align:center;}
+.listTable td.title				{width:24%;text-align:left;padding-left:10px;}
+.listTable td.state_flag_name	{width:5%; text-align:center;}
+.listTable td.instructor_note	{width:13%; text-align:left;padding-left:10px;}
+.note_content {overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;word-wrap:break-word;line-height: 1.2em;height: 1.2em;cursor: pointer;}
+.listTable td.author			{width:8%;text-align:left}
+.listTable td.call_no			{width:9%;text-align:left}
+.listTable td.application_management{width:8%;text-align:center}
+
+.detailView{position:relative;}
+.detailView > div{display:none;position:absolute;top:0;right:0;width:300px;border:4px solid #06603c;border-bottom-width:5px;border-top:none;background-color:#fff}
+.detailView > div > p{height:51px;color:#fff;font-size:16px;line-height:51px;padding:0 40px 0 10px;background-color:#06603c;text-align:left}
+.detailView > div table th{height:auto;background-color:#fff;border-right:1px solid #e6e6e6;text-align:right}
+.detailView > div table td{background-color:#fff !important}
+.detailView > div .tableClose{position:absolute;top:11px;right:4px}
+.detailView > div .noteDetail{min-height: 51px; padding: 10px 10px;}
+@media (min-width:0px) and (max-width:767px){
+	.detailView > div{width:250px}
+}

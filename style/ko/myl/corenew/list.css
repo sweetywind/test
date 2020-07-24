@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.listTable tbody .checkbox  {width:3%}
+.listTable tbody .num {width:3%}
+.listTable tbody .title {width:auto;padding-left:10px;text-align:left}
+.listTable tbody .author {width:15%}
+.listTable tbody .userName {width:10%}
+.listTable tbody .processDate {width:10%}
+.listTable tbody .status {position:relative;width:10%}
+.listTable tbody .accessionNum {width:10%}
+
+/* 취소사유 */
+.cancelBtn{display:inline-block;padding:2px 4px;margin-top:5px;background-color:#eb7578;font-size:13px;color:#fff !important}
+.cancelReason{display:none;position:absolute;top:65px;right:0;width:130px;padding:10px 20px;border:1px solid #d2d2d2;background-color:#f5f5f5;color:#767676;font-size:13px;z-index:20}

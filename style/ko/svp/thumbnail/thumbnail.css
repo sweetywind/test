@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* thumbList */
+ul.thumbList {clear:both;margin-left:-12px;margin-bottom:40px;overflow:hidden;}
+ul.thumbList li{float:left;margin:0 0 12px 12px;width:251px;overflow:hidden;}
+ul.thumbList li a {display:block;}
+ul.thumbList li div.pic {background:#f2f2f2;position:relative;min-height:167px;font-size:0;}
+ul.thumbList li div.pic img {width:100%}
+ul.thumbList li div.pic span.division {display:inline-block;position:absolute;left:0;bottom:0;font-size:12px;height:19px;padding:5px 15px 5px;background:#05367b;color:#fff;}
+ul.thumbList li div.textBox {border:1px solid #ddd;border-top:0 none;padding:15px 19px;color:#4d4d4d;overflow:hidden;background:#fff;}
+ul.thumbList li div.textBox strong {display:block;font-size:18px;color:#1a1a1a;margin-bottom:10px}
+ul.thumbList li div.textBox span.data {float:left;font-size:13px;color:#737373;}
+ul.thumbList li div.textBox span.Inquiry {float:right;font-size:13px;color:#737373;padding-left:22px;background:url(../../../../image/ko/solution/common/ico/cntBg.gif) no-repeat left 0;}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+	#divWrapper {min-width:0 !important;}
+	
+	/* thumbList */
+	ul.thumbList {margin-left:-28px;margin-bottom:40px;}
+	ul.thumbList li{float:left;margin:0 0 14px 28px;width:224px;}
+	ul.thumbList li div.pic {min-height:149px;}
+}
+@media screen and (min-width:0) and (max-width:767px){
+	#divWrapper {min-width:320px !important;}
+	#divContents {width:auto !important;padding:0 20px;}
+	/* thumbList */
+	ul.thumbList {margin-left:0;margin-bottom:40px;}
+	ul.thumbList li{float:none;margin:0 0 14px 0 !important;width:100%;height:auto;}
+	ul.thumbList li div.pic {min-height:149px;}
+}

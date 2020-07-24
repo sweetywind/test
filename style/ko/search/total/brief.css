@@ -1,0 +1,235 @@
+@charset "utf-8";
+
+/* 검색영역 */
+.oneSearch{margin-bottom:20px;text-align:center}
+.oneSearch form span{display:inline-block;height:42px;border:4px solid #02529c;border-right:none}
+.oneSearch form input.searchInput{width:450px;height:16px;padding:13px 10px;border:none;color:#6a6a6a}
+.oneSearch form input.searchInput::-webkit-input-placeholder {color:#6a6a6a} /* WebKit, Blink, Edge */
+.oneSearch form input.searchInput:-moz-placeholder {color:#6a6a6a;opacity:1}/* Firefox 4 - 18 */
+.oneSearch form input.searchInput::-moz-placeholder {color:#6a6a6a;opacity:1}/* Firefox 19+ */
+.oneSearch form input.searchInput:-ms-input-placeholder {color:#6a6a6a}/* Internet Explorer 10-11 */
+.oneSearch form input.placeholder{color:#6a6a6a;}/* 익스플로러 하위버전 placeholde 폰트 스타일 지정 */
+.oneSearch form input.searchBtn{width:60px;height:50px;background-color:#02529c;vertical-align:top;border:none;color:#fff;font-size:14px;cursor:pointer}
+
+/*자료 더 찾아보기-구글검색*/
+.googleSearch{overflow:hidden;}
+.googleSearch > span{display:block;margin-top:20px;}
+.googleSearch ul{float:left;}
+.googleSearch form{float: left;width:466px;margin-top:20px;transition:width .2s ease-in-out}
+.googleSearch form span{display: block;height:46px;position: relative;padding: 0 110px 0 15px;border:2px solid #119bf2;border-right:none;}
+.googleSearch form input.searchInput{height: 46px;width: 100%;border:none;color:#6a6a6a;}
+.googleSearch form input.searchInput::-webkit-input-placeholder {color:#6a6a6a} /* WebKit, Blink, Edge */
+.googleSearch form input.searchInput:-moz-placeholder {color:#6a6a6a;opacity:1}/* Firefox 4 - 18 */
+.googleSearch form input.searchInput::-moz-placeholder {color:#6a6a6a;opacity:1}/* Firefox 19+ */
+.googleSearch form input.searchInput:-ms-input-placeholder {color:#6a6a6a}/* Internet Explorer 10-11 */
+.googleSearch form input.placeholder{color:#6a6a6a;}/* 익스플로러 하위버전 placeholde 폰트 스타일 지정 */
+.googleSearch form input.searchBtn{width:94px;height: 46px;background-color:#119bf2;vertical-align:top;border:none;color:#fff;font-size:14px;cursor:pointer;position:  absolute;right:  0;top: 0px;}
+
+/* mobile 사이즈 */
+@media screen and (min-width:320px) and (max-width:670px) {
+	.googleSearch ul{float:none}
+	.googleSearch form{float: none;width:auto;margin-top:10px;}
+}
+
+/* 검색어 */
+.searchResult {line-height:1}
+.searchWords {padding:10px 0 10px 42px;background:url(../../../../image/ko/solution/local/total/search.png) no-repeat 8px 50%}
+.searchWords > p{color:#313131;font-size:15px;font-family:NotoSans, sans-serif}
+.searchWords > p span{color:#99015e}
+
+/* 바로가기 탭 */
+.category ul {overflow:hidden;padding:30px 20px 20px 20px;background:#f5f5f5;border:1px solid #e4e4e4;border-top:1px solid #666}
+.category li {display:inline;margin-right:40px;}
+.category li a {display:inline-block;margin:0 10px 10px 0;padding-left:19px;background:url(../../../../image/ko/solution/common/ico/subjectArrow.png) no-repeat 6px 4px;color:#333;color:#333;font-size:15px;line-height:1.2}
+
+/* 리스트 공통 */
+/* .division2{clear:both} */
+.divisions{display:flex;width:100%}
+.division{display:flex;position:relative;width:50%;padding-bottom:60px;border:1px solid #d8d8d8;box-sizing:border-box;margin-top:25px}
+.division > div{width:100%}
+.division:first-child{margin-right:2%}
+.division h3{margin-right:60px;color:#333;font-size:21px;font-weight:600}
+.division > div > ul{padding:0 20px;}
+.division > div li dt a{color:#000;font-family:notoSansM, sans-serif}
+.division > div  li dt a:hover{text-decoration:underline}
+.division > div div.title{padding:30px 20px 27px;background:#f5f5f5;border-bottom:1px solid #d8d8d8}
+.division > div div.title > p{margin-top:3px;color:#828181;font-size:15px}
+.division > div ul li{position:relative;min-height:139px;margin-top:30px;overflow:hidden}
+.division > div ul li img{vertical-align:middle}
+.division > div ul li > p.listTitle{margin-bottom:12px;margin-left:115px}
+.division > div ul li > p.listTitle > a{color:#000}
+.division > div ul li > p.listTitle > a .hilight{background-color:#ffee82;color:#ad1640}
+
+.division > div ul li > p.bookCover{position:absolute;top:0;left:0;}
+.division > div ul li > p.bookCover img{width:94px;height:137px;border:1px solid #d0d0d0}
+
+.division > div.ejournals.dbList{padding-bottom: 26px;border-bottom: 1px solid #d8d8d8;}
+.division > div.ejournals > div > h4.subTitle{padding-left:15px;margin: 10px 0;background: url(../../../../image/ko/solution/common/subTitleBg.gif) no-repeat 0 20px;font-size:20px;color:#02529c;}
+.division > div.ejournals ul li > p{margin-left:0}
+.division > div.articles ul li > p{margin-left:0}
+.division > div.openapi ul li > p{margin-left:0}
+.division > div ul li > p.noData{margin-left:0}
+.division > div ul li > p a{color:#1a1a1a;font-size:17px;line-height:22px}
+.division > div ul li > p a .hilight{background-color: #fff;color:#000;padding: 0 1px 1px;}
+.division > div ul li div.information{position:relative}
+.division > div ul li div.information p.link a{display: inline-block;height: 30px;margin: 6px 0 0 0;padding: 0 10px;background-color: #fff;border: 1px solid #e6e6e6;color: #333;font-size: 13px;line-height: 30px;}
+
+.division > div ul li div.information p{margin-top:8px;margin-left:115px;color:#555;font-size:14px}
+.division > div ul li div.information p:first-child{margin-top:0}
+.division > div ul li div.information p span{background-color:#ebebeb;color:#555;padding:0 1px 1px;}
+.division > div ul li div.information p.type{float:none}
+.division > div ul li div.information p.type img{vertical-align:middle}
+.division > div ul li div.information p.type .media{display:inline-block;margin-left:5px;padding:3px 5px 0;background:#979797;color:#fff;text-align:center;font-size:12px}
+
+.division > div ul li div.holdingInfo .holding >.location{margin-bottom:5px;margin-top:5px;margin-left:115px}
+.division > div ul li div.holdingInfo .holding >.location a{display: inline-block; padding: 2px}
+.division > div ul li div.holdingInfo .holding >.location .availableBtn {display:inline-block;padding:2px 10px 2px 0;margin-left:10px;background:url(../../../../image/ko/solution/common/ico/availableDown.png) no-repeat right center;color:#1da1f4}
+.division > div ul li div.holdingInfo .holding .availableBtn.on {background:url(../../../../image/ko/solution/common/ico/availableUp.png) no-repeat right center}
+.division > div ul li div.holdingInfo .holding .availableBtn.disabled {color:#ea4a06}
+.division > div ul li div.holdingInfo .holding .availableBtn.ing {color:#43ae38}
+.division > div ul li div.holdingInfo .holding .availableBtn.cleanUp{color:#43ae38}
+.division > div ul li div.holdingInfo .holding .availableBtn.verifyingInfo{color:#9ca533}
+.mobileTable.breakpoint > tbody > tr > td.footable-last-column {padding:14px 23px 14px 10px;background:url(../../../../image/ko/solution/common/ico/tableOn.png) no-repeat 97% 50%}
+.mobileTable .status.available, .mobileTable .status.status01 {color:#305ed6}
+.mobileTable .status.ing, .mobileTable .status.status02 {color:#46b048}
+.mobileTable .status.disabled {color:#ee2b2d}
+.mobileTable .reservation.available {color:#248bd8}
+.mobileTable .reservation.ing {color:#46b048}
+.mobileTable .reservation.disabled {color:#ee2b2d}
+.mobileTable .reservation span {display:block}
+.division a.more{position:absolute;top:33px;right:20px;color:#555}
+.division span.moreCount{display:inline-block;margin-left:10px;color:#555;font-size:15px;font-weight:normal;}
+@media screen and (min-width:0px) and (max-width:767px){
+	.divisions{display:block;}
+	.division{display:block;border:none;width:auto;margin-bottom:0;margin-top:0}
+	.divisions .division:first-child{margin-right:0}
+	.division a.more{top:24px;right:10px}
+}
+
+/* 전자저널 */
+.division > div.ejournals ul li div.information{min-height:0}
+.division > div.ejournals ul li div.information p{margin-left:0}
+
+/* 전자저널(articles) */
+.division > div.articles ul li div.information{min-height:0}
+.division > div.articles ul li div.information p{margin-left:0}
+
+/* openapi */
+.division > div.openapi ul li div.information{min-height:0}
+.division > div.openapi ul li div.information p{margin-left:0}
+.division > div.openapi > div > h4.subTitle{padding-left:15px;margin: 10px 0;background: url(../../../../image/ko/solution/common/subTitleBg.gif) no-repeat 0 20px;font-size:20px;color:#02529c;}
+.division > .openapi ul li dl dt > a{color:#1a1a1a;font-size:17px;line-height:22px}
+.division > .openapi ul li dl dd{margin-top:7px;color: #555;font-size: 14px;}
+.division > .openapi .btnW{display: none;}
+       
+/* Link */
+.link{margin-top:10px}
+.link a{display:inline-block;margin:0 18px 5px 0}
+.link a img{vertical-align:middle}
+
+@media screen and (min-width:0px) and (max-width:767px){
+	.oneSearch form input.searchInput{width:216px}
+	
+	.searchWords{padding-bottom:15px}
+	
+	/* 소장처 */
+	.mobileTable thead {display:none}
+	.mobileTable.breakpoint > tbody > tr > td.footable-last-column {padding:14px 23px 14px 10px;background:url(../../../../image/ko/solution/common/ico/tableOn.png) no-repeat 97% 50%}
+	.mobileTable.breakpoint > tbody > tr.footable-detail-show > td.footable-last-column {background:url(../../../../image/ko/solution/common/ico/tableOff.png) no-repeat 97% 50%;}
+	.mobileTable.breakpoint > tbody > tr.footable-detail-show {background:#fcf9ce}
+	.mobileTable.breakpoint > tbody > tr.footable-row-detail:hover {background:none}
+	.mobileTable.breakpoint > tbody > tr.footable-row-detail > td.footable-last-column {background:none}
+	.mobileTable.breakpoint > tbody > tr.footable-row-detail td {padding:20px 15px 10px 15px}
+	.mobileTable > tbody > tr > td.footable-cell-detail {border-top:none}
+	
+	.mobileTable .footable-row-detail-inner div {margin-bottom:10px}
+	.mobileTable .footable-row-detail-inner strong {display:inline-block;width:80px;height:18px;margin-right:20px;text-align:right;line-height:18px}
+	.mobileTable .footable-row-detail-inner .serviceInfo {display:inline-block;overflow:hidden;vertical-align:top;margin-bottom:0}
+	.mobileTable .footable-row-detail-inner .serviceInfo img {float:left;display:inline-block;margin-right:3px}
+	
+	.mobileTable .reservation span {display:inline}
+	
+	.mobileTableDL .footable-row-detail-inner {padding:0}
+	.mobileTableDL .footable-row-detail-inner strong {width:110px;margin-right:10px}
+	.mobileTableDL .infoBtn {display:inline-block;overflow:hidden;vertical-align:top}
+	.mobileTableDL .infoBtn li {float:left;}
+	.mobileTableDL .infoBtn li:first-child {margin:0 4px 0 0}
+	.mobileTableDL .infoBtn li a {height:17px;padding:0 6px;font-size:13px;line-height:18px}
+	
+	
+	
+	.division{padding-bottom:0;border-bottom:none}
+	.division h3{margin-right:0;font-size:20px}
+	.division2 h3{font-size:20px}
+	.division3 h3{font-size:20px}
+	.division > div{margin-bottom:10px;padding-top:0;border-bottom:none;border-top:1px solid #d8d8d8;overflow:hidden}
+	.division > div div.title{padding:20px 10px;border:1px solid #d8d8d8;border-top:none;background:url(../../../../image/ko/solution/local/total/listOpen.png) no-repeat 98% 50%}
+	.division > div.on div.title{background:url(../../../../image/ko/solution/local/total/listClose.png) no-repeat 98% 50%;border-top:none}
+	.division > div ul{display:block;padding:20px 0 20px}
+	.division > div.on ul{display:block}
+	.division > div ul li:first-child{margin-top:0}
+	.division a.more{display:block}
+	.division > div.on a.more{display:block;margin-top:0;margin-bottom:20px}
+	.division > div.openapi > div > h4.subTitle{font-size:17px}
+	
+	.category{display:none}
+	
+	
+	.division .dbList{display:none;}
+	.division > div.on .dbList{display:block;}
+	.ejournalList{display:none;}
+	.division > div.on .ejournalList{display:block;}
+	.resultRissA{display: none;}
+	.division > div.on .resultRissA{display:block;}
+	.resultndsl{display: none;}
+	.division > div.on .resultndsl{display:block;}
+	.briefList{display: none;}
+	.division > div.on .briefList{display: block;}
+	.resultnadl{display: none;}
+	.division > div.on .resultnadl{display: block;}
+	.resultnl{display:none}
+	.division > div.on .resultnl{display: block;}
+}
+
+@media screen and (min-width:0px) and (max-width:1024px){
+	.mobileTable thead {display:none}
+}
+
+.listTable {margin:7px 0;border:1px solid #ddd;border-top:1px solid #b3b3b3;font-size: 12px;clear:none}
+.mobileTable tr th {padding:10px 0;line-height:1.2;}
+.mobileTable tr td {padding:20px 5px;line-height:1.2;}
+
+
+.divisions2{margin-top:25px}
+.external{position:relative;padding:30px 20px 27px;border:1px solid #d8d8d8}
+.external > p{margin-right:60px;color:#333;font-size:21px;font-weight:600}
+.external > p span{display:inline-block;margin-left:10px;color:#555;font-size:15px;font-weight:normal;vertical-align:middle;}
+.external a.more{position:absolute;top:33px;right:20px;color:#555}
+.divisions2 > .division{width:100%;padding:0;border:none}
+.divisions2 > .division > div{position:relative;width:50%;padding:20px 17px 60px;border:1px solid #e6e6e6;box-sizing:border-box;background-color:#fcfcfc}
+.divisions2 > .division > div:first-child{margin-right:2%}
+.divisions2 > .division > div .title{padding:0 0 15px 10px;border-bottom:1px solid #e3e3e3;background:none}
+.divisions2 > .division > div .title img{margin-right:10px;vertical-align:middle;}
+.divisions2 > .division > div ul{padding:0 10px}
+.divisions2 > .division > div ul li{min-height:0}
+.divisions2 > .division > div ul li > p.listTitle{margin-bottom:5px;margin-left:0}
+.divisions2 > .division > div ul li > p.listTitle > a{color:#0c3eaf;line-height:20px;font-size:14px;}
+.divisions2 > .division > div ul li div.information p{margin-left:0;color:#777;line-height:24px;font-size:14px;word-break:break-all;}
+
+.divisions3{margin-top:30px;padding:25px 0 10px 40px;background-color:#eee;border:1px solid #d5d5d5}
+.divisions3 > p{margin-bottom:20px;margin-right:40px;color:#333;font-size:21px;font-weight:600}
+.divisions3 > ul{overflow:hidden}
+.divisions3 > ul > li{float:left;margin-right:45px;margin-bottom:15px;}
+.divisions3 > ul > li > a{color:#333;font-size:14px}
+
+@media screen and (min-width:0px) and (max-width:767px){
+	.external{margin-bottom:20px;padding:20px 90px 20px 10px}
+	.external > p{margin-right:0}
+	.external > p span{margin-top:5px;margin-left:0;display:block;}
+	.external a.more{right:10px}
+	.divisions2 > .division > div{width:auto;padding:20px 10px 20px}
+	.divisions2 > .division > div:first-child{margin-right:0}
+	.divisions2 > .division > div .title{margin-bottom:10px;border:none;padding-left:0}
+	.divisions2 > .division a.more{top:32px}
+	.divisions3{padding-left:15px}
+}

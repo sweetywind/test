@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/*layer size*/
+.modalDialog{  position:absolute; top:10px; left:10px;border-top:3px solid #0067b3; background-color: #fff;}
+
+
+/*h2*/
+.modalDialog h2 {height:40px;color:#1a1a1a;font-size:20px;background-color: #248bd8;color: #fff;line-height: 40px;padding: 0 20px;margin-bottom: 20px;}
+.modalContent{padding:0 20px 20px 20px;overflow-y:scroll;background-color: #fff; }
+
+ /* topButtons*/
+.topButtons{position: absolute;top:13px;right: 10px; font-size: 12px;}
+.topButtons a{display:inline-block;color:#c8dff0;padding: 0 10px;}
+.topButtons a.closeBtn{background: url("/image/ko/solution/common/btn/modalCloseBtn.png") no-repeat 0 2px;padding: 0 10px 0 15px;}
+.topButtons span{display:inline-block;margin-top:1px; color:#afcce2; }
+
+ /* bottomButtons*/
+.buttons {margin: 40px 0 ; text-align: center;}
+
+
+@media screen and (min-width:768px) and (max-width:1024px){
+.modalDialog{position:absolute;left:50%;top:150px;width:720px;margin:0 20px;}
+}
+
+@media screen and (min-width:0px) and (max-width:767px){
+.modalDialog{position:absolute;left:50%;top:154px;width:280px;padding:0 0 20px 0;margin:0 10px;}
+}
+
+@media screen and (min-width:0px) and (max-width:767px){
+.header {padding:0 10px 0 10px}
+.content {padding:20px 10px}
+}
+
+
+
+.overlay { position:absolute; width:100%; height:100%; top:0; left:0;
+background:#aaaaaa url("/style/ui/images/ui-bg_flat_0_aaaaaa_40x100.png") repeat-x scroll 50% 50%; opacity: 0.3;
+filter: Alpha(Opacity=30); /* for IE */
+}

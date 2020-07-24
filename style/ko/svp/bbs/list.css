@@ -1,0 +1,21 @@
+@charset "utf-8";
+.searchArea .inputTextType5, .searchArea .btnType5 {margin-bottom:10px}
+.searchArea .btnType5{cursor:pointer}
+.searchArea .datePicker {width:80px}
+.searchArea .selectBox1 {width:auto; min-width:85px}
+.searchArea span.bunch {line-height:2.4em}
+#subject_code {width:auto; min-width:85px;}
+
+#share {display:none;position:absolute;top:28px;right:0;width:178px;padding:11px 0 0 0;border:0 none;z-index:100}
+#share .shareInner {padding:20px 30px 15px 30px;background:#fff;border:1px solid #c6c6c6;}
+.addthis_toolbox .shareInner a {position:relative;display:block;height:13px;padding:8px 0 5px 24px;color:#aaa;font-size:13px}
+.addthis_toolbox .at4-icon {display:block;position:absolute;left:0;top:5px;width:16px;height:16px;text-indent:-9999em}
+.aticon-rss {background:url(../../../../image/ko/solution/common/btn/addthis_button_rss.png) no-repeat}
+.aticon-facebook {background:url(../../../../image/ko/solution/common/btn/addthis_button_facebook.png) no-repeat}
+.aticon-myspace {background:url(../../../../image/ko/solution/common/btn/addthis_button_myspace.png) no-repeat}
+.aticon-twitter {background:url(../../../../image/ko/solution/common/btn/addthis_button_twitter.png) no-repeat}
+.aticon-favorites {background:url(../../../../image/ko/solution/common/btn/addthis_button_favorites.png) no-repeat}
+.aticon-google {background:url(../../../../image/ko/solution/common/btn/addthis_button_google.png) no-repeat}
+.addthis_toolbox .more {padding-top:10px}
+.addthis_toolbox .more a {padding:5px 0;text-align:center}
+.addthis_toolbox .more span {display:none}

@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/* faqList */
+dl.faqList {clear:both;border-top:1px solid #e6e6e6;margin-bottom:40px;font-size:14px;}
+dl.faqList dt span.faqImg, dl.faqList dd span.faqImg {position:absolute;left:15px;top:8px;text-indent:-9999px;display:inline-block;width:28px;height:28px;}
+dl.faqList dt{border-bottom:1px solid #e6e6e6;background:url(../../../../image/ko/solution/common/ico/faqArrowDown.png) no-repeat right 50%;overflow:hidden}
+dl.faqList dt.selected{background:url(../../../../image/ko/solution/common/ico/faqArrowUp.png) no-repeat right 50%;}
+dl.faqList dt > a {position:relative;float:left;padding:14px 37px 14px 53px;color:#4d4d4d;}
+dl.faqList dd {position:relative;border-bottom:1px solid #e6e6e6;padding:14px 37px 14px 53px;color:#4d4d4d;display:none;background:#eeeeee;}
+dl.faqList dt span.faqImg {background:url(../../../../image/ko/solution/common/ico/faq.png) no-repeat 0 0}
+dl.faqList dd span.faqImg {background:url(../../../../image/ko/solution/common/ico/faq.png) no-repeat -28px 0}
+dl.faqList .selected  {display:block;}
+dl.faqList dt > span{float:right;padding:8px 37px 8px 0;}
+dl.faqList dt > span .questionCnt{margin-left:10px;}
+dl.faqList dt > span a{vertical-align:middle;margin-left:10px;}
+
+/* faqTab */
+div.faqTab {font-size:0;margin-bottom:40px;}
+div.faqTab strong {display:none;color:#fff;height:27px;text-align:left;padding:8px 20px 0 20px;cursor:pointer;font-weight:normal;font-size:14px;}
+div.faqTab ul {font-size:14px;display:inline-block;}
+div.faqTab ul li {float:left;}
+div.faqTab ul li a {display:inline-block;height:27px;text-align:center;padding:8px 20px 0 20px;background:url(../../../../image/ko/solution/common/ico/faqTabLine.gif) no-repeat 0 50%;}
+div.faqTab li.selected a {background:#658499;color:#fff;}
+
+@media (min-width:0px) and (max-width:767px){
+	div.faqTab{font-size:0;position:relative;}
+	div.faqTab strong{display:block;background:url(../../../../image/ko/solution/common/ico/faqArrow.png) no-repeat right -108px #658499;}
+	div.faqTab ul{display:none;position:absolute;top:35px;left:0;z-index:100;background:#658499;width:100%;border-top:1px solid #48687e;}
+	div.faqTab ul li{float:none;border-bottom:1px solid #48687e;}
+	div.faqTab ul li a{display:block;height:auto;text-align:left;padding:8px 20px 8px 20px;background:none;color:#fff;} 
+	div.faqTab ul.on{display:block;}
+	div.faqTab li.selected{display:none;background:none;color:none;}
+	div.faqTab strong.selected {background:url(../../../../image/ko/solution/common/ico/faqArrow.png) no-repeat right -157px #658499;}
+}
+
+/* faq 리스트 전데 닫기/열기 */
+.totalAnswerOpen p, .totalAnswerClose p{padding:0 33px 0 10px;border:1px solid #ccc;background-repeat:no-repeat;background-position:75px 50%}
+.totalAnswerOpen p{background-image:url(../../../../image/ko/solution/common/ico/faqArrowDown.png)}
+.totalAnswerClose p{background-image:url(../../../../image/ko/solution/common/ico/faqArrowUp.png)}

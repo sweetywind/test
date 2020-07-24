@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+.listInfo{overflow:hidden;}
+.listInfo2 img {height:28px;vertical-align:top}
+.paging {margin-top:20px}
+.searchArea .selectBox1 {width:95px}
+
+.nonBook ul {overflow:hidden}
+.nonBook li {position:relative;float:left;width:50%;margin-bottom:20px}
+.nonBook li.even {float:right}
+.nonBook li div {position:relative;height:160px;padding:20px 126px 20px 20px;border:1px solid #e6e6e6}
+.nonBook li.even div {margin-left:10px}
+.nonBook li.odd div {margin-right:10px}
+.nonBook .book {position:absolute;top:20px;right:20px;width:96px;height:133px}
+.nonBook .book img {width:96px;height:133px}
+.nonBook li .num {float:left;display:block;width:30px;height:100%}
+.nonBook li dl {margin-left:30px}
+.nonBook li dt {overflow:hidden;max-height:62px;margin-bottom:6px}
+.nonBook li dd {margin-bottom:6px}
+.nonBook li dd span {display:none;width:0;height:0;font-size:0;line-height:0;overflow:hidden;border:0;visibility:hidden}
+.nonBook li .last-child {margin-bottom:0}
+.nonBook li a {color:#1a1a1a;font-size:18px}
+
+/* 책이미지 좌측으로 할경우 */
+.nonBook.leftList div {padding:20px 20px 20px 126px}
+.nonBook.leftList .book {position:absolute;top:20px;left:20px}
+
+@media screen and (min-width:0px) and (max-width:1024px){
+.nonBook li {float:none !important;width:auto}
+.nonBook li.even div {margin-left:0}
+.nonBook li.odd div {margin-right:0}
+}
+
+@media screen and (min-width:0px) and (max-width:767px){
+.searchArea .limitSearchBtn {margin-bottom:10px}
+.searchArea .limitSearchBtn a {background-position:0 2px}
+.searchArea form {padding-top:10px;border-top:1px solid #e6e6e6}
+
+.nonBook li {overflow:hidden}
+.nonBook li div {height:auto;min-height:96px;padding-right:100px}
+.nonBook li .num {height:100%}
+.nonBook li dl {overflow:hidden;height:auto}
+.nonBook li dt {max-height:100%}
+.nonBook .book {width:70px;height:96px}
+.nonBook .book img {width:70px;height:96px}
+
+/* 책이미지 좌측으로 할경우 */
+.nonBook.leftList div {padding-left:100px}
+}

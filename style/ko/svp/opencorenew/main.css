@@ -1,0 +1,29 @@
+@charset "utf-8";
+@media screen and (min-width:768px) and (max-width:1024px){
+#divContentsW {padding:0 20px 40px 20px}
+#divContents {width:100%;padding:0}
+}
+.contentHeader {padding-bottom:15px;color:#333;line-height:1.6}
+.contentHeader a.btnType4 {height:23px;padding:0 15px;background:#fff;line-height:25px;vertical-align:middle}
+
+/* 검색 영역 */
+.onlineSearch {padding:60px 0;border:3px solid #e6e6e6}
+.dataSearch {width:591px;height:35px;margin:0 auto;text-align:center}
+.dataSearch form {overflow:hidden;display:inline-block}
+.dataSearch fieldset {float:left}
+.dataSearch .selectBox1 {float:left;width:120px;margin-right:5px;padding-right:0}
+.dataSearch .keyword {float:left;width:388px;height:14px;padding:9px 5px 8px 5px;border:2px solid #248bd8;outline:none}
+.dataSearch .searchBtn {float:left;display:inline-block;width:66px;height:35px;margin-left:-2px;background:#248bd8;border:1px solid #1c7fca;text-align:center;color:#fff}
+select.selectBox1, select.selectBox2 {height:35px}
+.divisionTitle{margin:40px 0 15px;color:#303030;font-size:15px;font-weight:normal}
+.buttons{margin:15px 0 0;text-align:center}
+
+@media screen and (min-width:0px) and (max-width:767px){
+.onlineSearch {padding:40px 20px}
+.dataSearch {width:100%;height:auto}
+.dataSearch form {position:relative;display:block;width:100%}
+.dataSearch fieldset {display:block;float:none;width:100%}
+.dataSearch .selectBox1 {width:100%;margin-bottom:10px}
+.dataSearch .keyword {display:block;width:90%;padding:9px 0 8px 0;text-indent:5px}
+.dataSearch .searchBtn {position:absolute;right:0;bottom:0}
+}

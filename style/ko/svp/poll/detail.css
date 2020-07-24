@@ -1,0 +1,47 @@
+@charset "utf-8";
+.pollDetail {border:1px solid #e7e7e7;border-top:1px solid #b3b3b3;line-height:1}
+.pollDetail h3 {padding:15px 20px 13px 20px;background:#eee;border-bottom:1px solid #e6e6e6;color:#1a1a1a;font-size:16px;line-height:1.2}
+.pollDetail .pollSummary {padding:20px;border-bottom:1px solid #e6e6e6;}
+
+.pollDetail .pollSection {padding:20px;border-top:1px dashed #ddd}
+.pollDetail .pollSection:first-child {border-top:0 none}
+.pollDetail .pollQuestion {margin-bottom:8px;font-weight:bold;color:#1a1a1a;line-height:1.2}
+.pollDetail dl {width:100%}
+.pollDetail dl dl {width:auto}
+
+.pollSection li {overflow:hidden;padding:8px 10px 7px 10px}
+.pollSection li.odd {background:#f4f4f4}
+.pollSection li dl {position:relative;line-height:1.4}
+.pollSection li dt {padding-right:490px}
+.pollSection li .answerBtnWrap {padding:5px 0}
+.pollSection li dd {position:absolute;top:0;right:0;width:480px;z-index:10}
+.pollSection li dd p {float:left;vertical-align:middle}
+.pollSection li dd p.levelTit{position:absolute;top:0;left:0}
+.pollSection li dl.level {position:relative;height:320px}
+.pollSection li dl.level dl {padding-left:55px}
+.pollSection li dl.level dd {position:absolute;top:160px;right:0}
+.pollSection li dl.level dt {font-weight:bold}
+.pollSection li dl.level dt+dd {position:absolute;top:0;right:0}
+.pollSection li dl.level dl dt {float:left;width:100px;padding-right:0;clear:both;font-weight:normal;text-align:right}
+.pollSection li dl.level dd dd {position:relative;top:auto;right:auto;width:auto}
+.pollSection li dl.level .pollGraph {margin-left:5px}
+.pollSection .pollGraph {width:120px;height:13px;margin:2px 10px 0 160px;background:#ddd}
+.pollSection .pollGraph span {display:block;height:100%;background:#248bd8}
+.pollSection .pollRate {width:40px;letter-spacing:-1px}
+.pollSection .pollVote {margin-right:5px;letter-spacing:-1px}
+.pollSection .answerBtnWrap p {margin-top:5px}
+.pollSection .answerBtnWrap .pollGraph {margin-top:7px}
+.pollSection .pollBtn {position:relative;bottom:3px;padding:0 8px;background:#fff;line-height:25px}
+
+@media screen and (min-width:0px) and (max-width:767px){
+.pollSection li dt {padding:0}
+.pollSection li .answerBtnWrap {padding:0}
+.pollSection li dd {overflow:hidden;position:relative;width:100%;margin:0}
+.pollSection li dd p {margin-bottom:3px}
+.pollSection li dd p.levelTit{position:relative;top:auto;left:auto;width:100%;margin-bottom:0}
+.pollSection li dl.level {height:auto}
+.pollSection li dl.level dl{clear:both;padding-left:0}
+.pollSection li dl.level dd {position:relative;top:auto;right:auto}
+.pollSection li dl.level dt+dd {position:relative;top:auto;right:auto}
+.pollSection .pollGraph {margin-left:0}
+}

@@ -1,0 +1,232 @@
+@charset "utf-8";
+
+/* 공통 */
+
+/* 레이아웃 */
+#divFind{
+	position:relative;
+	font-size:14px;
+	overflow:hidden
+}
+#divFind .findHeader{
+	margin:20px 50px 15px 50px;
+	color:#6c6f6f;
+	text-align:center
+}
+#divFind .findContents{
+	position:relative;
+	margin:15px 50px;
+	padding:30px;
+	background-color:#f7f7f7	
+}
+#divFind .findContent{
+	margin:0 0 10px 0	
+}
+#divFind .findFooter{
+	margin:15px 50px 20px 50px;
+	font-size:12px
+}
+
+/* 타이틀 */
+#divFind .findTitle{
+	padding:10px;
+	border-bottom:2px solid #0061ce;
+	font-size:18px;
+	font-weight:600;
+	color:#333;
+	text-align:center
+}
+#divFind .findTitle span{
+	margin-left:15px
+}
+#divFind .findTitle img{
+	vertical-align:middle	
+}
+
+#divFind .findPoint{
+	color:#0060c2;
+	font-weight:600
+}
+#divFind .findContent span{
+	display:block;
+	height:30px;
+	margin:0 0 3px 0;
+	line-height:30px;	
+}
+#divFind .findContent label, #divFind .findContent label{
+	float:left;
+	height:30px;
+	font-size:14px;
+	font-weight:600;
+	line-height:30px	
+}
+#divFind input[type=text], #divFind input[type=password]{
+	display:block;
+	position:relative;
+	height:22px;
+	padding:3px;
+	border:1px solid #ccc;
+	color:#444;
+	font-size:14px;
+	vertical-align:top;
+}
+
+#divFind .findFooter li, #divFind .findFooter p{
+	padding:0 0 0 10px;
+	background:url(../../image/ko/common/ico/icon_squareGray.gif) no-repeat 0 50%;	
+}
+
+#divFind .divButton{
+	padding:0	
+}
+#divFind .error{
+	height:auto;
+	min-height:17px;
+	padding:3px 3px 3px 22px;
+	background:url(../../image/ko/common/ico/logErrorIcon.png) no-repeat 3px 3px #ffec77;
+	border:1px solid #ffd05d;
+	font-size:12px;
+	letter-spacing:-1px
+}
+#divFind .error span{
+	display:block;
+}
+
+
+
+
+/* 비밀번호재확인 */
+#divFind #divRelog{
+	width:600px;
+	margin:50px auto 0;
+	background:url(../../image/ko/local/loginBg.png) no-repeat 70px 40px #fff;
+	border:1px solid #ddd
+}
+#divFind .relogFiled{
+	width:350px;
+	margin:0 auto	
+}
+#divFind .relogFiled label, #divFind .relogFiled label{
+	width:65px
+}
+#divFind .inputId{
+	float:left;
+	width:202px;
+	height:22px!important;
+	padding:3px;
+	background-color:#ddd;
+	line-height:22px!important	
+}
+#divFind .relogFiled input[type=text], #divFind .relogFiled input[type=password]{
+	width:200px;
+} 
+#divFind .loginBtn input{
+	position:absolute;
+	left:353px;
+	top:30px;
+	width:70px;
+	height:63px;
+	border:0;
+	background:url(../../image/ko/common/btn/loginBtn.gif) no-repeat;
+	color:#fff;
+	font-size:16px;
+	font-weight:600;
+	cursor:pointer;
+}
+
+/* 아이디 찾기 */
+#divFind #divFindId{
+	width:500px;
+	margin:50px auto 0;
+	background:url(../../image/ko/local/loginBg.png) no-repeat 70px 40px #fff;
+	border:1px solid #ddd
+}
+#divFind .findIdFiled{
+	width:338px;
+	margin:0 auto
+}
+#divFind .findIdFiled label, #divFind .findIdFiled label{
+	width:50px
+}
+#divFind .findIdFiled input[type=text], #divFind .findIdFiled input[type=password]{
+	width:280px;
+} 
+
+/* 비밀번호 찾기 */
+#divFind #divFindPw{
+	width:500px;
+	margin:50px auto 0;
+	background:url(../../image/ko/local/loginBg.png) no-repeat 70px 40px #fff;
+	border:1px solid #ddd
+}
+#divFind .findPwFiled{
+	width:338px;
+	margin:0 auto
+}
+#divFind .findPwFiled label, #divFind .findPwFiled label{
+	width:70px
+}
+#divFind .findPwFiled input[type=text], #divFind .findPwFiled input[type=password]{
+	width:260px;
+}
+#divFind .findPwFiled .findssNumber input[type=text], #divFind .findPwFiled input[type=password]{
+	display:inline-block;
+	width:100px	
+} 
+
+
+
+ 
+
+/* 아이디비밀번호 찾기 */
+#divFind #divFindIdPw{
+	width:800px;	
+	margin:0 auto;
+	overflow:hidden
+}
+#divFind #divFindIdPw > #divFindId > .findHeader, #divFind #divFindIdPw > #divFindPw > .findHeader{
+	margin:20px 20px 15px 20px;
+}
+#divFind #divFindIdPw > #divFindId > .findContents, #divFind #divFindIdPw > #divFindPw > .findContents{
+	min-height:185px;
+	margin:15px 20px;
+	padding:20px
+}
+#divFind #divFindIdPw > #divFindId > .findFooter, #divFind #divFindIdPw > #divFindPw > .findFooter{
+	margin:15px 20px 20px 20px
+}
+
+/* 아이디 찾기 */
+#divFind #divFindIdPw #divFindId{
+	float:left;
+	width:380px;
+	margin-right:30px;
+	background:url(../../image/ko/local/loginBg.png) no-repeat 70px 40px #fff;
+	border:1px solid #ddd
+}
+#divFind #divFindIdPw #divFindId > .findContents > form > .findIdFiled{
+	width:303px;
+	margin:0 auto
+}
+#divFind #divFindIdPw #divFindId > .findContents > form > .findIdFiled input[type=text], #divFind #divFindIdPw #divFindId > .findContents > form > .findIdFiled input[type=password]{
+	width:245px;
+} 
+
+/* 비밀번호 찾기 */
+#divFind #divFindIdPw #divFindPw{
+	float:left;
+	width:380px;
+	margin:50px auto 0;
+	background:url(../../image/ko/local/loginBg.png) no-repeat 70px 40px #fff;
+	border:1px solid #ddd
+}
+#divFind #divFindIdPw #divFindPw > .findContents > form > .findPwFiled{
+	width:303px;
+	margin:0 auto
+}
+#divFind #divFindIdPw #divFindPw > .findContents > form > .findPwFiled input[type=text], #divFind #divFindIdPw #divFindPw > .findContents > form > .findPwFiled input[type=password]{
+	width:221px;
+}
+#divFind #divFindIdPw #divFindPw > .findContents > form > .findPwFiled .findssNumber input[type=text], #divFind #divFindIdPw #divFindPw > .findContents > form > .findPwFiled .findssNumber input[type=password]{
+	width:100px;
+} 

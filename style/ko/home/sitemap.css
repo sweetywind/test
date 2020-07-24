@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* bannerList */
+ul.bannerList {margin-left:-12px;margin-bottom:40px;overflow:hidden;}
+ul.bannerList li.item {float:left;margin:0 0 12px 12px;width:198px;}
+ul.bannerList li a {display:block;}
+ul.bannerList li div.textBox {border:1px solid #ddd;padding:15px 19px;color:#4d4d4d;overflow:hidden;background: #f8fbff}
+ul.bannerList li div.textBox span.text {display:block;font-size:14px;margin-bottom:15px;}
+ul.bannerList li div.textBox span.data {float:left;font-size:13px;color:#737373;}
+ul.bannerList li div.textBox span.Inquiry {float:right;font-size:13px;color:#737373;padding-left:22px;background:url(../../../../image/ko/solution/common/ico/thumbnailCntBg.gif) no-repeat left 50%;}
+ul.bannerList .big {height:auto}
+
+@media screen and (min-width:0) and (max-width:447px){
+	#divWrapper {min-width:320px !important;}
+	#divContents {width:auto !important;padding:0 15px;}
+	/* bannerList */
+	ul.bannerList {margin-left:0;margin-bottom:40px;}
+	ul.bannerList li.item {float:none;margin:0 0 14px 0 !important;width:100%;height:auto;}
+	ul.bannerList li div.pic {min-height:149px;}
+	ul.bannerList .big {height:auto}
+	padding: 3px 0 3px 10px;
+
+}
+
+h3.arrow {
+	margin-left: 8px;
+	padding-left: 35px;
+	padding-bottom: 20px;
+	padding-top:6px;
+	background: url(/image/ko/solution/common/ico/calBrief.png) no-repeat 0 0;
+	color: #656565;
+	font-weight: bold;
+}
+.icoBlue {
+	margin: 5px 0 0 1px;
+	padding: 3px 0 3px 10px;
+	background: url(/image/ko/solution/common/ico/bulleIcon1.png) no-repeat 0 6px;
+	border-bottom: 1px dotted #ccc
+}

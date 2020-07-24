@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/* Re Login */
+.reLogin{width:506px;margin:85px auto;padding:50px 96px;border:1px solid #b3b3b3}
+.reLogin p.reLoginTit{margin-bottom:20px;color:#ff7200;font-size:30px;text-align:center}
+.reLogin p.reLoginInfo{margin-bottom:25px;color:#4d4d4d;font-size:16px;text-align:center}
+.reLogin fieldset{position:relative}
+.reLogin fieldset dl{position:relative;height:36px;margin-bottom:10px;padding-left:60px;overflow:hidden}
+.reLogin fieldset dl dt{position:absolute;top:0;left:0;width:60px;line-height:35px}
+.reLogin fieldset dl dd input{width:319px;height:33px;padding:0 5px;border:1px solid #d1d0cf;color:#b0afaf;font-size:14px;line-height:2.1em}
+.reLogin fieldset .login{position:absolute;top:0;right:0;width:105px;height:80px;border:1px solid #3c3c3c;background-color:#3c3c3c;color:#fefefe;font-size:16px}
+.msgParagraph{position:relative;padding:6px 10px 6px 35px;font-size:13px}
+.msgParagraph img{width:20px;height:20px;position:absolute;top:3px;left:10px;}
+.msgError{margin-top:10px;border:1px solid #f11515;background-color:#ffffff;color:#f11515}
+@media screen and (min-width:0) and (max-width:767px){
+	.reLogin{width:auto;padding:25px 20px}
+	.reLogin fieldset dl dd{padding-right:2px}
+	.reLogin fieldset dl dd input{width:100%;padding:0}
+	.reLogin fieldset .login{position:static;display:block;width:100%;height:35px;}
+}

@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+/* 모바일 학생증 */
+.memberCard{width:300px;margin:80px auto 0;border:10px solid #695e5a;border-top-width:11px;border-bottom-width:11px;}
+.memberCard .titleArea{padding-top:9px;background-color:#695e5a;text-align:center}
+.memberCard .titleArea h3{font-weight:600;color:#fff;font-size:24px}
+.memberCard .titleArea p{padding:5px 0 10px;color:#a3a3a3;font-size:13px}
+.memberCard .cardDetail{padding:21px 18px;}
+.profile{position:relative;padding-bottom:19px;border-bottom:1px solid #f1f1f1}
+.profile img{position:absolute;top:0;left:0;width:120px;height:161px}
+.profile div{min-height:151px;margin-left:145px;padding-top:10px;}
+.profile div p.school_no{margin-bottom:10px;color:#686868;font-size:15px;font-weight:600}
+.profile div p.name{margin-bottom:10px;color:#000;font-size:18px;font-weight:600}
+.profile div p{margin-bottom:5px;color:#686868;font-size:14px}
+.code{padding-top:27px;text-align:center}
+
+#mask {  
+   position:fixed;  
+   z-index:9000;  
+   background-color:#000;  
+   display:none;  
+   left:0;
+   top:0;
+   width:100%;
+   height:100%;
+ } 
+ 
+ .CODE_128{
+   width:202px;
+   height:40px;
+ }
+ .CODE_39{
+    width:202px;
+   height:40px;
+ }
+  .QR_CODE{
+   width:142px;
+   height:142px;
+ }
+ 
+ .CODE_128_imgPop{
+   width:303px;
+   height:60px;
+   margin-left: 30px;
+   margin-top: 30px;
+ }
+ .CODE_39_imgPop{
+   width:303px;
+   height:60px;
+   margin-left: 30px;
+   margin-top: 30px;
+ }
+  .QR_CODE_imgPop{
+   width:213px;
+   height:213px;
+   margin-left: 30px;
+   margin-top: 30px;
+ }
+ 
+ .CODE_128_divPop{
+   display: none;
+   position:fixed;  
+   background-color:#FFF;
+   width:363px;
+   height:120px;
+   z-index:10000;
+   top:40%;
+   left:50%;
+   margin-left: -181px;.
+   margin-top: -60px; 
+ }
+ .CODE_39_divPop{
+   display: none;
+   position:fixed;  
+   background-color:#FFF;
+   width:363px;
+   height:120px;
+   z-index:10000;
+   top:40%;
+   left:50%;
+   margin-left: -181px;
+   margin-top: -60px;  
+ }
+  .QR_CODE_divPop{
+   display: none;
+   position:fixed;  
+   background-color:#FFF;
+   width:273px;
+   height:273px;
+   z-index:10000;
+   top:50%;
+   left:50%;
+   margin-left: -136px;
+   margin-top: -136px; 
+ }

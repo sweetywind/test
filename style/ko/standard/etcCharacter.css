@@ -1,0 +1,15 @@
+/* 다국어 레이어 */
+.languageWrap {position:relative;width:100%;z-index:10}
+.languageWrap  .language{display:none;position:absolute;top:-1px;left:0px;width:545px;height:185px;padding:20px 30px 40px 30px;border:1px solid #b3b3b3;background-color:#efefef}
+.languageWrap  .languageContent {float:left;width:100%}
+.languageWrap  .languageSelect {float:left;width:127px;height:144px;padding:7px 0;border:1px solid #deded5;border-right:0 none;font-size:13px;color:#2d2c2a;background-color:#fff;overflow:auto;}
+.languageWrap .languageSelect li {padding:6px 20px}
+.languageWrap  .languageSelect li.selected {background:url(../../../../image/ko/solution/common/ico/languageSelectArrow.png) no-repeat 12px center;font-weight:bold}
+.languageWrap  .selectContent {display:none;float:left;width:375px;height:130px;padding:14px 20px;background-color:#fff;border:1px solid #deded5;z-index:11;}
+.languageWrap  .selectContent a {display:inline-block;width:14px;padding:6px 0;text-align:center}
+.languageWrap  #ETCKEYLayer {display:block;}
+.languageWrap .divPopup {background-color:#f0f0ea;border-top:3px solid;border-color:#b21b1b;min-width: 500px;height: 266px;padding:8px 0 0 0;}
+.languageWrap  .popupTitie {margin-bottom:10px;font-weight:bold;cursor:move;font-size:16px}
+.languageWrap  .languageClose {position:absolute;right:30px;bottom:14px}
+.languageWrap  .languageClose a {display:block;padding-right:19px;background:url(../../../../image/ko/solution/common/ico/languageClose.png) no-repeat right center}
+.languageWrap {line-height: 1;}

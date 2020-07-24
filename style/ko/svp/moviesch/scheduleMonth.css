@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+.calendar{clear:both}
+.calendar table{width:100%;border-collapse:collapse;}
+.calendar table th{padding:0;border-spacing:0}
+.calendar table td{padding:0;border-spacing:0}
+
+.monthSelect span{font-size:30px;color:#1a1a1a;vertical-align:middle;margin-right:10px}
+.monthSelect a{border:1px solid #ccc;border-left:none;display:inline-block;height:34px;vertical-align:middle}
+.monthSelect a.prevMonth{border-left:1px solid #ccc}
+.monthSelect a.today{padding:0 10px;font-size:13px}
+.monthSelect img{width:34px;height:34px;}
+.monthInquiry a.InquiryBtn{display:inline-block;padding:0 10px;height:33px;border:1px solid #ccc;background-color:#fff;color:#666;font-size:13px;vertical-align:top}
+.daySelect input[type="text"]{width:90px;height:33px;padding:0 10px;border:1px solid #e6e6e6;border-right:none;color:#666;font-size:13px}
+.daySelect input[type="submit"]{padding:0 10px;height:35px;border:1px solid #ccc;background-color:#fff;color:#666;font-size:13px}
+
+
+/* 월 달력 */
+.calendar thead th{border:1px solid #ddd;color:#1a1a1a;background-color:#eee;}
+.calendar thead th.sunday{color:#f00}
+.calendar thead th.saturday{color:#305ed6}
+.calendar table .grid{vertical-align:top;}
+.calendar table .grid td{border:1px solid #ddd;width:150px}
+.calendar table .grid td.today{background-color:#fcf9ce}
+.calendar table .grid td > p{font-weight:600;font-family:Noto Sans Regular,"본고딕",sans-serif;padding:0 8px;height:22px;}
+.calendar table .grid td > p.nonMonth{color:#bbb}
+.calendar table .grid td > p.subday{color:#f00}
+.calendar table .grid td > p.holiday{color:#f00}
+.calendar table .grid td > p.holiday a{color:#f00}
+.calendar table .grid td > p.saturday{color:#305ed6}
+.calendar table .grid td > p.saturday a{color:#305ed6}
+.calendar table .grid td > p span{float:right}
+.calendar table .grid td > p span:first-child{float:left}
+.calendar table .grid td > p span.holidayMsg{font-size:12px;font-family:Noto Sans,"본고딕",sans-serif;color:#f00;}
+
+.reserve table tbody td.today{background-color:#fcf9ce}
+.calendar table .grid td div p{font-size:12px;position:relative;height:22px;white-space:nowrap;}
+.calendar table .grid td div p a{position:absolute;top:0;left:2px;z-index:20;display:block;color:#fff;}
+.calendar table .grid td div p.titType1 a{background-color:#e93a3a;}
+.calendar table .grid td div p.titType2 a{background-color:#f18a06}
+.calendar table .grid td div p.titType3 a{background-color:#f9ac09}
+.calendar table .grid td div p.titType4 a{background-color:#00b3a6}
+.calendar table .grid td div p.titType5 a{background-color:#248bd8}
+.calendar table .grid td div p.titType6 a{background-color:#935dd1}
+
+.calendar table .grid td div p a{padding:0 10px 0 20px;}
+.calendar table .grid td div p a > span{display:block;padding-right:10px;}
+.calendar table .grid td div p a > span span{display:block;overflow:hidden;}
+
+.calendar table .grid td div p a.type1{background-image:url(../../../../image/ko/solution/common/ico/calLeft.png);background-repeat:no-repeat;background-position:8px 50%;padding:0 10px 0 20px;}
+.calendar table .grid td div p a.type1 > span{display:block;background-image:url(../../../../image/ko/solution/common/ico/calRight.png);background-repeat:no-repeat;background-position:100% 50%;padding-right:10px;}
+.calendar table .grid td div p a.type1 > span span{display:block;overflow:hidden;}
+
+.calendar table .grid td div p a.type2{background-image:url(../../../../image/ko/solution/common/ico/calLeft.png);background-repeat:no-repeat;background-position:8px 50%;padding:0 10px 0 20px;}
+.calendar table .grid td div p a.type2 > span{display:block;padding-right:10px;}
+.calendar table .grid td div p a.type2 > span span{display:block;overflow:hidden;}
+
+.calendar table .grid td div p a.type3{padding:0 10px 0 20px;}
+.calendar table .grid td div p a.type3 > span{display:block;background-image:url(../../../../image/ko/solution/common/ico/calRight.png);background-repeat:no-repeat;background-position:100% 50%;padding-right:10px;}
+.calendar table .grid td div p a.type3 > span span{display:block;overflow:hidden;}
+
+.calendar table .grid td div p.schMore{padding:0 2px;font-size:13px;}
+.calendar table .grid td div p.schMore a{padding:0 10px;color:#4d4d4d}
+.calendar table .grid td div p img{vertical-align: middle;margin-right:3px}
+
+
+

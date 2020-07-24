@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/* 인기검색어 */
+.searchRankTit{color:#1a1a1a;font-size:16px;margin:40px 0 10px;padding-left:15px;background:url(../../../../image/ko/solution/common/subTitleBg.gif) no-repeat 0 0}
+.searchRankTit span{color:#4d4d4d;font-size:13px;font-weight:normal}
+
+.retouchDate p{font-size:13px}
+.retouchDate p a{margin-left:10px}
+
+.searchRank{clear:both}
+.searchRank table{width:100%;border-collapse:collapse;border-spacing:0;border-top:1px solid #d3d3d3}
+.searchRank table td{border-bottom:1px solid #e6e6e6;padding:10px 0}
+.searchRank table tr.first td{background-color:#d1f2f8;font-weight:600}
+.searchRank table tr.second td{background-color:#e8f9fe;font-weight:600}
+.searchRank table tr.third td{font-weight:600}
+
+.searchRank table tr td.rank{width:5%;padding:0 10px;text-align:center;}
+.searchRank table tr td.keyword{width:85%}
+.searchRank table tr td.keyword a{display:block;}
+.searchRank table tr td.searchCnt{width:10%;padding:0 10px;font-weight:normal;font-size:13px;text-align:right;}
+@media screen and (max-width:767px){
+	.searchRank table tr td.keyword{width:67%}
+	.searchRank table tr td.searchCnt{width:28%;}
+}
+

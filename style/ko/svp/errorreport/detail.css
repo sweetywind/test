@@ -1,0 +1,4 @@
+@charset "utf-8";
+
+/* 소장정보조회 버튼 */
+a.moreInfo{padding:2px 4px;background-color:#efa402;color:#fff;font-size:13px; margin-left:3px}

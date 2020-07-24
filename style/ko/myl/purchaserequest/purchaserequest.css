@@ -1,0 +1,127 @@
+@charset "utf-8";
+@media screen and (min-width:768px) and (max-width:1024px){
+#divContentsW {padding:0 20px 40px 20px}
+#divContents {width:100%;padding:0}
+}
+@media screen and (min-width:0px) and (max-width:767px){
+#divContentsW {width:100%}
+#divContents {width:100%;padding:0}
+}
+.duplicateCheck h3{color:#000}
+.searchKeyword {margin:10px 0;color:#737373}
+.searchKeyword span {color:#f37109}
+
+.contentHeader {padding:20px;margin:10px 0 40px 0;background:#eee;border:1px solid #e6e6e6}
+.contentHeader span{font-weight:600}
+
+.holdingCheck, .availableCheck {clear:both;width:100%}
+.holdingCheck {margin-bottom:40px}
+.holdingCheck h4, .availableCheck h4 {padding-left:15px;margin:20px 0 10px 0;background:url(../../../../image/ko/solution/common/subTitleBg.gif) no-repeat 0 2px;font-size:16px;color:#1a1a1a}
+.holdingCheck h4 span, .availableCheck h4 span {color:#248bd8}
+
+.holdingCheck .holdingCheckList, .availableCheck .availableCheckList {padding:0 20px;border:1px solid #e6e6e6;border-top:1px solid #b3b3b3}
+.holdingCheck .items, .availableCheck .items {position:relative;min-height:10px;padding:18px 0 16px 0;border-top:1px dashed #ddd}
+.availableCheck .items {padding-bottom:10px}
+.holdingCheck .items:first-child, .availableCheck .items:first-child {border-top:0 none}
+.holdingCheck dl {width:100%}
+.holdingCheck dt {width:100%;margin-bottom:5px}
+.holdingCheck dt a {font-size:16px;color:#1a1a1a}
+
+.holdingCheck .info {line-height:1.4}
+.holdingCheck .info .title {display:none}
+.holdingCheck .state {display:inline-block;padding:0 3px;height:16px;border:1px solid #b8b8b8;border-radius:3px;background-color:#eeeeee;font-size:11px;color:#666;text-align:center;line-height:16px}
+
+.btnW {overflow:hidden;border:1px solid #e6e6e6;border-top:0 none}
+.btnW a {display:block;float:left;width:50%;height:14px;padding:10px 0;text-align:center;color:#737373;}
+.btnW a span {display:inline-block;padding-right:15px;background:url(../../../../image/ko/solution/common/ico/reportBriefTop.png) no-repeat right center;vertical-align:middle}
+.btnW .moreBtn {border-left:1px solid #e6e6e6;margin-left:-2px;color:#248bd8;line-height:1.2}
+.btnW .moreBtn span {background-image:url(../../../../image/ko/solution/common/ico/reportBriefMore.png)}
+
+.availableCheck .items dl dt.title {display:none}
+.availableCheck .items dl dd.title {overflow:hidden;font-size:18px;margin-bottom:10px;color:#1a1a1a;line-height:1.2;font-weight:normal}
+.availableCheck .items dl dd.title a {display:inline-block;margin:0 5px 5px 0;color:#1a1a1a}
+.availableCheck .items dl dd.title span {color:#305ed6}
+.availableCheck .items dl dd.title button {display:inline-block;width:21px;height:20px;padding:0;background:url(../../../../image/ko/solution/common/btn/moreInfoBtn.png) no-repeat;border:0 none;text-indent:-9999em;cursor:pointer;vertical-align:top}
+
+/*간략정보*/
+.availableCheck .basicInfo {overflow:hidden;padding-bottom:2px}
+.availableCheck .basicInfo li {float:left;padding-left:9px;margin-left:3px;background:url(../../../../image/ko/solution/common/bg/lineSlash.png) no-repeat 0 center}
+.availableCheck .basicInfo li:first-child {padding:0;margin:0;background:none}
+.availableCheck .basicInfo dt {display:none}
+
+/*상세정보*/
+.availableCheck .detailInfo {display:none;color:#737373}
+.availableCheck .detailInfo li {margin-bottom:3px}
+.availableCheck .detailInfo dl {overflow:hidden}
+.availableCheck .detailInfo dt {display:inherit; float:left;width:85px;padding: 2px 0; font-weight:bold}
+.availableCheck .detailInfo dd {margin:0 0 0 85px;padding: 2px 0; }
+.availableCheck .detailInfo dd img {text-align: center;}
+.availableCheck .media {margin:7px 0 17px 0}
+.availableCheck .media a {display:inline-block;width:36px;height:16px;margin-right:5px;background:#9cafb8;color:#fff;text-align:center;font-size:12px;line-height:18px}
+
+/*소장처*/
+.availableCheck .holding {margin-bottom:5px}
+.availableCheck .holding p.location {display: inline-block;}
+.availableCheck .holding p.location a {display: inline-block;padding:2px}
+.availableCheck .holding p.location .availableBtn {display:inline-block;padding:2px 10px 2px 0;margin-left:10px;background:url(../../../../image/ko/solution/common/ico/availableDown.png) no-repeat right center;color:#305ed6;}
+.availableCheck .holding p.location .availableBtn.on {background:url(../../../../image/ko/solution/common/ico/availableUp.png) no-repeat right center}
+.availableCheck .holding p.location .availableBtn.disabled {color:#ff0000}
+
+.availableCheck .holding .holdingW {display:none;margin-bottom:10px}
+.availableCheck .holding .service dl { position:relative; top:0; float:right;width: 215px;}
+.availableCheck .holding .service dl dt {position:absolute; float:right; top:-24px;right:0;display:inline-block;padding:2px 0px 2px 20px;background:url(../../../../image/ko/solution/common/ico/serviceInfoIco.png) no-repeat;cursor:pointer;z-index:80}
+.availableCheck .holding .service dl dd {display:none; position:absolute;right:0;width:161px;padding:20px 0 20px 32px !important;background:#fff;border:1px solid #aaa;z-index:90}
+.availableCheck .holding .service dl li {height:21px;font-size:13px;  margin-right: 20px;padding-bottom: 8px;}
+.availableCheck .holding .service dl li img{vertical-align:middle;margin: 3px 12px 8px 0;}
+
+.listTable {margin-top:5px;border:1px solid #ddd;border-top:1px solid #b3b3b3;font-size: 13px;}
+.mobileTable tr th {padding:10px 0;line-height:1.2;}
+.mobileTable tr td {padding:20px 5px;line-height:1.2;}
+.mobileTable .status.available {color:#248bd8}
+.mobileTable .status.ing {color:#46b048}
+.mobileTable .status.disabled {color:#ee2b2d}
+.mobileTable .service img {display:inline-block;margin:7px 0 0 2px;vertical-align:middle}
+
+.mobileTable th.num {width:7%;text-align:center}
+.mobileTable th.location {width:21%}
+.mobileTable th.callNum {width:12%}
+.mobileTable th.possessLocation {width:12%}
+.mobileTable th.status {width:11.5%}
+.mobileTable th.returnDate {width:13%}
+.mobileTable th.reservation {width:12%}
+.mobileTable th.service {width:10%}
+
+.mobileTable td.num {text-align:center}s
+.mobileTable .reservation.available {color:#248bd8}
+.mobileTable .reservation.ing {color:#46b048}
+.mobileTable .reservation.disabled {color:#ee2b2d}
+.mobileTable .reservation span {display:block}
+
+@media screen and (min-width:0px) and (max-width:767px){
+.DuplicateCheck {padding:0}
+
+.btnW a {display:none}
+.btnW .moreBtn {display:block;width:100%;border-left:0;margin:0}
+
+.availableCheck .items dl dd.title {margin-bottom:10px}
+.availableCheck .detailInfo {padding-top:27px;background:url(../../../../image/ko/solution/common/bg/previewLineM.png) no-repeat top center}
+
+/* 소장처 */
+.mobileTable thead {display:none}
+.mobileTable tr:first-child td {border-top:0 none}
+.mobileTable.breakpoint > tbody > tr > td.expand {padding:14px 23px 14px 10px;background:url(../../../../image/ko/solution/common/ico/tableOn.png) no-repeat 97% 50%;text-align:left}
+.mobileTable.breakpoint > tbody > tr.footable-detail-show > td.expand {background:url(../../../../image/ko/solution/common/ico/tableOff.png) no-repeat 97% 50%;}
+.mobileTable.breakpoint > tbody > tr.footable-detail-show {background:#fcf9ce}
+.mobileTable.breakpoint > tbody > tr.footable-row-detail > td.expand {background:none}
+.mobileTable.breakpoint > tbody > tr.footable-row-detail td {padding:20px 0 10px 0}
+.mobileTable > tbody > tr > td.footable-cell-detail {border-top:none}
+.mobileTable.breakpoint .footable-row-detail:hover {background:none}
+
+.mobileTable .footable-row-detail-inner div {margin-bottom:10px}
+.mobileTable .footable-row-detail-inner strong {display:inline-block;width:80px;height:18px;margin-right:20px;text-align:right;line-height:18px}
+.mobileTable .footable-row-detail-inner .serviceInfo {display:inline-block;overflow:hidden;vertical-align:top;margin-bottom:0}
+.mobileTable .footable-row-detail-inner .serviceInfo img {float:left;display:inline-block;margin-right:3px}
+.mobileTable .reservation span {display:inline}
+.mobileTable .service img {margin-top:0}
+.availableCheck .holding div.service {display:none}
+}

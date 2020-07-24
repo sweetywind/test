@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.listTable td.num {
+	width: 5%;
+	text-align: center;
+}
+
+.listTable td.answer {
+	width: 95%;
+	text-align: left;
+}

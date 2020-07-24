@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+#divWrapper {background:#fff}
+.header {padding:40px 20px 0 20px;border-top:3px solid #0d7590}
+.header h1 {height:20px;padding-left:15px;background:url(../../../../image/ko/solution/common/subTitleBg.gif) no-repeat 0 3px;color:#1a1a1a;font-size:20px}
+.content {padding:20px}
+
+ /*도서예약신청*/
+.reservation  {padding:16px 20px 15px 20px;border:1px solid #e6e6e6;border-top:1px solid #b3b3b3;background:#eee;line-height:1.6}
+.reservation span.highlight {color:#f15d15}
+
+.periodSet{border-bottom:1px solid #fff;margin-top:10px; margin-bottom:5px;padding-bottom:5px; }
+.availablePeriod {margin-right: 10px;margin-bottom: 10px;}
+.availablePeriod label{font-weight: 600}
+
+/*button*/
+.buttons a, .buttons input {margin:0 5px;padding:0 20px;border:1px solid #585858;color:#1a1a1a}
+.buttons a:first-child, .buttons input:first-child {border-color:#46b2d0;background:#46b2d0;color:#fff}
+
+/* 매체정보 */
+.media {display:inline-block;width:36px;height:16px;margin-right:5px;background:#9cafb8;color:#fff;text-align:center;font-size:12px;line-height:18px}
+
+@media screen and (min-width:0px) and (max-width:767px){
+.header {padding:50px 10px 0 10px}
+.content {padding:20px 10px}
+
+/*font*/
+.reservation span.highlight{color:#f15d15}
+
+/*button*/
+.buttons a {margin:0 5px;padding:0 20px;border:1px solid #585858;color:#1a1a1a}
+.buttons a:first-child {border-color:#46b2d0;background:#46b2d0;color:#fff}
+}
+
+/* 디지콜 순서변경 */
+#sortable li{
+	border: 1px solid #c8c8c8;
+	margin: 0 3px 3px 3px;
+	padding: 8px 15px;
+	color:#626262;
+	font-size:13px;
+	line-height:13px;
+	cursor: pointer;
+}
+#sortable .dragged {
+	position: absolute;
+	height:auto !important;
+	left:0 !important;
+	z-index: 2000;
+	border: 1px solid #c8c8c8;
+	background-color:#dbdbdb;
+	padding: 8px 15px;
+	color:#626262;
+	font-size:13px;
+	line-height:13px;
+	cursor: pointer;
+}
+#sortable .placeholder {
+	height:13px;
+	border:1px solid #fcefa1;
+	background-color:#fbf9ef
+}

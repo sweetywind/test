@@ -1,0 +1,284 @@
+@charset "utf-8";
+
+/* 열거형 */
+
+@media screen and (max-width:1024px){
+ #divWrapper {min-width:100%}
+}
+
+#divTotalSearch {background:#fff}
+#divTotalSearch .totalSearch {height:118px;background:#305ed6;border-top:1px solid #d6d6d6}
+#divTotalSearch .searchInner {width:1040px;padding:20px 0 0 0;margin:0 auto}
+#divTotalSearch .searchForm {float:left;position:relative;width:610px}
+#divTotalSearch fieldset {float:left;background:#fff;border:3px solid #214ec4;border-right:0 none}
+
+#divTotalSearch .searchOption {width:100%;padding-top:10px;background:none;border:0 none;color:#fff}
+#divTotalSearch .searchOption span {position:relative;display:inline-block;padding-left:19px}
+#divTotalSearch .searchOption span input {position:absolute;left:0;top:2px;width:13px;height:13px}
+#divTotalSearch .searchOption .searchSelect {float:left}
+#divTotalSearch .searchOption .searchSelect span {margin-right:30px}
+#divTotalSearch .searchOption .refine {float:right}
+#divTotalSearch .searchOption .refine span {margin-left:30px}
+
+#divTotalSearch .keyword {width:528px;height:16px;padding:14px 10px;border:0 none;-webkit-border-radius:0;line-height:1}
+#divTotalSearch .searchBtn {position:absolute;right:0;top:0;height:50px;padding:0 2px 0 1px;border:0 none;background:#214ec4;-webkit-border-radius:0}
+
+#divTotalSearch .searchBtns {float:left;padding:14px 0 0 0}
+#divTotalSearch .searchBtns ul {overflow:hidden}
+#divTotalSearch .searchBtns li {float:left;margin-left:50px}
+#divTotalSearch .searchBtns li:first-child {margin-left:68px}
+#divTotalSearch .searchBtns li a {display:block;height:49px;text-indent:-9999em}
+#divTotalSearch .searchBtns .myCart {position:relative}
+#divTotalSearch .searchBtns .myCart .cnt {position:absolute;top:4px;left:25px;width:25px;height:17px;padding:10px 0 0 2px;background:url(../../../../image/ko/solution/common/bg/cartCntBg.png) no-repeat;text-align:center;text-indent:0;font-size:11px;color:#fff}
+
+
+#divTotalSearch .searchBtns .searchDetail a {width:49px;background:url(../../../../image/ko/solution/common/btn/briefSearch.png) no-repeat;}
+#divTotalSearch .searchBtns .myHistory a {width:75px;background:url(../../../../image/ko/solution/common/btn/briefHistory.png) no-repeat left bottom}
+#divTotalSearch .searchBtns .myCart a {width:49px;background:url(../../../../image/ko/solution/common/btn/briefCart.png) no-repeat left bottom}
+#divTotalSearch .searchBtns .myLib a {width:37px;background:url(../../../../image/ko/solution/common/btn/briefMyLib.png) no-repeat left bottom}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+#divTotalSearch {margin-bottom:60px}
+#divTotalSearch .totalSearch {height:auto}
+#divTotalSearch .searchInner {width:100%}
+#divTotalSearch .searchForm {float:none;overflow:hidden;width:728px;height:85px;margin:0 auto;}
+#divTotalSearch .keyword {width:645px;background:none}
+#divTotalSearch .searchBtns {float:none;background:#456bcf;padding:20px 0}
+#divTotalSearch .searchBtns ul {width:100%;text-align:center}
+#divTotalSearch .searchBtns li {float:none;display:inline-block;margin-left:50px}
+#divTotalSearch .searchBtns li:first-child {margin-left:0}
+
+#divContents #divLocation {top:7px}
+}
+
+@media screen and (min-width:0px) and (max-width:767px){
+#divTotalSearch {margin-bottom:0}
+#divTotalSearch .totalSearch {height:auto;}
+#divTotalSearch .searchInner {width:100%;padding:0}
+#divTotalSearch .searchForm {overflow:hidden;float:none;width:100%;height:auto;padding:0;border-bottom:1px solid #214ec4;}
+#divTotalSearch fieldset {width:100%;height:48px;border:1px solid #2f5dd5; border-left:0 none;border-right:0 none}
+#divTotalSearch .keyword {width:100%;height:18px;border:0 none;padding:16px 67px 14px 10px;background:#305ed6;color:#fff}
+#divTotalSearch .searchBtn {width:57px;height:50px;padding:0;}
+
+#divTotalSearch .searchOption {display:none}
+
+#divTotalSearch .searchBtns {float:none;width:100%;padding:10px 0;background:#456bcf}
+#divTotalSearch .searchBtns ul {width:244px;margin:0 auto;border-left:1px solid #214ec4}
+#divTotalSearch .searchBtns li {width:60px;height:50px;margin:0 !important;border:1px solid #214ec4;border-left:0 none;-webkit-box-sizing:border-box;box-sizing:border-box}
+#divTotalSearch .searchBtns .searchDetail a {background:url(../../../../image/ko/solution/common/btn/briefSearchM.png) no-repeat;}
+#divTotalSearch .searchBtns .myHistory a {background:url(../../../../image/ko/solution/common/btn/briefHistoryM.png) no-repeat left bottom}
+#divTotalSearch .searchBtns .myCart a {background:url(../../../../image/ko/solution/common/btn/briefCartM.png) no-repeat left bottom}
+#divTotalSearch .searchBtns .myLib a {background:url(../../../../image/ko/solution/common/btn/briefMyLibM.png) no-repeat left bottom}
+#divTotalSearch .searchBtns a {width:100% !important;height:100% !important;background-size:60px 50px !important}
+
+#divTotalSearch .searchBtns .myCart .cnt {top:11px}
+}
+
+.subjectDepth01 ul {overflow:hidden;padding:20px 20px 10px 20px;margin-bottom:20px;background:#eee;border:1px solid #e6e6e6;border-top:1px solid #b3b3b3}
+.subjectDepth01 li {display:inline}
+.subjectDepth01 li button {display:none}
+.subjectDepth01 li a {display:inline-block;margin:0 9px 10px 0;padding-left:19px;background:url(../../../../image/ko/solution/common/ico/subjectArrow.png) no-repeat 6px 4px;color:#333}
+.subjectDepth01 li.selected a {background:url(../../../../image/ko/solution/common/ico/subjectArrowFirst.png) no-repeat 0 1px}
+
+.subjectDepth01.depthDropDown p {display:none}
+
+.subjectDepth02 {margin-bottom:20px;border-bottom:1px solid #e6e6e6;background:url(../../../../image/ko/solution/common/bg/subjectBg.gif) no-repeat 0 0}
+.subjectDepth02 div {overflow:hidden;}
+.subjectDepth02 .subjectOdd {border-top:1px solid #e6e6e6;overflow:hidden;}
+.subjectDepth02 .subjectEven {border-top:1px solid #e6e6e6;overflow:hidden;}
+
+.subjectDepth02 dt {position:relative;float:left;width:170px;min-height:16px;overflow:hidden;padding:10px 20px;background:#eee;line-height:22px}
+.subjectDepth02 dt a {display:block;padding-right:20px;background:url(../../../../image/ko/solution/common/ico/subjectArrowMore.png) no-repeat right center;font-size:16px;color:#1a1a1a}
+.subjectDepth02 dt button {display:none;width:18px;height:18px;padding:0;border:0;background:url(../../../../image/ko/solution/common/ico/subjectArrowMore.png) no-repeat right center;cursor:pointer;outline:none}
+.subjectDepth02 dd ul {min-height:16px;padding:10px 20px;overflow:hidden;}
+.subjectDepth02 dd li {float:left;padding-left:10px;margin:3px 15px 3px 0;background:url(../../../../image/ko/solution/common/ico/subjectDot.png) no-repeat left 5px}
+.subjectDepth02 dd a {display:inline-block;font-size:14px;color:#4d4d4d}
+ 
+.subjectDepth03 ul {overflow:hidden;padding:20px 20px 10px 20px;margin-bottom:20px;background:#eee;border:1px solid #e6e6e6;border-top:1px solid #b3b3b3}
+.subjectDepth03 li {display:inline}
+.subjectDepth03 li button {display:none}
+.subjectDepth03 li a {display:inline-block;margin:0 20px 10px 0;padding-left:20px;background:url(../../../../image/ko/solution/common/ico/subjectRadio.png) no-repeat 0 1px;color:#333}
+.subjectDepth03 li.selected a {background:url(../../../../image/ko/solution/common/ico/subjectRadioOn.png) no-repeat 0 1px}
+
+.subjectDepth03.depthDropDown p{display:none}
+
+@media screen and (min-width:0px) and (max-width:767px){
+	.subjectDepth01 ul {padding:0;border:1px solid #e6e6e6;border-top:0 none}
+	.subjectDepth01 li {display:block;padding:10px 20px 10px 14px;margin:0;border-top:1px solid #e6e6e6}
+	.subjectDepth01 li a {color:#1a1a1a;margin:0;}
+	.subjectDepth01 li.selected a {background:url(../../../../image/ko/solution/common/ico/subjectArrow.png) no-repeat 6px 4px}
+	
+	.subjectDepth01.depthDropDown {position:relative;margin-bottom:20px;z-index:10}
+	.subjectDepth01.depthDropDown p {display:block;height:22px;padding:8px 15px;background:#4460a9 url(../../../../image/ko/solution/common/btn/subjectArrowOn.png) no-repeat 97% center;font-size:20px;color:#fff;cursor:pointer}
+	.subjectDepth01.depthDropDown p.open {background:#4460a9 url(../../../../image/ko/solution/common/btn/subjectArrowOff.png) no-repeat 97% center !important}
+	.subjectDepth01.depthDropDown ul {display:none;position:absolute;width:100%;left:0;top:38px;border:0 none}
+	.subjectDepth01.depthDropDown li {padding:10px 15px;background:#4460a9;border-top:1px solid #314d95;color:#fff}
+	.subjectDepth01.depthDropDown li.selected {display:none}
+	.subjectDepth01.depthDropDown li a {display:block;background:none;padding:0;color:#fff}
+	
+	.subjectDepth02 {border:1px solid #e6e6e6;border-bottom:0 none;background:none}
+	.subjectDepth02 div {border:0 none;margin-top:0}
+	.subjectDepth02 dl {float:none !important;width:100%;border:1px solid #e6e6e6;border-left:0 none;border-right:0 none;margin-top:-1px}
+	.subjectDepth02 dl:first-child {}
+	.subjectDepth02 .subjectEven {margin-left:0}
+	.subjectDepth02 .subjectEven dt, .subjectDepth02 .subjectEven dd {border:0 none}
+	
+	.subjectDepth02 dt {float:none;width:auto;padding:10px 15px}
+	.subjectDepth02 dd ul {padding:15px}
+	.subjectDepth02 dt a {float:left;background:none}
+	.subjectDepth02 dt button {position:absolute;top:12px;right:12px;display:block;background:url(../../../../image/ko/solution/common/ico/tableOn.png) no-repeat right center}
+	.subjectDepth02 dl.open button {position:absolute;top:12px;right:12px;background:url(../../../../image/ko/solution/common/ico/tableOff.png) no-repeat right center}
+	
+	.subjectDepth03 ul {padding:0;border:1px solid #e6e6e6;border-top:0 none}
+	.subjectDepth03 li {display:block;padding:10px 20px 10px 14px;margin:0;border-top:1px solid #e6e6e6}
+	.subjectDepth03 li a {color:#1a1a1a;margin:0;}
+	.subjectDepth03 li.selected a {background:url(../../../../image/ko/solution/common/ico/subjectArrow.png) no-repeat 6px 4px}
+	
+	.subjectDepth03.depthDropDown {position:relative;margin-bottom:20px;z-index:10}
+	.subjectDepth03.depthDropDown p {display:block;height:22px;padding:8px 15px;background:#4460a9 url(../../../../image/ko/solution/common/btn/subjectArrowOn.png) no-repeat 97% center;font-size:20px;color:#fff;cursor:pointer}
+	.subjectDepth03.depthDropDown p.open {background:#4460a9 url(../../../../image/ko/solution/common/btn/subjectArrowOff.png) no-repeat 97% center !important}
+	.subjectDepth03.depthDropDown ul {display:none;position:absolute;width:100%;left:0;top:38px;border:0 none}
+	.subjectDepth03.depthDropDown li {padding:10px 15px;background:#4460a9;border-top:1px solid #314d95;color:#fff}
+	.subjectDepth03.depthDropDown li.selected {display:none}
+	.subjectDepth03.depthDropDown li a {display:block;background:none;padding:0;color:#fff}
+}
+
+
+/* 리스트형 */
+/* @media screen and (max-width:1024px){
+ #divWrapper {min-width:100%}
+}
+
+#divTotalSearch {background:#fff}
+#divTotalSearch .totalSearch {height:118px;background:#305ed6;border-top:1px solid #d6d6d6}
+#divTotalSearch .searchInner {width:1040px;padding:20px 0 0 0;margin:0 auto}
+#divTotalSearch .searchForm {float:left;position:relative;width:610px}
+#divTotalSearch fieldset {float:left;background:#fff;border:3px solid #214ec4;border-right:0 none}
+
+#divTotalSearch .searchOption {width:100%;padding-top:10px;background:none;border:0 none;color:#fff}
+#divTotalSearch .searchOption span {position:relative;display:inline-block;padding-left:19px}
+#divTotalSearch .searchOption span input {position:absolute;left:0;top:2px;width:13px;height:13px}
+#divTotalSearch .searchOption .searchSelect {float:left}
+#divTotalSearch .searchOption .searchSelect span {margin-right:30px}
+#divTotalSearch .searchOption .refine {float:right}
+#divTotalSearch .searchOption .refine span {margin-left:30px}
+
+#divTotalSearch .keyword {width:528px;height:16px;padding:14px 10px;border:0 none;-webkit-border-radius:0;line-height:1}
+#divTotalSearch .searchBtn {position:absolute;right:0;top:0;height:50px;padding:0 2px 0 1px;border:0 none;background:#214ec4;-webkit-border-radius:0}
+
+#divTotalSearch .searchBtns {float:left;padding:14px 0 0 0}
+#divTotalSearch .searchBtns ul {overflow:hidden}
+#divTotalSearch .searchBtns li {float:left;margin-left:50px}
+#divTotalSearch .searchBtns li:first-child {margin-left:68px}
+#divTotalSearch .searchBtns li a {display:block;height:49px;text-indent:-9999em}
+#divTotalSearch .searchBtns .myCart {position:relative}
+#divTotalSearch .searchBtns .myCart .cnt {position:absolute;top:4px;left:25px;width:25px;height:17px;padding:10px 0 0 2px;background:url(../../../../image/ko/solution/common/bg/cartCntBg.png) no-repeat;text-align:center;text-indent:0;font-size:11px;color:#fff}
+
+
+#divTotalSearch .searchBtns .searchDetail a {width:49px;background:url(../../../../image/ko/solution/common/btn/briefSearch.png) no-repeat;}
+#divTotalSearch .searchBtns .myHistory a {width:75px;background:url(../../../../image/ko/solution/common/btn/briefHistory.png) no-repeat left bottom}
+#divTotalSearch .searchBtns .myCart a {width:49px;background:url(../../../../image/ko/solution/common/btn/briefCart.png) no-repeat left bottom}
+#divTotalSearch .searchBtns .myLib a {width:37px;background:url(../../../../image/ko/solution/common/btn/briefMyLib.png) no-repeat left bottom}*/
+
+/* @media screen and (min-width:768px) and (max-width:1024px){
+#divTotalSearch {margin-bottom:60px}
+#divTotalSearch .totalSearch {height:auto}
+#divTotalSearch .searchInner {width:100%}
+#divTotalSearch .searchForm {float:none;overflow:hidden;width:728px;height:85px;margin:0 auto;}
+#divTotalSearch .keyword {width:645px;background:none}
+#divTotalSearch .searchBtns {float:none;background:#456bcf;padding:20px 0}
+#divTotalSearch .searchBtns ul {width:100%;text-align:center}
+#divTotalSearch .searchBtns li {float:none;display:inline-block;margin-left:50px}
+#divTotalSearch .searchBtns li:first-child {margin-left:0}
+
+#divContents #divLocation {top:7px}
+} */
+
+/* @media screen and (min-width:0px) and (max-width:767px){
+#divTotalSearch {margin-bottom:0}
+#divTotalSearch .totalSearch {height:auto;}
+#divTotalSearch .searchInner {width:100%;padding:0}
+#divTotalSearch .searchForm {overflow:hidden;float:none;width:100%;height:auto;padding:0;border-bottom:1px solid #214ec4;}
+#divTotalSearch fieldset {width:100%;height:48px;border:1px solid #2f5dd5; border-left:0 none;border-right:0 none}
+#divTotalSearch .keyword {width:100%;height:18px;border:0 none;padding:16px 67px 14px 10px;background:#305ed6;color:#fff}
+#divTotalSearch .searchBtn {width:57px;height:50px;padding:0;}
+
+#divTotalSearch .searchOption {display:none}
+
+#divTotalSearch .searchBtns {float:none;width:100%;padding:10px 0;background:#456bcf}
+#divTotalSearch .searchBtns ul {width:244px;margin:0 auto;border-left:1px solid #214ec4}
+#divTotalSearch .searchBtns li {width:60px;height:50px;margin:0 !important;border:1px solid #214ec4;border-left:0 none;-webkit-box-sizing:border-box;box-sizing:border-box}
+#divTotalSearch .searchBtns .searchDetail a {background:url(../../../../image/ko/solution/common/btn/briefSearchM.png) no-repeat;}
+#divTotalSearch .searchBtns .myHistory a {background:url(../../../../image/ko/solution/common/btn/briefHistoryM.png) no-repeat left bottom}
+#divTotalSearch .searchBtns .myCart a {background:url(../../../../image/ko/solution/common/btn/briefCartM.png) no-repeat left bottom}
+#divTotalSearch .searchBtns .myLib a {background:url(../../../../image/ko/solution/common/btn/briefMyLibM.png) no-repeat left bottom}
+#divTotalSearch .searchBtns a {width:100% !important;height:100% !important;background-size:60px 50px !important}
+
+#divTotalSearch .searchBtns .myCart .cnt {top:11px}
+}
+
+.subjectDepth01 ul {overflow:hidden;padding:20px 20px 10px 20px;margin-bottom:20px;background:#eee;border:1px solid #e6e6e6;border-top:1px solid #b3b3b3}
+.subjectDepth01 li {display:inline}
+.subjectDepth01 li button {display:none}
+.subjectDepth01 li a {display:inline-block;margin:0 9px 10px 0;padding-left:19px;background:url(../../../../image/ko/solution/common/ico/subjectArrow.png) no-repeat 6px 4px;color:#333}
+.subjectDepth01 li.selected a {background:url(../../../../image/ko/solution/common/ico/subjectArrowFirst.png) no-repeat 0 1px}
+
+.subjectDepth01.depthDropDown p {display:none}
+
+.subjectDepth02 {margin-bottom:20px;background:url(../../../../image/ko/solution/common/bg/subjectBg.png) no-repeat right bottom}
+.subjectDepth02 div {overflow:hidden;border:1px solid #e6e6e6;margin-top:-1px}
+.subjectDepth02 .subjectOdd {float:left;border-right:1px solid #e6e6e6;}
+.subjectDepth02 .subjectEven {float:right;margin-left:-1px}
+.subjectDepth02 .subjectEven dt, .subjectDepth02 .subjectEven dd {border-left:1px solid #e6e6e6;}
+
+.subjectDepth02 dl {width:50%;border-bottom:0}
+.subjectDepth02 dt {overflow:hidden;padding:10px 20px;background:#eee;}
+.subjectDepth02 dt a {display:block;background:url(../../../../image/ko/solution/common/ico/subjectArrowMore.png) no-repeat right center;font-size:16px;color:#1a1a1a}
+.subjectDepth02 dt button {display:none;width:18px;height:18px;padding:0;border:0;background:url(../../../../image/ko/solution/common/ico/subjectArrowMore.png) no-repeat right center;cursor:pointer;outline:none}
+.subjectDepth02 dd ul {padding:15px 20px}
+.subjectDepth02 dd li {padding-left:14px;margin-top:10px;background:url(../../../../image/ko/solution/common/ico/subjectDot.png) no-repeat left 5px}
+.subjectDepth02 dd li:first-child {margin-top:0}
+.subjectDepth02 dd a {display:inline-block;padding-right:20px;font-size:14px;color:#4d4d4d}
+.subjectDepth02 dd a:hover {background:url(../../../../image/ko/solution/common/ico/subjectHoverIco.png) no-repeat right 1px} */
+ 
+/* @media screen and (min-width:0px) and (max-width:767px){
+.subjectDepth01 ul {padding:0;border:1px solid #e6e6e6;border-top:0 none}
+.subjectDepth01 li {display:block;padding:10px 20px 10px 14px;margin:0;border-top:1px solid #e6e6e6}
+.subjectDepth01 li a {color:#1a1a1a;margin:0;}
+.subjectDepth01 li.selected a {background:url(../../../../image/ko/solution/common/ico/subjectArrow.png) no-repeat 6px 4px}
+
+.subjectDepth01.depthDropDown {position:relative;margin-bottom:20px}
+.subjectDepth01.depthDropDown p {display:block;height:22px;padding:8px 15px;background:#4460a9 url(../../../../image/ko/solution/common/btn/subjectArrowOn.png) no-repeat 97% center;font-size:20px;color:#fff;cursor:pointer}
+.subjectDepth01.depthDropDown p.open {background:#4460a9 url(../../../../image/ko/solution/common/btn/subjectArrowOff.png) no-repeat 97% center !important}
+.subjectDepth01.depthDropDown ul {display:none;position:absolute;width:100%;left:0;top:38px;border:0 none;z-index:110}
+.subjectDepth01.depthDropDown li {padding:10px 15px;background:#4460a9;border-top:1px solid #314d95;color:#fff}
+.subjectDepth01.depthDropDown li.selected {display:none}
+.subjectDepth01.depthDropDown li a {display:block;background:none;padding:0;color:#fff}
+
+.subjectDepth02 {border:1px solid #e6e6e6;border-bottom:0 none;background:none}
+.subjectDepth02 div {border:0 none;margin-top:0}
+.subjectDepth02 dl {float:none !important;width:100%;border:1px solid #e6e6e6;border-left:0 none;border-right:0 none;margin-top:-1px}
+.subjectDepth02 dl:first-child {}
+.subjectDepth02 .subjectEven {margin-left:0}
+.subjectDepth02 .subjectEven dt, .subjectDepth02 .subjectEven dd {border:0 none}
+
+.subjectDepth02 dt {padding:10px 15px}
+.subjectDepth02 dd ul {padding:15px}
+.subjectDepth02 dt a {float:left;background:none}
+.subjectDepth02 dt button {float:right;display:block;background:url(../../../../image/ko/solution/common/ico/tableOn.png) no-repeat right center}
+.subjectDepth02 dl.open button {background:url(../../../../image/ko/solution/common/ico/tableOff.png) no-repeat right center}
+} */
+
+.subjectList{margin-left:-1.3%;overflow:hidden}
+.subjectList li{float:left;width:32%;margin-left:1.3%;margin-bottom:16px}
+.subjectList li a{display:table;width:100%;height:68px;margin:0 0 0;color:#444;font-size:16px}
+.subjectList li a span{display:table-cell;width:100%;height:100%;padding:0 30px;border:1px solid #ccc;vertical-align:middle}
+.subjectList li a:hover,.subjectList li a:focus{color:#4f7ac8;box-shadow: 2px 3px 3px 1px #e8e8e8;}
+.subjectList li a:hover span, .subjectList li a:focus span{padding:0 29px;border:2px solid #3c73b4}
+@media screen and (min-width:768px) and (max-width:1024px){
+	.subjectList li{width:48%;}
+}
+@media screen and (min-width:0) and (max-width:767px){
+	.subjectList{margin-left:0}
+	.subjectList li{float:none;width:auto;margin-left:0}
+}

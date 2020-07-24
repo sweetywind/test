@@ -1,0 +1,4 @@
+@charset "utf-8";
+
+/* 서비스별 연락처 */
+.listTable td.email		{width:85px; text-align:center;}

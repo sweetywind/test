@@ -1,0 +1,64 @@
+
+@charset "utf-8";
+
+.searchArea .inputTextType5, .searchArea .btnType5 {margin-bottom:10px}
+.searchArea .datePicker {width:80px}
+.searchArea .selectBox1 {width:auto; min-width:95px}
+.searchArea span.bunch {line-height:2.4em}
+
+.listTable tr th {padding:10px 5px}
+.listTable tr td {padding:14px 4px}
+.listTable td.check				{width:5%; text-align:center;}
+.listTable td.num				{width:5%; text-align:center;}
+.listTable td.title				{width:auto; text-align:left;padding-left:10px;}
+/*
+.listTable td.accession_no	{width:10%; text-align:left;}
+.listTable td.call_no		{width:10%; text-align:left;}
+*/
+.listTable td.loan_date			{width:85px; text-align:left;}
+.listTable td.return_plan_date	{width:85px; text-align:center;}
+.listTable td.overdue_amt		{width:60px; text-align:center;}
+.listTable td.renew_count		{width:65px; text-align:center;}
+.listTable td.lost				{width:60px; text-align:center;}
+
+.period_term	{color:#ff5a5a;}
+
+/* 테이블 타이틀 */
+.listTitle{margin:15px 0;color:#393939;font-size:15px;font-weight:600;text-align:center}
+
+/* 연도별 대출 성향 그래프 */
+.stats{margin:59px 0 0;padding:28px 50px;background-color:#fff;overflow:hidden}
+.stats h4{margin-bottom:20px;color:#343d46;font-size:18px;font-weight:normal}
+.stats table{float:left;width:330px;font-size:13px}
+.stats table th{padding:7px 0 8px;background:url(../../../../image/ko/solution/local/graphListBg.gif) repeat-x 0 100%;color:#767676;font-weight:normal;text-align:left}
+.stats table th span.color{display:inline-block;margin-right:10px;min-width:45px;color:#fff;text-align:center}
+.stats table th span.color0{background-color:#0ca686}
+.stats table th span.color1{background-color:#29972c}
+.stats table th span.color2{background-color:#73a104}
+.stats table th span.color3{background-color:#9e9919}
+.stats table th span.color4{background-color:#d67f0e}
+.stats table th span.color5{background-color:#ed5f50}
+.stats table th span.color6{background-color:#d8486a}
+.stats table th span.color7{background-color:#c042a1}
+.stats table th span.color8{background-color:#875bc3}
+.stats table th span.color9{background-color:#4173d9}
+.stats table th span.color10{background-color:#2390cf}
+.stats table td{background:url(../../../../image/ko/solution/local/graphListBg.gif) repeat-x 0 100%;color:#767676;text-align:right}
+.stats table td span{font-weight:600}
+.stats > div{float:right;width:400px;height:400px}
+
+/* Tablet */
+@media screen and (min-width:768px) and (max-width:1024px){
+	.statistics{padding:34px 25px}
+	.stats{padding:28px 40px}
+	.stats table{width:280px}
+	.stats > div{width:300px;height:300px}
+}
+
+/* Mobile */
+@media screen and (min-width:0px) and (max-width:767px){
+	.stats{margin:20px 0 0;padding:28px 20px}
+	.stats table{float:none;width:100%}
+	.stats > div{float:none;width:100%;height:300px;margin-top:20px}
+	
+}

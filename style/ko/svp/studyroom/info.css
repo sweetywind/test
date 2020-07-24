@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/* 스터디룸예약 */
+
+/* 스터디룸 탭메뉴 */
+div.tabs{font-size:0;margin-bottom:20px;}
+div.tabs strong{display:none;color:#fff;height:27px;text-align:left;padding:8px 20px 0 20px;cursor:pointer;font-weight:normal;font-size:14px;}
+div.tabs ul{font-size:14px;display:inline-block;}
+div.tabs ul li{float:left;}
+div.tabs ul li a{display:inline-block;height:27px;text-align:center;padding:8px 20px 0 20px}
+div.tabs ul li:first-child a{background-image:none}
+div.tabs li.on a{background:#658499;color:#fff;}
+@media (min-width:0px) and (max-width:768px){
+	div.tabs{font-size:0;position:relative;}
+	div.tabs strong{display:block;background:#658499 url(../../../../image/ko/solution/common/ico/faqArrow.png) no-repeat right -108px;}
+	div.tabs ul{display:none;position:absolute;top:35px;left:0;z-index:100;background:#658499;width:100%;border-top:1px solid #48687e;}
+	div.tabs ul li{float:none;border-bottom:1px solid #48687e}
+	div.tabs ul li a{display:block;height:27px;text-align:left;padding:8px 20px 0 20px;background:none;color:#fff;} 
+	div.tabs ul.on{display:block;}
+	div.tabs li.on{display:none;background:none;color:none;}
+	div.tabs strong.on{background:url(../../../../image/ko/solution/common/ico/faqArrow.png) no-repeat right -157px #4460a9;}
+}
+
+/* 날짜선택 */
+.dateSelect{height:35px;margin-bottom:10px}
+.dateSelect > div{float:left}
+.dateSelect > div input{float:left;height:33px;padding:0 5px;border:1px solid #ccc;text-align:center}
+.dateSelect > div input.datePicker{width:100px}
+.dateSelect > div input.selectBtn{margin-left:5px;padding:0 10px;height:35px;background-color:#ccc;color:#fff;overflow:visible}
+a.allClose{float:right;display:inline-block;height:33px;padding:0 33px 0 9px;border:1px solid #ccc;color:#666;font-sieze:13px;line-height:33px;background:url(../../../../image/ko/solution/common/studyroom/roomInfoClose.png) no-repeat 70px 50%}
+a.allOpen{float:right;display:inline-block;height:33px;padding:0 33px 0 9px;border:1px solid #ccc;color:#666;font-sieze:13px;line-height:33px;background:url(../../../../image/ko/solution/common/studyroom/roomInfoOpen.png) no-repeat 70px 50%}
+
+/* 스터디룸명, 인원 */
+.room{margin-bottom:5px}
+.floorInfo{position:relative;background-color:#ababab;color:#fff;font-size:14px;font-weight:600}
+.room.on .floorInfo{background-color:#848484}
+.floorInfo p{position:relative;min-height:20px;padding:14px 70px 13px 20px;color:#fff;font-size:14px}
+.floorInfo p .floor{position:absolute;top:0;left:0;width:80px;height:100%;font-size:16px;text-align:center;background-color:#8b8b8b;line-height:47px}
+.room.on .floorInfo p .floor{background-color:#676767}
+.floorInfo p .limit{font-weight:normal;font-size:13px}
+.floorInfo .roomInfoDetail{position:absolute;top:17px;right:53px}
+.floorInfo .roomInfoDetail img{vertical-align:top}
+.floorInfo .infoBtn{position:absolute;top:17px;right:20px;width:13px;height:13px;background:url(../../../../image/ko/solution/common/studyroom/roomInfoShow.png) no-repeat 50% 50%;text-indent:-9999px;overflow:hidden}
+.room.on .floorInfo .infoBtn{background-image:url(../../../../image/ko/solution/common/studyroom/roomInfoHide.png)}
+@media screen and (min-width:0) and (max-width:767px){
+	.floorInfo p{padding:14px 65px 13px 15px;font-size:20px}
+	.floorInfo p .limit{display:none}
+	.floorInfo .roomInfoDetail{right:38px}
+	.floorInfo .infoBtn{right:15px}
+}
+.roomStatMsg{display:inline-block;font-weight:normal;background-color:#eee;color:#ff0000;padding:3px 5px;font-size:13px;margin-left:10px;}
+
+/* 스터디룸정보 */
+.reserve{display:none;padding:10px 0 20px 0;border-left:1px solid #d7d7d7;border-right:1px solid #d7d7d7;border-bottom:1px solid #676767}
+.room.on .reserve{display:block}
+@media screen and (min-width:0) and (max-width:767px){
+	.reserve{padding-top:0}
+}
+
+/* 스터디룸 이용안내 및 사진 */
+.picture{position:relative;padding:0 10px 0 274px}
+.picture img{position:absolute;top:0;left:10px;width:256px;height:143px;border:1px solid #b5b5b5;vertical-align:top}
+.picture > div{min-height:127px;padding:8px 20px;border:1px solid #e6e6e6;background-color:#eee;line-height:16px}
+.picture > div .roomInfo{color:#333;font-size:14px}
+.picture > div .infoTit{margin-top:5px;color:#fe0000;font-size:14px}
+.picture > div ul li{color:#333;font-size:13px}
+@media screen and (min-width:768px) and (max-width:1024px){
+	.picture{padding-left:330px}
+	.picture img{width:313px;height:215px}
+	.picture > div{min-height:175px;padding:20px}
+}
+@media screen and (min-width:0) and (max-width:767px){
+	.picture{padding:0}
+	.picture img{position:static;width:100%;height:auto;border:none;border-bottom:1px solid #d7d7d7}
+	.picture > div{min-height:0;padding:20px;border:none;border-bottom:1px solid #d7d7d7}
+}
+
+/* 예약시간 선택 */
+.reserveTime{margin-top:10px}
+.reserveTime ul{padding:0 5px;overflow:hidden}
+.reserveTime ul li{float:left;width:103px;height:67px;margin:0 4px 9px 5px;background-color:#f0f0f0;border:1px solid #bbb;font-size:12px;text-align:center}
+.reserveTime ul li p.time{margin-top:17px;margin-bottom:8px;color:#808080;font-weight:600}
+.reserveTime ul li p.reserveStatus{color:#808080}
+.reserveTime ul li.available{border:1px solid #079fff;background-color:#e1f6fc}
+.reserveTime ul li.available p.time{color:#1a1a1a}
+.reserveTime ul li.available p.reserveStatus{color:#0079c5}
+.reserveTime ul li.available p.reserveStatus input{vertical-align:middle}
+.reserveBtn{margin-top:10px;text-align:center}
+.reserveBtn input{display:inline-block;height:40px;margin:0 5px;padding:0 19px;border:1px solid #585858;color:#1a1a1a;font-size:15px;font-weight:600;vertical-align:top;line-height:38px;background-color:#fff}
+.reserveBtn a{display:inline-block;height:38px;margin:0 5px;padding:0 19px;border:1px solid #585858;color:#1a1a1a;font-size:15px;font-weight:600;vertical-align:top;line-height:38px}
+@media screen and (min-width:0) and (max-width:767px){
+	.reserveTime{margin-top:0}
+	.reserveTime ul{padding:0;overflow:hidden}
+	.reserveTime ul li{float:none;width:auto;height:auto;margin:0;padding:10px 20px;border:none;border-bottom:1px solid #d7d7d7;font-size:15px;text-align:left;overflow:hidden}
+	.reserveTime ul li.available{border:none;border-bottom:1px solid #d7d7d7}
+	.reserveTime ul li p{float:left;}
+	.reserveTime ul li p.time{margin:0;font-weight:normal}
+	.reserveTime ul li p.reserveStatus{position:relative;float:right;padding-right:27px;}
+	.reserveTime ul li p.reserveStatus input{position:absolute;top:2px;right:0}
+	.reserveBtn input{height:30px;padding:0 15px;line-height:30px}
+}
+
+/* 그룹 */
+.groupRemark {width: auto;margin-bottom: 10px;padding: 15px;background: #f2f2f2;line-height: 1.5em}

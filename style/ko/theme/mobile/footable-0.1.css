@@ -1,0 +1,26 @@
+﻿.footable.breakpoint > tbody > tr > td.expand {
+  background:url(/image/ko/local/tableDownBtnBg.png) no-repeat 97% 50%;
+  padding-left: 40px;
+}
+.footable.breakpoint > tbody > tr.footable-detail-show > td.expand {
+  background:url(/image/ko/local/tableUpBtnBg.png) no-repeat 97% 50%;
+}
+
+.footable.breakpoint > tbody > tr:hover:not(.footable-row-detail) {
+  cursor: pointer;
+}
+
+
+.footable > tbody > tr > td.footable-cell-detail {
+  border-left: none;
+}
+.footable > thead > tr > th.footable-first-column, .footable > thead > tr > td.footable-first-column,
+.footable > tbody > tr > td.footable-first-column {
+  border-left: none;
+}
+
+.footable > tbody img {
+  vertical-align:middle;
+}
+
+

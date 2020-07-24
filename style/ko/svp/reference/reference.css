@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+.reference{padding-top:30px}
+.reference h3{margin-bottom:20px;padding-left:13px;border-left:4px solid #007768;color:#007768;font-size:22px;line-height:22px}
+.reference h3 a{color:#007768}
+
+.depth2{margin-bottom:30px;padding-bottom:15px}
+.depth2:hover{background:url(../../../../image/ko/solution/common/reference/listBg.png) repeat-x 0 100%}
+.depth2 > div{padding:30px;border:1px solid #e6e6e6}
+.depth2 > div p.url{margin-bottom:10px}
+.depth2 > div p.url a{color:#07469b}
+.depth2 > div p.detail{position:relative;padding-right:25px;line-height:21px;overflow:hidden;text-overflow:ellipsis}
+.depth2 > div p.detail.on{height:auto !important;padding-right:0;white-space:normal !important;overflow:visible}
+
+.depth3{margin-bottom:20px}
+.depth3 > ul{overflow:hidden}
+.depth3 > ul > li{float:left;width:50%;margin-bottom:5px}
+.depth3 ul li > div{padding-bottom:15px;}
+.depth3 ul li div dl{padding:15px 30px;border:1px solid #bbb}
+.depth3 ul li.odd div{margin-right:10px}
+.depth3 ul li.even div{margin-left:10px}
+.depth3 ul li dl dt{height:45px;margin-bottom:10px;color:#4c4c4c;font-size:18px}
+.depth3 ul li dl dt a{color: #007768}
+.depth3 ul li dl dd.url{height:35px;margin-bottom:10px}
+.depth3 ul li dl dd.url a{color:#07469b}
+.depth3 ul li dl dd > ul > li{margin-top: 30px;}
+.depth3 ul li dl dd > ul > li:first-child{margin-top: 0;}
+.depth3 ul li dl dd.detail{position:relative; white-space:normal !important;}
+.depth3 ul li dl dd.detail > ul{min-height: 78px;}
+.depth3 ul li dl dd.detail.on{height:auto !important;padding-right:0;white-space:normal !important;overflow:visible}
+@media screen and (max-width:1024px){
+	.reference{margin:0 20px;}
+}
+@media (min-width:0px) and (max-width:767px){
+	.reference{margin:0 10px;}
+	.depth3 ul li{float:none;width:auto}
+	.depth3 ul li.odd div{margin-right:0}
+	.depth3 ul li.even div{margin-left:0}
+}
+
+.reference .detail .close{display:none}
+
+.reference a.open{display:none;position:absolute;top:0;right:0}
+.reference a.open img{margin:-6px 0 0 0;vertical-align:bottom}
+.reference a.close{margin-left:5px}
+.reference a.close img{margin:-6px 0 0 0;vertical-align:bottom}

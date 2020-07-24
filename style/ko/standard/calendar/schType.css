@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+/* 일정 타입(월간,주간,목록) */
+.scheduleType ul{border:1px solid #ccc;height:33px;padding:0 10px;}
+.scheduleType ul li{float:left;margin-left:10px;}
+.scheduleType ul li:first-child{margin:0}
+.scheduleType ul li span{display:none}
+.scheduleType ul li img{vertical-align:middle;width:14px;height:14px;}
+.schTypeSelect{display:none;}
+@media (min-width:0) and (max-width:767px){
+	.schTypeSelect{display:block;border:1px solid #ccc;padding:0 10px;height:33px}
+	.scheduleType{position:relative;}
+	.scheduleType ul{display:none;position:absolute;top:34px;right:0;width:88px;background-color:#fff;height:auto;z-index:20}
+	.scheduleType ul li{float:none;margin:0}
+	.scheduleType ul li span{display:inline;margin-left:10px;}
+	.schTypeSelect img{vertical-align:middle;width:7px;height:4px;}
+	.schTypeSelect img:first-child{width:14px;height:14px;margin-right:5px}
+}

@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.listTable tbody .chk  {width:3%}
+.listTable tbody .num {width:3%}
+.listTable tbody .dds_no {width:10%}
+.listTable tbody .user_name {width:7%}
+.listTable tbody .user_id {width:10%}
+.listTable tbody .title {width:auto;padding-left:10px;text-align:left}
+.listTable tbody .author {width:10%}
+.listTable tbody .page {width:5%}
+.listTable tbody .input_date {width:10%}
+.listTable tbody .status {width:10%}
+.listTable tbody .remark {width:10%}

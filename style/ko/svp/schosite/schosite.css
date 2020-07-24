@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/****학술기관****/
+/* 목록 */
+.eResource table{width:100%;border-collapse:collapse;}
+.eResource table thead{display:none}
+.eResource table thead th{height:40px;padding:10px 8px;background-color:#f3f3f3;border:1px solid #d7d7d7 !important;border-top-color:#b3b3b3;color:#595959}
+.eResource table tbody td{padding:25px 8px;border:1px solid #d7d7d7 !important;text-align:center}
+.eResource table tbody td.explain{padding:25px 30px;text-align:left}
+.eResource table td.manual img{width:30px;height:30px}
+.eResource table td a.shortcut{display:inline-block;padding:6px 10px 4px;border:1px solid #06a79f;color:#06a79f;font-size:15px;font-family:NBGB, sans-serif;line-height:100%}
+.eResource table td ul{text-align:left}
+.eResource table td ul li.organBold{padding-bottom:5px;font-weight:600;color:#1a6de1}
+.eResource table td ul li.organBold a{color:#de810d}
+.inActiveList{margin-top:40px}
+.inActiveList > p.inActiveTitle{font-size:15px;margin-bottom:20px;font-family:NBGB, sans-serif}
+@media screen and (min-width:0px) and (max-width:767px){
+	.mobileTable > tbody > tr > td.footable-cell-detail{text-align:left}
+	.mobileTable > tbody > tr > td.footable-cell-detail img{width:30px;height:30px}
+	input.inputTextType1{width:100%}
+}
+
+/* 작성 */
+.boardWrite table input{vertical-align:middle}
+.editor .editorTitle{margin-bottom:5px;color:#727272;font-size:1.167em}
+
+/* 상세 */
+#divDetails .detailTitle{padding:15px 20px 15px 20px;border-bottom:1px solid #bdc6cf;border-top:1px solid #bdc6cf;background:#f1f4f6;font-size:1.2em;font-weight:bold;}
+#divDetails .detailTitle img{vertical-align:middle}
+#divDetails .detail{margin:25px 20px 0 20px;}
+#divDetails .detail span a:hover{color:#e99400;}
+#divDetails .explain{margin-top:30px;padding:15px 0 15px 0;border-top:1px solid #bdc6cf}

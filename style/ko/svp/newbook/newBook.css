@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+.listInfo{overflow:hidden;}
+.listInfo2 img {height:28px;vertical-align:top}
+.paging {margin-top:20px}
+.searchArea .selectBox1 {width:95px}
+
+.newBook ul {overflow:hidden}
+.newBook li {position:relative;float:left;width:50%;margin-bottom:20px}
+.newBook li.even {float:right}
+.newBook li div {position:relative;height:133px;padding:20px 126px 20px 20px;border:1px solid #e6e6e6}
+.newBook li.even div {margin-left:10px}
+.newBook li.odd div {margin-right:10px}
+.newBook .book {position:absolute;top:20px;right:20px;width:96px;height:133px}
+.newBook .book img {width:96px;height:133px}
+.newBook li .num {float:left;display:block;width:30px;height:100%}
+.newBook li dl {margin-left:30px}
+.newBook li dt {overflow:hidden;max-height:62px;margin-bottom:6px}
+.newBook li dd {margin-bottom:6px}
+.newBook li dd span {display:none;width:0;height:0;font-size:0;line-height:0;overflow:hidden;border:0;visibility:hidden}
+.newBook li .last-child {margin-bottom:0}
+.newBook li a {color:#1a1a1a;font-size:18px}
+.newBook .noBook{padding: 14px 0;border-top:1px solid #b3b3b3;border-bottom:1px solid #e6e6e6;text-align:center;}
+
+/* 책이미지 좌측으로 할경우 */
+.newBook.leftList div {padding:20px 20px 20px 126px}
+.newBook.leftList .book {position:absolute;top:20px;left:20px}
+
+@media screen and (min-width:0px) and (max-width:1024px){
+.newBook li {float:none !important;width:auto}
+.newBook li.even div {margin-left:0}
+.newBook li.odd div {margin-right:0}
+}
+
+@media screen and (min-width:0px) and (max-width:767px){
+.searchArea .limitSearchBtn {margin-bottom:10px}
+.searchArea .limitSearchBtn a {background-position:0 2px}
+.searchArea form {padding-top:10px;border-top:1px solid #e6e6e6}
+
+.newBook li {overflow:hidden}
+.newBook li div {height:auto;min-height:96px;padding-right:100px}
+.newBook li .num {height:100%}
+.newBook li dl {overflow:hidden;height:auto}
+.newBook li dt {max-height:100%}
+.newBook .book {width:70px;height:96px}
+.newBook .book img {width:70px;height:96px}
+
+/* 책이미지 좌측으로 할경우 */
+.newBook.leftList div {padding-left:100px}
+}

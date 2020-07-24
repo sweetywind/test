@@ -1,0 +1,48 @@
+.listtable td.num {
+	width: 3%;
+	text-align: center;
+}
+
+.listtable td.title {
+	width: 25%;
+	text-align: left;
+}
+
+.listtable td.author {
+	width: 12%;
+	text-align: left;
+}
+
+.listtable td.loct {
+	width: 12%;
+	text-align: center;
+}
+
+.listtable td.call_no {
+	width: 12%;
+	text-align: center;
+}
+
+.listtable td.accessio_no {
+	width: 8%;
+	text-align: center;
+}
+
+.listtable td.loan_date {
+	width: 8%;
+	text-align: center;
+}
+
+.listtable td.return_plan_date {
+	width: 8%;
+	text-align: center;
+}
+
+.listtable td.renew_count {
+	width: 5%;
+	text-align: center;
+}
+.listtable td.overdue_amt {
+	width: 6%;
+	text-align: center;
+}

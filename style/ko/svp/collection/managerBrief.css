@@ -1,0 +1,99 @@
+@charset "utf-8";
+.managerBrief {margin-bottom:70px}
+
+.managerHeader {overflow:hidden;padding:0 0 0 20px;margin-bottom:1px;background:#f9f9f9;border:1px solid #dbdbdb}
+.managerHeader .back {float:left;height:38px;padding-left:13px;background:url(../../../../image/ko/solution/common/ico/profileArrow.png) no-repeat 0 16px;line-height:40px}
+.managerHeader .btn {float:right}
+.managerHeader .btn button {float:left;display:block;width:38px;height:38px;padding:0;margin:0;border:0 none;border-left:1px solid #ddd;text-indent:-9999em;cursor:pointer}
+.managerHeader .btn .listDown {background:url(../../../../image/ko/solution/common/btn/managerBtnDown.png) no-repeat}
+.managerHeader .btn .listUp {background:url(../../../../image/ko/solution/common/btn/managerBtnUp.png) no-repeat}
+
+.managerBrief ul {overflow-y:scroll;height:210px;padding:20px;background:#f9f9f9;border:1px solid #dbdbdb}
+.managerBrief li {position:relative;padding-left:23px;margin-bottom:3px}
+.managerBrief li.selected {color:#248bd8}
+.managerBrief li input {position:absolute;left:0;top:7px;width:13px;height:13px;vertical-align:-2px}
+.managerBrief .btnType4 {height:23px;padding:0 8px;margin:0 0 0 10px;background:#fff;line-height:25px;vertical-align:1px}
+
+
+#divSearchMenu {height:40px;border-bottom:1px solid #248bd8;margin-bottom:30px}
+#divSearchMenu ul {overflow:hidden}
+#divSearchMenu li {float:left;width:119px;height:39px;border:1px solid #248bd8;border-left:0 none;font-size:16px;text-align:center}
+#divSearchMenu li a {display:block;height:100%;color:#848e96;line-height:2.5em}
+#divSearchMenu li:first-child {border-left:1px solid #248bd8;}
+#divSearchMenu li.selected {background:#248bd8}
+#divSearchMenu li.selected a {color:#fff}
+
+.advancedSearch select {background:#fff;-webkit-border-radius:0}
+.advancedSearch {line-height:1}
+.advancedSearch .searchKeyword {height:35px;margin-bottom:10px}
+.advancedSearch .searchKeyword input, .advancedSearch .searchKeyword .selectBox1 {float:left}
+.advancedSearch .selectSearchItem {width:150px;margin-right:10px}
+.advancedSearch .inputSearchKeyword {width:630px;margin-right:10px;background:#fff;-webkit-border-radius:0}
+.advancedSearch .selectBoolean {width:110px}
+.advancedSearch .btnLanguage {width:78px;text-align:center;color:#51421a;background-color: #fece4c;;border:1px solid #f5c238;line-height: 2.5em}
+.advancedSearch .btnLanguage.selected {font-weight:bold}
+
+.searchLimit {padding:30px 0 0 0}
+.searchLimit dl {overflow:hidden}
+.searchLimit dt {float:left;width:140px;padding:0 20px 0 0;text-align:right}
+.searchLimit dd {padding-left:160px}
+
+.searchLimitSelect {margin-bottom:13px}
+.searchLimitSelect:first-child {margin-bottom:11px}
+.searchLimitSelect li {float:left;width:130px;margin-bottom:8px}
+.searchLimitSelect li input {vertical-align:-2px}
+
+.searchLimitCondition {margin-bottom:10px}
+.searchLimitCondition:last-child {margin-bottom:0}
+.searchLimitCondition dt {line-height:35px}
+.searchLimitCondition select {width:150px}
+.searchLimitCondition .bunch {line-height:2.4em}
+.searchLimitCondition .datePicker {width:98px;padding:0 10px;}
+
+
+/* 다국어 레이어 */
+.languageWrap {position:relative;width:100%;z-index:10}
+.languageWrap  .language{display:none;position:absolute;top:-1px;left:0px;width:545px;height:185px;padding:20px 30px 40px 30px;border:1px solid #b3b3b3;background-color:#efefef}
+.languageWrap  .languageContent {float:left;width:100%}
+.languageWrap  .languageSelect {float:left;width:127px;height:144px;padding:7px 0;border:1px solid #deded5;border-right:0 none;font-size:13px;color:#2d2c2a;background-color:#fff;overflow:auto;}
+.languageWrap .languageSelect li {padding:6px 20px}
+.languageWrap  .languageSelect li.selected {background:url(../../../../image/ko/solution/common/ico/languageSelectArrow.png) no-repeat 12px center;font-weight:bold}
+.languageWrap  .selectContent {display:none;float:left;width:375px;height:130px;padding:14px 20px;background-color:#fff;border:1px solid #deded5;z-index:11;}
+.languageWrap  .selectContent a {display:inline-block;width:14px;padding:6px 0;text-align:center}
+.languageWrap  #ETCKEYLayer {display:block;}
+.languageWrap .divPopup {background-color:#f0f0ea;border-top:3px solid;border-color:#b21b1b;min-width: 500px;height: 266px;padding:8px 0 0 0;}
+.languageWrap  .popupTitie {margin-bottom:10px;font-weight:bold;cursor:move;font-size:16px}
+.languageWrap  .languageClose {position:absolute;right:30px;bottom:14px}
+.languageWrap  .languageClose a {display:block;padding-right:19px;background:url(../../../../image/ko/solution/common/ico/languageClose.png) no-repeat right center}
+
+.listTable .author{text-align:left}
+.listTable .publisher{text-align:left}
+.listTable .isbn{text-align:left}
+
+.recomOpt{padding:40px;border:1px solid #e6e6e6}
+.recomOpt fieldset{margin-bottom:20px;}
+.recomOpt fieldset label{color:#707070;font-size:14px;width:60px;display:inline-block}
+.recomOpt fieldset input{height:33px;border:1px solid #d1d0cf;vertical-align:middle}
+.recomOpt fieldset select{border:1px solid #d1d0cf;vertical-align:middle}
+.recomOpt .basopt{height:35px;}
+.recomOpt .multipleSelect{height:300px}
+.recomOpt .multipleSelect1{width:270px}
+.recomOpt .multipleSelect2{width:300px}
+.recomOpt .multipleSelect3{width:600px}
+.recomBtn{text-align:center}
+
+@media (min-width:768px) and (max-width:1024px){
+	.recomOpt .multipleSelect1{width:200px}
+	.recomOpt .multipleSelect2{width:300px}
+	.recomOpt .multipleSelect3{width:450px}
+}
+
+@media (min-width:0px) and (max-width:767px){
+	.recomOpt{padding:20px 10px}
+	input.inputTextType3{width:100%;padding:0;margin-bottom:5px}
+	.recomOpt .basopt{width:100%}
+	.recomOpt fieldset label{display:block;margin-bottom:10px}
+	.recomOpt .multipleSelect1{width:100%;margin-bottom:5px}
+	.recomOpt .multipleSelect2{width:100%}
+	.recomOpt .multipleSelect3{width:100%}
+}

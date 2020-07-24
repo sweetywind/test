@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* 가나다리스트 */
+
+.atoz{border:1px solid #e6e6e6;background-color:#eee;margin-bottom:40px;}
+.atoz div{margin:0 0 8px 0;text-align:center}
+.atoz div:first-child{margin:10px 0 0 0}
+.atoz a{display:inline-block;width:30px;height:30px;margin:0 0 2px 2px;background-color:#fff;border:1px solid #ddd;color:#1a1a1a;line-height:2.2em}
+.atoz a:hover{font-weight:600;border:1px solid #000}
+.atoz a.atozTotal,.atoz a.atozEtc{width:64px}
+.atoz a.selected{background-color:#2ed8de;border:1px solid #1fcbd1;color:#fff;font-weight:600}
+.atozTitle{font-size:14px;background:url(../../../../image/ko/solution/common/ico/limitSearchBg.png) no-repeat 0 0;padding:0 20px 0 45px;height:33px;}
+.atozTitle a{display:block;color:#000;background:url() no-repeat 0 0;}
+.selectedAtoz{display:none;color:#1a1a1a;font-size:16px;font-weight:600;margin:40px 0 10px;padding-left:15px;background:url(../../../../image/ko/solution/common/subTitleBg.gif) no-repeat 0 1px}
+.inputTextType1{width:278px;}
+@media screen and (min-width:0px) and (max-width:767px){
+	.atoz{display:none;margin-bottom:10px;background:none;border:none;}
+	.atoz div{width:275px;margin:0 auto;text-align:left}
+	.atoz div:first-child{margin:0 auto}
+	.atoz div a{text-align:center}
+	.atoz div a:firtst-child{}
+	.selectedAtoz{display:block;}
+}

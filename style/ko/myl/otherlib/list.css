@@ -1,0 +1,11 @@
+@charset "utf-8";
+.mobileTable td.num				{width:5%;	text-align:center;}
+.mobileTable td.title			{width:35%;	text-align:left;}
+.mobileTable td.author			{width:10%;	text-align:left;}
+.mobileTable td.accession_no	{width:10%; text-align:left;}
+.mobileTable td.call_no			{width:10%; text-align:left;}
+.mobileTable td.location		{width:20%; text-align:left;}
+.mobileTable td.ans_date		{width:5%; text-align:center;}
+.mobileTable td.status_name		{width:5%; text-align:center;}
+
+#sw {width:75%; text-align:left;}

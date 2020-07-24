@@ -1,0 +1,56 @@
+@charset "utf-8";
+.dataSearch{width:600px}
+@media screen and (min-width:0px) and (max-width:767px){
+	.dataSearch{width:100%}
+}
+
+/*subject Content table*/
+.divNewDate {
+	text-align:right;
+}
+
+.divSubjectContent {
+	margin-bottom: 30px;
+	border-bottom: 1px solid #ccc
+}
+
+.SubjectContenttable {
+	width: 900px;
+	border-top: 1px solid #ccc;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: 1px solid #ccc;
+	background: #f2f2f2;
+	text-align: center
+}
+
+.SubjectContenttable th {
+	width: 160px;
+	border: 0px;
+	background-color: #ecebe6;
+	padding: 4px 0 4px 12px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px solid #f3f3f2;
+	text-align: left;
+	font-weight: normal;
+}
+
+.SubjectContenttable td {
+	width: auto;
+	border-right: 1px solid #ccc;
+	padding: 5px 15px;
+	text-align: center;
+}
+
+.divWorldSelect {
+	position: absolute;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	visibility: hidden;
+	border: 0
+}

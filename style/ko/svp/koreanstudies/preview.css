@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+body {
+	background-color:#fff;
+	font-family:바탕, 궁서, Dotum,Arial,Tahoma,verdana;
+	color:#000;
+	font-size:1.25em;
+	line-height:160%;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6 { 
+	padding:0;
+	margin:0 
+}
+ol, ul, li {
+	list-style:none  
+}
+h1, h2, h3, h4, h5, h6 { 
+	font-weight:normal; 
+	font-size:1em 
+}
+img, p{
+	border:0;
+	margin:0;
+	padding:0;
+	vertical-align:middle;
+}
+
+#divWrapper{
+	width: 840px;
+	border:6px solid #ddd;
+	margin-top: 100px;
+}
+#divHeader{
+	margin:60px 0 48px 0;
+}
+#divHeader h1{
+	margin-right:12px;
+	margin-bottom:18px;
+	text-align:center;
+}
+#divHeader .address{
+	text-align:center;
+	font-size: 15px;
+}
+#divContent{
+	padding:0px 100px;
+	background:url(/image/ko/solution/local/water.jpg) no-repeat 50% 50%;
+}
+#divContent h1{
+	margin-right:12px;
+	margin-bottom:18px;
+	font-weight:bold;
+	font-size:25px;
+}
+.libraryInfo{
+	display:block;
+	height:180px;
+}
+dl.libraryInfo dt{
+	float: left;
+	display:block;
+	width:230px;
+	clear: both;
+}
+dl.libraryInfo dd{
+	float: left;
+}
+*:first-child+html dl.libraryInfo dd{
+	float:none;
+}
+.writerInfo{
+	display:block;
+	height:100px;
+	margin-left:24px;
+}
+dl.writerInfo dt{
+	float:left;
+	display:inline-block;
+	clear: both;
+}
+dl.writerInfo dd{
+	float: left;
+	display:inline-block;
+	
+}
+*:first-child+html dl.writerInfo dd{
+	float:none;
+}
+.text{
+	display:block;
+	clear: both;
+}
+.textCenter{
+	text-align: center;
+}
+#divFooter{
+	/* position: relative; */
+	margin:36px auto 0px auto;
+	padding:0 100px;
+	text-align: right;
+}
+.stampimg{
+	z-index: 1;
+}
+.stampText{
+	/* position:absolute;
+	top:40px; */
+	text-align:center;
+	z-index: 10;
+}
+
+/* ANCHOR */
+a{
+	color:#5d5d5d;
+	text-decoration:none;
+}
+a:link{
+	color:#595959;
+	text-decoration:none;
+}
+a:visited{
+	color:#5d5d5d;
+	text-decoration:none;
+}
+a:hover{
+	/*color:#0279c6;*/
+	color:#ed6405;
+	text-decoration:none;
+}
+a:active{
+	color:#000000;
+	text-decoration:none;
+}
+
+/*bottom List buttons*/
+#divButtonW{
+	width:auto;
+}
+.divButton{
+	display:block;
+	text-align: center;
+	height:27px;
+	color:#ffffff;
+	margin:8px 0 8px 0 ;
+}
+.divButton a, .divButton a:hover{
+	color:#ffffff;
+}
+.submitButton {
+	height:27px;
+	padding:7px 18px 7px 18px;
+	border:1px solid #236b83;
+	color:#ffffff;
+	font-size:12px;
+	font-weight:bold;
+	background: url(/image/ko/common/btn/buttonbg1.gif);
+	cursor: pointer;
+	line-height:120%;
+}
+.submitButton:hover{
+	height:27px;
+	padding:7px 18px 7px 18px;
+	border:1px solid #236b83;
+	color:#ffffff;
+	font-weight:bold;
+	background: url(/image/ko/common/btn/buttonbg1on.gif); 
+	cursor: pointer;
+	line-height:120%;
+}
+@-moz-document url-prefix() {.submitButton {padding:5px 16px 10px 16px;} }
+@-moz-document url-prefix() {.submitButton:hover{padding:5px 16px 10px 16px;color:#ffffff;} }
+
+*:first-child+html .submitButton, *:first-child+html .submitButton:hover{
+	border-style: none;
+	height:27px;
+	padding:6px 7px 4px 7px;
+	color:#ffffff;
+}
+@-moz-document url-prefix() { a.LinkButton {padding:7px 12px 5px 12px; } }
+@-moz-document url-prefix() { a.LinkButton:hover {padding:7px 12px 5px 12px;color:#ffffff; } }
+@-moz-document url-prefix() { a.LinkButton:active {padding:7px 12px 5px 12px;color:#ffffff; } }
+
+*:first-child+html a.LinkButton, *:first-child+htm a.LinkButton:hover, *:first-child+htm a.LinkButton:active{ 
+	{
+		display:inline-block;
+		height:25px;
+		padding:0px 12px 6px 12px;
+		color:#ffffff;
+	}
+}

@@ -1,0 +1,16 @@
+@charset "utf-8";
+.searchArea .inputTextType5, .searchArea .btnType5 {margin-bottom:10px}
+.searchArea .datePicker {width:80px}
+.searchArea .selectBox1 {width:auto; min-width:100px}
+.searchArea span.bunch {line-height:2.4em}
+
+.listTable tr th {padding:10px 10px}
+.listTable tr td {padding:14px 4px}
+.listTable td.num				{width:5%; text-align:center;}
+.listTable td.set_flag			{width:65px; text-align:center;}
+.listTable td.company			{width:auto; text-align:center;}
+.listTable td.department		{width:auto; text-align:center;}
+.listTable td.subjet_name		{width:auto; text-align:center;}
+.listTable td.professor			{width:auto; text-align:center;}
+.listTable td.title				{width:auto; text-align:left; padding-left:10px;}
+.listTable td.set_count			{width:65px; text-align:center;}

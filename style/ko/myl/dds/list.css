@@ -1,0 +1,23 @@
+@charset "utf-8";
+.searchArea .inputTextType5, .searchArea .btnType5 {margin-bottom:10px}
+.searchArea .datePicker {width:80px}
+.searchArea .selectBox1 {width:auto; min-width:95px}
+.searchArea span.bunch {line-height:2.4em}
+
+.listTable tr th {padding:10px 3px}
+.listTable tr td {padding:14px 3px}
+.listTable thead .check {width:30px}
+.listTable thead .num {width:40px}
+.listTable tbody .check {width:30px}
+.listTable tbody .num {width:40px}
+.listTable tbody .dds_no {width:100px}
+.listTable thead .title {width:auto}
+.listTable tbody .title {width:auto;padding-left:10px;text-align:left}
+.listTable tbody .page {width:10%}
+.listTable tbody .process_date {width:8%}
+.listTable tbody .status {position:relative;width:85px}
+.listTable tbody .user_name {width:10%}
+
+/* 취소사유 */
+.cancelBtn{display:inline-block;padding:2px 4px;margin-top:5px;background-color:#eb7578;font-size:13px;color:#fff !important}
+.cancelReason{display:none;position:absolute;top:65px;right:0;width:130px;padding:10px 20px;border:1px solid #d2d2d2;background-color:#f5f5f5;color:#767676;font-size:13px;z-index:20}

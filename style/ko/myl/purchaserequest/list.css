@@ -1,0 +1,41 @@
+@charset "utf-8";
+.searchArea .inputTextType5, .searchArea .btnType5 {margin-bottom:10px}
+.searchArea .datePicker {width:80px}
+.searchArea .selectBox1 {width:auto; min-width:95px}
+.searchArea span.bunch {line-height:2.4em}
+
+.listTable tr th {position:relative;padding:10px 10px}
+.listTable tr td {padding:14px 4px}
+.listTable td.check			{width:30px; text-align:center;}
+.listTable td.num			{width:50px; text-align:center;}
+.listTable td.title			{width:auto; text-align:left;padding-left:10px;}
+.listTable td.author		{width:15%; text-align:center;}
+.listTable td.request_date	{width:auto; min-width:85px; text-align:center;}
+.listTable td.status_flag	{width:auto; min-width:80px; text-align:center;}
+.listTable td.process_date	{width:auto; min-width:85px; text-align:center;}
+.listTable td.user_remark	{width:10%; text-align:center;}
+
+.processBtn img{vertical-align:top}
+.processGuide{display:none;position:absolute;width:664px;height:228px;top:60px;right:-100px;border:1px solid #b9b9b9;background-color:#fff;z-index:20}
+.processGuide ul{height:96px;margin-top:45px;background-image:url(/image/ko/solution/local/processBg.png);background-repeat:no-repeat;background-position:24px 31px;overflow:hidden;}
+.processGuide ul li{float:left;height:45px;margin-left:22px;color:#303030;font-size:13px;font-family:NanumBarunGothic;font-weight:normal;background:url(/image/ko/solution/local/processCircle.png) no-repeat center 22px;}
+.processGuide ul li:first-child{margin-left:20px;}
+.processGuide ul li.process2{margin-left:48px;}
+.processGuide ul li.process3{margin-left:16px;}
+.processGuide ul li.process4{margin-left:29px;}
+.processGuide ul li.process5{margin-left:38px;}
+.processGuide ul li.process6{margin-left:15px;}
+.processGuide ul li > div{margin-top:36px;}
+.processGuide ul li > div > p{color:#656565;font-size:12px;}
+.processGuide p.popTitle{padding:20px 70px 20px 15px;background-color:#3c88d6;color:#fff;font-size:18px;font-weight:600;text-align:left}
+.processGuide a.popClose{position:absolute;top:18px;right:15px;}
+.processGuide a.popClose img{vertical-align:top}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+	.processGuide{right:-156px}
+}
+
+@media screen and (min-width:0px) and (max-width:767px){
+	.processBtn{display:none}
+	.processGuide{display:none}
+}

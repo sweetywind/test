@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.reference{overflow:hidden}
+.reference > div{overflow:hidden}
+.reference > div > div{float:left;width:50%;margin-bottom:20px}
+.reference > div > div dl{margin-left:10px;border:1px solid #ccc}
+.reference > div > div:first-child dl{margin-right:10px}
+.reference > div > div dl dt{padding:15px 10px;background-color:#f2f2f2;border-bottom:1px solid #ddd;font-weight:600}
+.reference > div > div dl dd ul li{padding:10px;border-top:1px dotted #ccc}
+.reference > div > div dl dd ul li:first-child{border-top:none}
+@media (min-width:0px) and (max-width:767px){
+	.reference > div > div{float:none;width:auto}
+	.reference > div > div dl{margin:0 !important}
+}

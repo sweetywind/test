@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/* 서평 */
+.feedbackW {margin-top: 20px;}
+.feedbackW .notice {height:33px;padding-top: 27px;font-size:13px;color:#737373;}
+.feedbackW .notice span.limitByte {position:absolute; right:20px;}
+.feedbackW .addWrite .noticeStar {display:inline-block;margin-left:12px;font-size:13px;color:#f34e05}
+.feedbackW .starSelect {display:inline-block;width:185px}
+.feedbackW div.starSelect {position:relative;}
+.feedbackW .starSelect img {height:14px}
+.feedbackW .starSelect dt {height:33px;background:#fff;border:1px solid #d1d0cf;line-height:2.8em}
+.feedbackW .starSelect dt a {display:block;padding:0 0 0 10px;background:url(../../../../image/ko/solution/common/ico/selectOpt.png) no-repeat 100% 0}
+.feedbackW .starSelect dd {display:none;position:absolute;top:34px;left:0;width:100%;background:#fff;z-index:100}
+.feedbackW .starSelect ul {overflow-y:scroll;max-height:200px;border:1px solid #d1d0cf;}
+.feedbackW .starSelect li {}
+.feedbackW .starSelect li a {display:block;height:15px;padding:5px 10px}
+.feedbackW .starSelect li:hover a {background:#c8def4}
+.feedbackW .feedbacks {margin-top:0; position: relative;}
+.feedbackW .feedback {border:0 none;padding: 20px 0 15px 0;}
+.feedbackInput {border-top:1px solid #e6e6e6; padding:10px 220px 10px 20px}
+.feedbackInput .writeBtn {right: 120px}
+.feedbackInput .deleteBtn {right: 20px}
+.feedbackW .feedbackWriter {margin-bottom:10px}
+
+.feedbackContent {padding:20px 0 15px 0;border-bottom:1px solid #ededed}
+.feedbackContent dt {margin-bottom:10px;color:#1a1a1a}
+.feedbackList {margin-bottom:10px}
+.feedbackList ul {overflow:hidden}
+.feedbackList li {float:left;padding:0 9px 0 12px;background:url(../../../../image/ko/solution/common/bg/feedbackListLine.png) no-repeat 0 center;font-size:13px;color:#737373}
+.feedbackList li a {display:inline-block;color:#737373}
+.feedbackList li:first-child {padding-left:0;background:none}
+.feedbackList .score img {height:11px}
+.feedbackList .author {color:#1a1a1a}
+.feedbackList .write a {padding-left:16px;background:url(../../../../image/ko/solution/common/ico/replyIcoWrite.png) no-repeat}
+.feedbackList .delete a {padding-left:20px;background:url(../../../../image/ko/solution/common/ico/replyIcoDelete.png) no-repeat 0 1px}
+.feedbackContent {padding-right:20px;line-height:1.5}
+
+/* 서평, 태그 공통 */
+.feedbackW .addWriteBtn {height:33px;font-size:13px;color:#737373; right:20px;}
+.feedbackW .addWriteBtn button {display: inline-block;padding: 0 10px;line-height: 23px;color: #fff;background-color:#ff7e71;border: none;}
+.feedbackW .msgCheck {border: 1px solid #44b149; color:#44b149;}
+.feedbackW .msgParagraph {z-index:100; position: relative; padding: 6px 10px 6px 35px; font-size: 13px;}
+.feedbackW .msgParagraph img {width: 20px; height: 20px; position: absolute; top: 3px; left: 10px;}
+.feedbackW .msgParagraph a {display:inline-block;margin-left:10px;color:#737373;text-decoration:underline}
+
+.addWrite {margin-top:-1px; display: none;}
+.addWrite .addWriteForm {position:relative;padding:30px 20px;background:#f2f2f2;border:1px solid #dbdbdb}
+.addWrite .addWriteForm dd {margin-bottom:5px}
+.addWrite .addWriteForm .tagView {margin:20px 0 5px 4px}
+.addWrite .addWriteForm .inputWrite {width:976px;padding:0 10px;border:1px solid #dbdbdb;color:#737373}
+.addWrite .addWriteForm .textareaWrite {width: 100%;height: 72px;padding:10px;background:#fff;border:1px solid #dbdbdb;color:#737373;font-size:14px;resize:none;box-sizing: border-box;}
+.addWrite .addWriteForm .buttons {margin-top:initial}
+.addWrite .addWriteForm .buttons input {height:35px;background:#fff;font-size:14px}
+.addWrite .addWriteForm span.limitByte {position:absolute; right:20px;}
+.addWrite .editorBtn {position:absolute;right:20px;}
+.addWrite .editorBtn button {padding:0 0 0 16px;border:0 none;background:url(../../../../image/ko/solution/common/ico/editorWriteIco.png) no-repeat left 4px;font-size:13px;color:#737373;outline:none;cursor:pointer;line-height:1.2}
+#reviewEditor {display:none;width:100%;min-height:100px;background:#fff}
+
+.comment .commentContent div.commentBtn button {border: 1px solid #808080;background-color:#fff;color:#4c4c4c;cursor: pointer;}
+
+@media screen and (min-width:0px) and (max-width:767px){
+	/* 서평 */
+	.feedbackW .starSelect {width:100%}
+	.feedbackW .addWrite .noticeStar {display:none}
+	.addWrite .addWriteForm dd {margin-bottom:10px}
+	.addWrite .addWriteForm .tagView, .addWrite .editorBtn {display:none}
+}

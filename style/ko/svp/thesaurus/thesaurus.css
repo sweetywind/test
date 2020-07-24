@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+/* 검색어 입력 */
+.thesaurus .thesaurusSearch{margin-bottom:30px;padding:25px 0;background-color:#f5f5f5;text-align:center;}
+.thesaurus .thesaurusSearch form{display:inline-block;overflow:hidden}
+.thesaurus .thesaurusSearch form label{float:left;margin:20px 25px 0 0;color:#343434;font-size:15px;}
+.thesaurus .thesaurusSearch form input{float:left;}
+.thesaurus .thesaurusSearch form input[type="text"]{width:840px;padding:20px 20px 20px 55px;border:1px solid #e5e5e5;font-size:15px;color:#2e2e2e;line-height:15px;box-sizing:border-box;background:url(../../../../image/ko/solution/common/ico/search.png) no-repeat 15px 50% #fff;}
+.thesaurus .thesaurusSearch form input[type="submit"]{margin-left:6px;font-size:15px;font-weight:600;color:#fff;height:59px;width:84px;background-color:#014099;border:none}
+
+/* Table */
+.thesaurusTables:after{clear:both;content:"";display:block}
+.thesaurusTables table{width:100%;border:1px solid #ddd;border-collapse:collapse;}
+.thesaurusTables table *{margin:0;padding:0;}
+.thesaurusTables table th, .thesaurusTables table td{border:1px solid #ddd}
+.thesaurusTables table thead th{background-color:#f0f5f9;color:#2e2e2e;font-size:15px;font-weight:normal;line-height:58px;}
+.thesaurusTable1{float:left;width:40%;height:100%;}
+.thesaurusTable1 table{border:1px solid #ddd}
+.thesaurusTable1 table td ul{min-height:299px;max-height:514px;overflow-y:auto}
+.thesaurusTable1 table td ul li{margin:20px 0;padding:0 45px}
+.thesaurusTable1 table td ul li a{display:block}
+.thesaurusTable1 table td ul li.on a{color:#cd1455}
+.thesaurusTable2{position:relative;float:left;padding-top:59px;width:60%;margin-left:-1px;box-sizing:border-box;}
+.thesaurusTable2 > div{min-height:300px;max-height:515px;overflow-y:auto;border-bottom:1px solid #ddd}
+.thesaurusTable2 table{border-top:none}
+.thesaurusTable2 table thead th{border:none;height:0;padding:0}
+.thesaurusTable2 table thead th div{width:inherit;position:absolute;top:0;background-color:#f0f5f9;line-height:58px;border:1px solid #ddd}
+.thesaurusTable2 td{padding:10px 20px}
+
+
+.thesaurusTable3{position:relative;padding-top:59px;margin-left:-1px;box-sizing:border-box;}
+.thesaurusTable3 > div{max-height:515px;overflow-y:auto;border-bottom:1px solid #ddd}
+.thesaurusTable3 table{border-top:none}
+.thesaurusTable3 table thead th{border:none;height:0;padding:0}
+.thesaurusTable3 table thead th div{width:inherit;position:absolute;top:0;background-color:#f0f5f9;line-height:58px;border:1px solid #ddd}
+.thesaurusTable3 td{padding:10px 20px}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+	.thesaurus .thesaurusSearch form input[type="text"]{width:500px}
+	.thesaurusTable1 table td ul li{padding:0 20px}
+}
+@media screen and (min-width:0px) and (max-width:767px){
+	.thesaurus .thesaurusSearch{padding:25px 10px;text-align:left;}
+	.thesaurus .thesaurusSearch form{position:relative;display:block;padding-right:90px}
+	.thesaurus .thesaurusSearch form label{display:block;float:none;margin:0 0 15px;}
+	.thesaurus .thesaurusSearch form input[type="text"]{width:100%;background-image:none;padding:20px 10px 20px 10px}
+	.thesaurus .thesaurusSearch form input[type="submit"]{position:absolute;bottom:0;right:0}
+
+	.thesaurusTable1{float:none;width:auto}
+	.thesaurusTable1 table td ul{min-height:0;max-height:300px}
+	.thesaurusTable1 table td ul li{padding:0 20px}
+
+	.thesaurusTable2{float:none;width:auto}
+	.thesaurusTable2 > div{min-height:0;max-height:300px}
+}

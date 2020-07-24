@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+
+/* divTotalSearch */
+#divTotalSearch {background:#fff}
+#divTotalSearch .totalSearch {height:90px;background:#305ed6;border-top:1px solid #d6d6d6}
+#divTotalSearch .searchInner {width:1040px;padding:20px 0 0 0;margin:0 auto}
+#divTotalSearch .searchForm {float:left}
+#divTotalSearch fieldset {float:left;background:#fff;border:3px solid #214ec4;border-right:0 none}
+
+#divTotalSearch .keyword {width:360px;height:43px;padding:0 10px 0 15px;background:url(../../../../image/ko/solution/common/bg/findSearchLine.png) no-repeat 4px 15px;border:0 none;-webkit-border-radius:0;line-height:1}
+/*#divTotalSearch .searchBtn {width:60px;height:50px;padding:0;border:0 none;background:url(../../../../image/ko/solution/common/btn/findSearchbtnP.png) no-repeat;text-indent:-9999em;-webkit-border-radius:0}*/
+#divTotalSearch .searchBtn {width:47px;padding:3px 0 2px 0;border:0 none;background:#214ec4;-webkit-border-radius:0}
+
+#divTotalSearch .selectItem {position:relative;float:left;width:100px;height:44px;background:#fff;-webkit-border-radius:0}
+#divTotalSearch .selectItem .selectBox-label {height:44px !important;display:inline-block;white-space:nowrap;overflow:hidden;line-height:3.2em;padding-left:20px;color:#696969}
+#divTotalSearch .selectItem .selectBox-arrow {position:absolute;top:0;right:0;width:20px;height:44px;background:url(../../../../image/ko/solution/common/btn/selectOptBtn.png) no-repeat}
+.selectItem-selectBox-dropdown-menu {max-height:200px;padding:12px 0;margin-left:-3px;background:#f2f4f9;border:3px solid #214ec4;border-top:0 none}
+.selectItem-selectBox-dropdown-menu li {}
+.selectItem-selectBox-dropdown-menu li a {padding:5px 0 5px 20px;color:#4d4d4d}
+.selectItem-selectBox-dropdown-menu li.selectBox-selected a, .selectItem-selectBox-dropdown-menu li.selectBox-hover a {background-color:#f2f4f9}
+
+#divTotalSearch .searchBtns {float:left;padding:2px 0 0 0}
+#divTotalSearch .searchBtns ul {overflow:hidden}
+#divTotalSearch .searchBtns li {float:left;margin-left:41px}
+#divTotalSearch .searchBtns li:first-child {margin-left:50px}
+#divTotalSearch .searchBtns li a {display:block;height:46px;text-indent:-9999em}
+
+#divTotalSearch .searchBtns .searchHistory a {width:76px;background:url(../../../../image/ko/solution/common/btn/searchHistoryBtn.png) no-repeat;}
+#divTotalSearch .searchBtns .myQuery a {width:62px;background:url(../../../../image/ko/solution/common/btn/myQueryBtn.png) no-repeat left bottom}
+#divTotalSearch .searchBtns .myCart a {width:75px;background:url(../../../../image/ko/solution/common/btn/myCartBtn.png) no-repeat left bottom}
+#divTotalSearch .searchBtns .searchTip a {width:56px;background:url(../../../../image/ko/solution/common/btn/searchTipBtn.png) no-repeat left bottom}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+#divTotalSearch {margin-bottom:60px}
+#divTotalSearch .totalSearch {height:158px}
+#divTotalSearch .searchInner {width:728px}
+#divTotalSearch .searchForm {margin-bottom:20px}
+#divTotalSearch .selectItem {display:none !important}
+#divTotalSearch .keyword {width:643px;padding:0 10px;background:none}
+#divTotalSearch .searchBtns {float:none}
+#divTotalSearch .searchBtns ul {width:420px;margin:0 auto}
+#divTotalSearch .searchBtns li {margin-left:50px}
+#divTotalSearch .searchBtns li:first-child {margin-left:0}
+
+#divContents #divLocation {top:7px} /* TODO */
+}
+
+@media screen and (min-width:0px) and (max-width:767px){
+#divTotalSearch {margin-bottom:0}
+#divTotalSearch .totalSearch {height:auto;}
+#divTotalSearch .searchInner {width:100%;padding:0}
+#divTotalSearch .searchForm {position:relative;overflow:hidden;float:none;height:auto;padding:0;border-bottom:1px solid #214ec4;}
+#divTotalSearch fieldset {width:100%;height:48px;border:1px solid #2f5dd5; border-left:0 none;border-right:0 none}
+#divTotalSearch .selectItem {display:none !important}
+#divTotalSearch .keyword {width:100%;height:20px;border:0 none;padding:16px 67px 12px 10px;background:#305ed6;color:#fff}
+/*#divTotalSearch .searchBtn {position:absolute;top:0;right:0;width:57px;height:50px;background:url(../../../../image/ko/solution/common/btn/findSearchbtnM.png) no-repeat;background-size:100% 100%}*/
+#divTotalSearch .searchBtn {position:absolute;top:0;right:0;width:57px;height:50px;padding:0;}
+
+#divTotalSearch .searchBtns {float:none;width:100%;padding:10px 0;background:#456bcf}
+#divTotalSearch .searchBtns ul {width:244px;margin:0 auto;border-left:1px solid #214ec4}
+#divTotalSearch .searchBtns li {width:60px;height:50px;margin:0 !important;border:1px solid #214ec4;border-left:0 none;-webkit-box-sizing:border-box;box-sizing:border-box}
+#divTotalSearch .searchBtns .searchHistory a {background:url(../../../../image/ko/solution/common/btn/searchHistoryBtnM.png) no-repeat;}
+#divTotalSearch .searchBtns .myQuery a {background:url(../../../../image/ko/solution/common/btn/myQueryBtnM.png) no-repeat left bottom}
+#divTotalSearch .searchBtns .myCart a {background:url(../../../../image/ko/solution/common/btn/myCartBtnM.png) no-repeat left bottom}
+#divTotalSearch .searchBtns .searchTip a {background:url(../../../../image/ko/solution/common/btn/searchTipBtnM.png) no-repeat left bottom}
+#divTotalSearch .searchBtns a {width:100% !important;height:100% !important;background-size:60px 50px !important}
+}

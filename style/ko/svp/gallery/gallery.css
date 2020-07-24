@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* bannerList */
+ul.bannerList {margin-left:-12px;margin-bottom:40px;overflow:hidden;}
+ul.bannerList li.item {border:1px solid #ddd; float:left;margin:0 -2px 11px 11px;width:251px;}
+ul.bannerList li a {display:block;}
+ul.bannerList li div.pic {background:#f2f2f2;position:relative;font-size:0;}
+ul.bannerList li div.pic img {width:100%;}
+ul.bannerList li div.pic span.division {display:inline-block;position:absolute;left:0;bottom:0;font-size:12px;height:19px;padding:5px 15px 5px;background:#05367b;color:#fff;}
+ul.bannerList li div.textBox {padding:15px 19px;color:#4d4d4d;overflow:hidden;background:#fff;}
+ul.bannerList li div.textBox strong {display:block;margin-bottom:5px; font-size:17px;font-weight:510; color:#b15e1f;}
+ul.bannerList li div.textBox span.text {display:block;font-size:14px;margin-bottom:15px;}
+ul.bannerList li div.textBox span.data {float:left;font-size:13px;color:#737373;}
+ul.bannerList li div.textBox span.Inquiry {float:right;font-size:13px;color:#737373;padding-left:22px;background:url(../../../../image/ko/solution/common/ico/thumbnailCntBg.gif) no-repeat left 50%;}
+ul.bannerList .big {height:auto}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+	#divWrapper {min-width:0 !important;}
+	/* bannerList */
+	ul.bannerList {margin-left:-28px;margin-bottom:40px;}
+	ul.bannerList li.item {float:left;margin:0 0 14px 28px;width:224px;}
+	ul.bannerList .big {height:auto}
+
+}
+@media screen and (min-width:0) and (max-width:767px){
+	#divWrapper {min-width:320px !important;}
+	#divContents {width:auto !important;}
+	/* bannerList */
+	ul.bannerList {margin-left:0;margin-bottom:40px;}
+	ul.bannerList li.item {float:none;margin:0 0 14px 0 !important;width:100%;height:auto;box-sizing:border-box}
+	ul.bannerList .big {height:auto}
+
+}
+
+/* 갤러리 상단 메인 이미지 */
+.galleryMain{position:relative;border:8px solid #bdbdbd}
+.galleryMain img{width:100%;;cursor:pointer;vertical-align:top;max-height: 400px;}
+.galleryMain dl{position:absolute;bottom:0;left:0;width:100%;background:url(../../../../image/ko/solution/common/bg/galleryBg.png) repeat 0 0}
+.galleryMain dl dt{padding:20px;color:#ffe42a;font-size:20px}
+.galleryMain dl dd{padding:0 20px 20px 20px;color:#fff;font-size:14px;line-height:23px}
+.galleryBtn{border:1px solid #e6e6e6}
+.galleryBtn ul{overflow:hidden}
+.galleryBtn ul li{float:left;width:50%}
+.galleryBtn ul li a{display:block;height:34px;border-left:1px solid #e6e6e6;line-height:34px;text-align:center;}
+.galleryBtn ul li:first-child a{border-left:none}
+.galleryBtn ul li.galleryTop span{padding-right:15px;background:url(../../../../image/ko/solution/common/bg/galleryTopBg.gif) no-repeat 100% 50%;color:#737373}
+.galleryBtn ul li.galleryMore span{padding-right:15px;background:url(../../../../image/ko/solution/common/bg/gallerymMoreBg.gif) no-repeat 100% 50%;color:#009928}
+@media screen and (min-width:0) and (max-width:1024px){
+	.galleryMain dl{position:static}
+}

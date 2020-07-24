@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+.userInfo{padding:10px 20px 20px 20px;}
+.pwGuide{margin-top:10px;}
+
+@media screen and (max-width:767px){
+	.writeTable th{width:35%;padding:0 10px;}
+}

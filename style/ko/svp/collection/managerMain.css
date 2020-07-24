@@ -1,0 +1,102 @@
+@charset "utf-8";
+.managerMain {overflow:hidden;}
+
+.managerMain .facet {float:left;width: 20%;}
+.managerMain .managerContent {float: left;/* width:700px; */width: 72%;}
+
+
+.managerMain .facet {padding:20px;margin-top:25px;margin-right: 35px;border:1px solid #eee;border-top:1px solid #b3b3b3;border-bottom:1px solid #b3b3b3;}
+.facet h3 {padding-left:29px;background:url(../../../../image/ko/solution/common/ico/treeHeaderClose.png) no-repeat;color:#1a1a1a}
+.facet h3.open {background:url(../../../../image/ko/solution/common/ico/treeHeaderOpen.png) no-repeat}
+
+.treeList {padding-left:3px}
+.treeList ul {display:none}
+
+.facet li {padding-bottom:15px}
+.facet li.last-child:first-child {padding-bottom:15px}
+.facet li li li {padding-bottom:0 !important}
+.facet .last-child .last-child {padding-bottom:15px !important}
+.facet li.open {padding-bottom:0 !important}
+
+.facet li.depth01 {background:url(../../../../image/ko/solution/common/bg/treeLineY.png) repeat-y 5px 0}
+.facet li.depth01:first-child {padding-top:15px}
+.facet li.depth01.last-child {background:none}
+.facet li.depth01.last-child:first-child {background:url(../../../../image/ko/solution/common/bg/treeLineYFirst.png) no-repeat 5px 0}
+
+.facet li a.selected {color:#4a994a; font-weight: bold}
+
+.facet a.folder{display:inline-block;padding-left:20px;background:url(../../../../image/ko/solution/common/ico/folder.gif) no-repeat;font-size:13px}
+.facet a.query{display:inline-block;padding-left:20px;background:url(../../../../image/ko/solution/common/ico/folder_query.gif) no-repeat;font-size:13px}
+.facet a.item{display:inline-block;padding-left:20px;background:url(../../../../image/ko/solution/common/ico/folder_item.gif) no-repeat;font-size:13px}
+
+
+.facet li a span {color:#b3b3b3}
+
+.facet li li.depth02 {padding-left:26px;background:url(../../../../image/ko/solution/common/bg/treeLineY.png) repeat-y 31px 0}
+.facet li li.depth02:first-child {padding-top:15px}
+.facet li li.depth02.last-child {background:none}
+.facet li li.depth02.last-child:first-child {background:url(../../../../image/ko/solution/common/bg/treeLineYFirst.png) no-repeat 31px 0}
+
+.facet li li li {padding-left:45px;padding-top:12px;background:url(../../../../image/ko/solution/common/bg/treeLineYDepth03.png) no-repeat 31px 0}
+.facet li li li.last-child {padding-bottom:15px !important;background:url(../../../../image/ko/solution/common/bg/treeLineYDepth03Last.png) no-repeat 31px 0}
+.facet .treeView {display:inline-block;width:15px;height:13px;padding:0;border:0;margin-left:5px;background:url(../../../../image/ko/solution/common/btn/treeView.png) no-repeat;vertical-align:middle}
+
+.facet li button {display:inline-block;width:16px;height:16px;padding:0;border:0;margin-right:10px;background:url(../../../../image/ko/solution/common/ico/folder_plus.gif) no-repeat;vertical-align:top;text-indent:-9999em;cursor:pointer;outline:none}
+.facet li.open > button {background-image:url(../../../../image/ko/solution/common/ico/folder_minus.gif)}
+
+
+#divContent form fieldset{width:100%;}
+table{width:100%;border:none;border-collapse:collapse;}
+table th{border:none;background-color:#f3f3f3;color:#727272;padding:0;}
+table td{border:none}
+.mustInput {height:15px;margin:0 0 10px 0;padding:0;text-align:right;font-size:13px}
+
+.sentence {clear:both;text-align:right;font-size:13px;margin-bottom:10px}
+.writeTable {border-top:1px solid #b3b3b3;border-bottom:1px solid #b3b3b3;}
+.writeTable th {width:140px;padding:10px 20px;border-top:1px solid #e6e6e6;font-size:14px;text-align:right}
+.essential {color:#f15d80}
+.writeTable td {padding:12px 20px;border-top:1px solid #e6e6e6}
+.writeTable td label {display:inline-block;}
+span.divide{padding:14px 0;}
+.writeTable tbody tr:first-child th{border-top:none}
+.writeTable tbody tr:first-child td{border-top:none}
+.writeTable input[type="radio"]{vertical-align:top}
+.addon input[type="checkbox"]{vertical-align:bottom}
+
+input.inputTextType1 {width:568px}
+textarea {width:568px;height:50px;padding:5px;border:1px solid #e6e6e6;resize:none}
+.selectBox1 {width:150px}
+
+.fileList {width:522px;margin-bottom:12px;border-top:1px solid #b3b3b3}
+.fileList li {position:relative;padding:11px 70px 10px 20px;border:1px solid #e6e6e6;border-top:none}
+.fileList li span {display:inline-block;width:100%;height:16px;vertical-align:middle}
+.fileList .deleteBtn {position:absolute;top:6px;right:20px;display:inline-block;height:23px;padding:0 10px;margin:0;border:1px solid #808080;line-height:25px}
+
+.addFiles{position:relative;}
+.addFileTitle{margin:12px 0 10px;color:#333;font-weight:600}
+.addFiles .findFiles{margin:10px 0;padding-bottom:2px;}
+.addFiles .findFiles input{width:231px;height:34px;vertical-align:top}
+.addFiles .findFiles img{margin:1px 0 0 5px;vertical-align: middle}
+
+#sortable .dragged {
+  position: absolute;
+  opacity: 0.5;
+  z-index: 2000;
+}
+/*태블릿*/
+@media screen and (min-width:768px) and (max-width:1025px){
+	.managerMain .facet{float: none;width:auto;margin-right:0;}
+	.managerMain .managerContent{float:none;width:auto;margin-top:20px;}
+}
+/*모바일*/
+@media screen and (min-width:320px) and (max-width:767px){
+	.managerMain .facet{float: none;width:auto;margin-right:0;}
+	.managerMain .managerContent{float:none;width:auto;margin-top:20px;}
+	.writeTable th{width:20%;padding:12px 10px;font-size:13px;}
+	.writeTable td{width:80%;padding:12px 10px;word-break:break-all}
+	input.inputTextType1{width:auto;}
+}
+
+/* 폴더정렬 */
+.folderSort{margin-bottom:13px;text-align:right;font-size:13px}
+.folderSort img{margin-left:1px}

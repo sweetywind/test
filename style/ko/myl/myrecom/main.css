@@ -1,0 +1,349 @@
+@charset "utf-8";
+
+/* 독서 프로파일링 */
+.myrecom h3{color:#000;font-size:18px;letter-spacing:-0.25px;line-height:100%;font-weight:normal}
+.contentHeader p{margin-top:5px}
+.contentHeader p:first-child{margin-top:0}
+
+/* 추천 컨텐츠 */
+.myrecom h3.title{margin-bottom:15px}
+.myrecom h3 .question img{vertical-align:middle}
+.myrecom .answer{display:none;margin-bottom:25px;padding:20px;border:1px solid #e6e6e6;color:#777;font-size:13px}
+.myrecom .bookNoData{clear:both;height:70px;padding-top:180px;background:url(../../../../image/ko/solution/common/myrecom/noDataBg2.png) no-repeat 50% 20px;text-align:center}
+.myrecom .bookNoData p:first-child{color:#383838;font-size:23px;letter-spacing:-0.5px;line-height: 30px;}
+.myrecom .bookNoData p{color:#707070;font-size:14px}
+.myrecom .recomBooks{position:relative;margin-bottom:40px;padding:15px 40px 15px;border:1px solid #e6e6e6}
+.myrecom .recomBooks .selectOpt{position:relative;float:left;margin-bottom:25px}
+.myrecom .recomBooks .selectOpt > a{display:inline-block;min-width:40px;height:27px;padding:0 40px 0 10px;border:1px solid #d1d1d1;background:url(../../../../image/ko/solution/common/myrecom/optArrow.gif) no-repeat 85% 50%;color:#5a5a5a;font-size:13px;line-height:27px}
+.myrecom .recomBooks .selectOpt ul{display:none;position:absolute;width:100%;top:29px;left:0;background-color:#fff;z-index:10}
+.myrecom .recomBooks .selectOpt ul li{border:1px solid #d1d1d1;border-top:none}
+.myrecom .recomBooks .selectOpt ul li a{display:block;padding:5px 10px;color:#5a5a5a;font-size:13px}
+.myrecom .recomBooks .selectOpt input{padding:0 10px;background-color:#e68c4a;border:none;color:#fff;cursor:pointer;border-radius:0;-webkit-appearance:none}
+.myrecom .recomBooks .settings{float:right;margin:10px -20px 0 0}
+.myrecom .recomBooks .settings > ul > li{position:relative;float:left;margin-left:15px;z-index:10}
+.myrecom .recomBooks .settings > ul > li:first-child{margin-left:0}
+.myrecom .recomBooks .settings .setting form{display:none;position:absolute;top:20px;right:-5px;width:235px;padding:25px 20px 15px;background-color:#fff;border:1px solid #d7d7d7}
+.myrecom .recomBooks .settings .setting form ul li{margin-top:10px}
+.myrecom .recomBooks .settings .setting form ul li:first-child{margin-top:0}
+.myrecom .recomBooks .settings .setting form p{margin-top:25px;text-align:center}
+.myrecom .recomBooks .settings .setting form p input{height:30px;border:none;border-radius:0;background-color:#e68c4a;padding:0 15px;color:#fff;cursor:pointer;-webkit-appearance:none}
+.myrecom .recomBooks .books{position:relative;clear:both;width:auto;height:290px;overflow:hidden}
+.myrecom .recomBooks .books ul{position:absolute;top:0;left:0;height:290px;overflow:hidden}
+.myrecom .recomBooks .books ul li{position:relative;float:left;width:143px;height:290px;text-align:center;}
+.myrecom .recomBooks .books .bookImg{position:relative;display:inline-block;width:140px;height:198px;margin-bottom:15px;padding:1px 2px 2px 1px;background:url(../../../../image/ko/solution/common/myrecom/bookCover.png) no-repeat 0 0}
+.myrecom .recomBooks .books .bookImg img{width:140px;height:198px;}
+.myrecom .recomBooks .books .bookTitle{height:40px;margin-bottom:10px;line-height:20px}
+.myrecom .recomBooks .books .bookTitle a{display:block;color:#303030;font-size:13px}
+.myrecom .recomBooks .books .writer{color:#8b8b8b;font-size:12px;word-wrap:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.myrecom .recomBooks .books ul li > div{position:absolute;top:142px;left:-1px;width:100%}
+.myrecom .recomBooks .books ul li > div div{width:141px;height:57px;margin:0 auto;background:url(../../../../image/ko/solution/common/myrecom/bookBg.png) repeat-x 0 100%;text-align:left;text-indent:15px;line-height:90px}
+.myrecom .recomBooks .books ul li > div a{display:inline-block;width:16px;height:14px;margin-left:5px;text-indent:-9999px;overflow:hidden}
+.myrecom .recomBooks .books ul li > div a:first-child{margin-left:0}
+.myrecom .recomBooks .books ul li > div a.choice1White{width:17px;height:17px;background:url(../../../../image/ko/solution/common/myrecom/choice1BgWhite.png) no-repeat 0 0}
+.myrecom .recomBooks .books ul li > div a.choice2White{width:17px;height:17px;background:url(../../../../image/ko/solution/common/myrecom/choice2BgWhite.png) no-repeat 0 0}
+.myrecom .recomBooks .books ul li > div a.choice3White{background:url(../../../../image/ko/solution/common/myrecom/choice3BgWhite.png) no-repeat 0 0}
+.myrecom .recomBooks .books ul li > div a.choice1White:hover{background-image:url(../../../../image/ko/solution/common/myrecom/choice1BgOn.png)}
+.myrecom .recomBooks .books ul li > div a.choice2White:hover{background-image:url(../../../../image/ko/solution/common/myrecom/choice2BgOn.png)}
+.myrecom .recomBooks .books ul li > div a.choice3White:hover{background-image:url(../../../../image/ko/solution/common/myrecom/choice3BgOn.png)}
+.myrecom .recomBooks .btns a{position:absolute;top:150px}
+.myrecom .recomBooks .btns a.prev{left:10px}
+.myrecom .recomBooks .btns a.next{right:10px}
+.myrecom .recomBooks .more{position:absolute;bottom:-27px;left:0;width:100%;text-align:center;}
+.myrecom .recomBooks .more a{display:inline-block;width:80px;height:25px;border:1px solid #e6e6e6;border-top-color:#fff;line-height:25px;background:url(../../../../image/ko/solution/common/myrecom/bookMore.png) no-repeat 9px 50%;text-align:left;text-indent:30px;color:#676767;font-size:12px}
+.myrecom .recomBooks.on .more a{background-image:url(../../../../image/ko/solution/common/myrecom/bookMoreOff.png)}
+.myrecom .recomBooks .loading{height:240px;text-align:center;display:none;clear:both;}
+.myrecom .recomBooks .loading img{margin-top:70px}
+@media screen and (min-width:768px) and (max-width:1024px){
+	.myrecom .recomBooks .books{width:auto}
+}
+@media screen and (min-width:0px) and (max-width:767px){
+	.myrecom .recomBooks{padding-bottom:15px}
+	.myrecom .recomBooks .books{width:auto;height:220px}
+	.myrecom .recomBooks .books .bookImg{width:100px;height:134px;background:none}
+	.myrecom .recomBooks .books .bookImg img{width:100px;height:134px}
+	.myrecom .recomBooks .books ul li > div{top:79px}
+	.myrecom .recomBooks .books ul li > div div{width:101px}
+}
+
+/* 추천 DVD */
+.recommend{position:relative;margin-bottom:45px;overflow:hidden;padding-bottom:27px}
+.recommend .dvd{position:relative;float:left;width:530px}
+.recommend .dvd h3{margin:2px 0 10px 0;}
+.recommend .dvd h3 a.question4 img{vertical-align:middle}
+.recommend .dvd .answer4{display:none;margin-top:0;border:1px solid #e6e6e6;color:#777;font-size:13px;margin-bottom:10px;padding:10px 20px}
+.recommend .dvd .noData{text-align:center}
+.recommend .dvd .noData p{margin:80px 0 70px;color:#838383;font-size:13px}
+.recommend .dvd a.excel{position:absolute;top:0;right:0}
+.recommend .dvd .dvdLink{margin-bottom:10px;text-align:right}
+.recommend .dvd .dvdLink a{display:inline-block;padding:3px 15px;color:#fff;font-size:13px}
+.recommend .dvd .dvdLink a.newDvd{background-color:#4a994a;}
+.recommend .dvd .dvdLink a.newDvd img{margin:0 -5px 0 5px;}
+.recommend .dvd .dvdLink a.popDvd{background-color:#eca203}
+.recommend .dvd .dvdLink a.popDvd img{margin:0 -5px 0 5px;}
+.recommend .dvd .dvdList{position:relative;padding:5px 20px 5px;background-color:#fafafa;border:1px solid #e9e9e9}
+.recommend .dvd .dvdList > p{margin-bottom:15px;padding-left:10px;color:#5a5a5a;font-size:13px;font-weight:600}
+.recommend .dvd .dvdList ul li{position:relative;padding:9px 0;border-top:1px solid #ddd}
+.recommend .dvd .dvdList ul li:first-child{border-top:none}
+.recommend .dvd .dvdList ul li > a{display:block;margin-right:75px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;word-wrap:normal;color:#5a5a5a;font-size:13px}
+.recommend .dvd .dvdList ul li > a:hover{color:#d75a4a}
+.recommend .dvd .dvdList ul li div{position:absolute;top:9px;right:0}
+.recommend .dvd .dvdList ul li div a{display:inline-block;margin-left:5px;text-indent:-9999px;overflow:hidden}
+.recommend .dvd .dvdList ul li div a.choice1{width:17px;height:17px;background:url(../../../../image/ko/solution/common/myrecom/choice1Bg.png) no-repeat 0 0}
+.recommend .dvd .dvdList ul li div a.choice1:hover{background-image:url(../../../../image/ko/solution/common/myrecom/choice1BgOn.png)}
+.recommend .dvd .dvdList ul li div a.choice2{width:17px;height:17px;background:url(../../../../image/ko/solution/common/myrecom/choice2Bg.png) no-repeat 0 0}
+.recommend .dvd .dvdList ul li div a.choice2:hover{background-image:url(../../../../image/ko/solution/common/myrecom/choice2BgOn.png)}
+.recommend .dvd .dvdList ul li div a.choice3{width:16px;height:15px;background:url(../../../../image/ko/solution/common/myrecom/choice3Bg.png) no-repeat 0 0}
+.recommend .dvd .dvdList ul li div a.choice3:hover{background-image:url(../../../../image/ko/solution/common/myrecom/choice3BgOn.png)}
+.recommend .dvd .dvdList a.dvdMore{position:absolute;bottom:-27px;left:41%;height:25px;padding:0 18px 0 30px;background:url(../../../../image/ko/solution/common/myrecom/bookMore.png) no-repeat 9px 9px #fff;border:1px solid #e9e9e9;color:#676767;font-size:12px;line-height:25px}
+.recommend .dvd .dvdList a.dvdMore.on{background-image:url(../../../../image/ko/solution/common/myrecom/bookMoreOff.png)}
+.recommend .dvd .dvdList a.excel{position:absolute;top:20px;right:20px}
+.recommend .dvd .dvdList .loading{height:180px;text-align:center}
+.recommend .dvd .dvdList .loading img{margin-top:40px}
+@media screen and (min-width:768px) and (max-width:1024px){
+	.recommend .dvd{width:48%}
+	.recommend .dvd .dvdLink{position:static;margin-bottom:15px;}
+}
+@media screen and (min-width:0px) and (max-width:767px){
+	.recommend .dvd{float:none;width:auto;margin-bottom:30px;}
+	.recommend .dvd .dvdLink{position:static;margin-bottom:15px;}
+}
+
+/* 추천 컬렉션 */
+.recommend .collection{position:relative;float:right;width:410px}
+.recommend .collection h3{margin-bottom:10px}
+.recommend .collection h3 a.question5 img{vertical-align:middle}
+.recommend .collection .answer5{display:none;margin-top:0;border:1px solid #e6e6e6;color:#777;font-size:13px;margin-bottom:25px;padding:10px 20px}
+.recommend .collection .noData{position:static;text-align:center}
+.recommend .collection .noData p{margin:80px 0 70px;color:#838383;font-size:13px}
+.recommend .collection ul{margin-top:35px;padding-top:10px;border-top:3px solid #464743}
+.recommend .collection ul li{position:relative;padding:9px 0;border-bottom:1px solid #e0e0e0}
+.recommend .collection ul li > a{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;word-wrap:normal;color:#212121;font-size:14px}
+.recommend .collection ul li > a span.top{color:#ff4646}
+.recommend .collection div{position:absolute;top:9px;right:0}
+.recommend .collection div a{display:inline-block;margin-left:5px;text-indent:-9999px;overflow:hidden}
+.recommend .collection div a.choice1{width:16px;height:15px;background:url(../../../../image/ko/solution/common/myrecom/choice1Bg.png) no-repeat 0 0}
+.recommend .collection div a.choice1:hover{background-image:url(../../../../image/ko/solution/common/myrecom/choice1BgOn.png)}
+.recommend .collection div a.choice2{width:16px;height:15px;background:url(../../../../image/ko/solution/common/myrecom/choice2Bg.png) no-repeat 0 0}
+.recommend .collection div a.choice2:hover{background-image:url(../../../../image/ko/solution/common/myrecom/choice2BgOn.png)}
+.recommend .collection div a.choice3{width:16px;height:14px;background:url(../../../../image/ko/solution/common/myrecom/choice3Bg.png) no-repeat 0 0}
+.recommend .collection div a.choice3:hover{background-image:url(../../../../image/ko/solution/common/myrecom/choice3BgOn.png)}
+.recommend .collection a.excel{position:absolute;top:0;right:0}
+@media screen and (min-width:768px) and (max-width:1024px){
+	.recommend .collection h3{margin-bottom:30px;padding-bottom:30px}
+	.recommend .collection{width:48%}
+}
+@media screen and (min-width:0px) and (max-width:767px){
+	.recommend .collection{float:none;width:auto}
+}
+
+/* 유사한 컨텐츠 */
+.similarContents{position:relative;margin-bottom:50px;padding:20px 0 15px;position:relative;padding:;background-color:#f2f4e8}
+.similarContents h3{margin-bottom:29px;padding-bottom:10px;padding-left:10px;border-bottom:1px solid #d7dbc1}
+.similarContents h3 .question3 img{vertical-align:middle}
+.similarContents .answer3{display:none;margin:-15px 40px 20px;background-color:#fff;border:1px solid #e6e6e6;padding:10px 20px;color:#777;font-size:13px}
+.similarContents .loading{height:220px;text-align:center}
+.similarContents .loading img{margin-top:60px}
+.similarContents > div.book{position:relative;height:220px;margin:0 37px;overflow:hidden}
+.similarContents > div.book ul{position:absolute;top:0;left:0;}
+.similarContents > div.book ul li{position:relative;float:left;width:114px;text-align:center}
+.similarContents > div.book ul li a{display:block;}
+.similarContents > div.book ul li span{display:block}
+.similarContents > div.book ul li span.bookCover{position:relative;width:114px;height:152px;margin:0 auto 9px;background:url(../../../../image/ko/solution/common/myrecom/bookCover2.png) no-repeat 0 0}
+.similarContents > div.book ul li span.bookCover img{position:absolute;top:1px;left:1px;width:108px;height:150px;}
+.similarContents > div.book ul li span.bookTit{margin-bottom:9px;color:#424242;font-size:13px;text-align:center}
+.similarContents > div.book ul li span.writer{color:#acacac;font-size:13px;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;word-wrap:normal}
+.similarContents > div.book ul li > div{position:absolute;top:94px;left:0;width:100%}
+.similarContents > div.book ul li > div div{width:114px;height:57px;margin:0 auto;background:url(../../../../image/ko/solution/common/myrecom/bookBg.png) no-repeat 1px 100%;text-align:left;text-indent:10px;line-height:90px}
+.similarContents > div.book ul li > div a{display:inline-block;width:16px;height:14px;margin-left:5px;text-indent:-9999px;overflow:hidden}
+.similarContents > div.book ul li > div a:first-child{margin-left:0}
+.similarContents > div.book ul li > div a.choice1White{width:17px;height:17px;background:url(../../../../image/ko/solution/common/myrecom/choice1BgWhite.png) no-repeat 0 0}
+.similarContents > div.book ul li > div a.choice2White{width:17px;height:17px;background:url(../../../../image/ko/solution/common/myrecom/choice2BgWhite.png) no-repeat 0 0}
+.similarContents > div.book ul li > div a.choice3White{background:url(../../../../image/ko/solution/common/myrecom/choice3BgWhite.png) no-repeat 0 0}
+.similarContents > div.book ul li > div a.choice1White:hover{background-image:url(../../../../image/ko/solution/common/myrecom/choice1BgOn.png)}
+.similarContents > div.book ul li > div a.choice2White:hover{background-image:url(../../../../image/ko/solution/common/myrecom/choice2BgOn.png)}
+.similarContents > div.book ul li > div a.choice3White:hover{background-image:url(../../../../image/ko/solution/common/myrecom/choice3BgOn.png)}
+.similarContents .btns{position:relative}
+.similarContents .btns a{position:absolute;top:-150px}
+.similarContents .btns a.prev{left:15px}
+.similarContents .btns a.next{right:15px}
+.similarContents a.excel{position:absolute;top:20px;right:10px}
+
+/* 신착도서 */
+.newBook{overflow:hidden;margin-bottom:45px}
+
+/* 관심분야 신착도서 */
+.newBook1{position:relative;float:left;width:530px}
+.newBook1 h3{margin-bottom:30px}
+.newBook1 h3 a.question1 img{vertical-align:middle}
+.newBook1 .answer1{display:none;margin-top:-15px;border:1px solid #e6e6e6;color:#777;font-size:13px;margin-bottom:25px;padding:10px 20px}
+.newBook1 .noData{text-align:center}
+.newBook1 .noData p{margin:110px 0 60px;color:#838383;font-size:13px}
+.newBook1 > div.book{position:relative;height:219px;margin:0 25px;overflow:hidden}
+.newBook1 > div.book ul{position:absolute;top:0;left:0;width:1000px;height:219px}
+.newBook1 > div.book ul li{position:relative;float:left;width:114px;height:219px;text-align:center}
+.newBook1 > div.book ul li a{display:block}
+.newBook1 > div.book ul li span{display:block}
+.newBook1 > div.book ul li span.bookCover{position:relative;width:114px;height:152px;margin:0 auto 9px;background:url(../../../../image/ko/solution/common/myrecom/bookCover2.png) no-repeat 0 0}
+.newBook1 > div.book ul li span.bookCover img{position:absolute;top:1px;left:1px;width:108px;height:150px;}
+.newBook1 > div.book ul li span.bookTit{margin-bottom:9px;color:#424242;font-size:13px;text-align:center}
+.newBook1 > div.book ul li span.writer{color:#acacac;font-size:13px;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;word-wrap:normal}
+.newBook1 > div.book ul li > div{position:absolute;top:94px;left:0;width:100%}
+.newBook1 > div.book ul li > div div{width:114px;height:57px;margin:0 auto;background:url(../../../../image/ko/solution/common/myrecom/bookBg.png) no-repeat 1px 100%;text-align:left;text-indent:10px;line-height:90px}
+.newBook1 > div.book ul li > div a{display:inline-block;width:16px;height:14px;margin-left:5px;text-indent:-9999px;overflow:hidden}
+.newBook1 > div.book ul li > div a:first-child{margin-left:0}
+.newBook1 > div.book ul li > div a.choice1White{width:17px;height:17px;background:url(../../../../image/ko/solution/common/myrecom/choice1BgWhite.png) no-repeat 0 0}
+.newBook1 > div.book ul li > div a.choice2White{width:17px;height:17px;background:url(../../../../image/ko/solution/common/myrecom/choice2BgWhite.png) no-repeat 0 0}
+.newBook1 > div.book ul li > div a.choice3White{background:url(../../../../image/ko/solution/common/myrecom/choice3BgWhite.png) no-repeat 0 0}
+.newBook1 > div.book ul li > div a.choice1White:hover{background-image:url(../../../../image/ko/solution/common/myrecom/choice1BgOn.png)}
+.newBook1 > div.book ul li > div a.choice2White:hover{background-image:url(../../../../image/ko/solution/common/myrecom/choice2BgOn.png)}
+.newBook1 > div.book ul li > div a.choice3White:hover{background-image:url(../../../../image/ko/solution/common/myrecom/choice3BgOn.png)}
+.newBook1 .btns{position:relative}
+.newBook1 .btns a{position:absolute;top:-155px}
+.newBook1 .btns a.prev{left:0}
+.newBook1 .btns a.next{right:0}
+.newBook1 a.excel{position:absolute;top:0;right:25px;}
+.newBook1 .loading{height:180px;text-align:center;display:none;}
+.newBook1 .loading img{margin-top:40px}
+@media screen and (min-width:768px) and (max-width:1147px){
+	.newBook1{float:none;width:auto;margin-bottom:20px}
+	.newBook1 a.excel{position:absolute;top:0;right:0;}
+}
+@media screen and (min-width:0px) and (max-width:767px){
+	.newBook1{float:none;width:auto;margin-bottom:20px}
+	.newBook1 a.excel{position:absolute;top:0;right:0;}
+}
+
+/* 관심저자 신착도서 */
+.newBook2{position:relative;float:right;width:410px}
+.newBook2 h3{margin-bottom:30px}
+.newBook2 h3 .question2{}
+.newBook2 h3 .question2 img{vertical-align:middle}
+.newBook2 .answer2{display:none;margin-top:-15px;border:1px solid #e6e6e6;color:#777;font-size:13px;margin-bottom:25px;padding:10px 20px}
+.newBook2 .noData{text-align:center}
+.newBook2 .noData p{margin:110px 0 60px;color:#838383;font-size:13px}
+.newBook2 > div.book{position:relative;height:219px;margin:0 25px;overflow:hidden}
+.newBook2 > div.book ul{position:absolute;top:0;left:0;width:1000px;height:219px;}
+.newBook2 > div.book ul li{position:relative;float:left;width:114px;height:219px;text-align:center}
+.newBook2 > div.book ul li a{display:block;}
+.newBook2 > div.book ul li span{display:block}
+.newBook2 > div.book ul li span.bookCover{position:relative;width:114px;height:152px;margin:0 auto 9px;background:url(../../../../image/ko/solution/common/myrecom/bookCover2.png) no-repeat 0 0}
+.newBook2 > div.book ul li span.bookCover img{position:absolute;top:1px;left:1px;width:108px;height:150px;}
+.newBook2 > div.book ul li span.bookTit{margin-bottom:9px;color:#424242;font-size:13px;text-align:center}
+.newBook2 > div.book ul li span.writer{color:#acacac;font-size:13px;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;word-wrap:normal}
+.newBook2 > div.book ul li > div{position:absolute;top:94px;left:0;width:100%}
+.newBook2 > div.book ul li > div div{width:114px;height:57px;margin:0 auto;background:url(../../../../image/ko/solution/common/myrecom/bookBg.png) no-repeat 1px 100%;text-align:left;text-indent:10px;line-height:90px}
+.newBook2 > div.book ul li > div a{display:inline-block;width:16px;height:14px;margin-left:5px;text-indent:-9999px;overflow:hidden}
+.newBook2 > div.book ul li > div a:first-child{margin-left:0}
+.newBook2 > div.book ul li > div a.choice1White{width:17px;height:17px;background:url(../../../../image/ko/solution/common/myrecom/choice1BgWhite.png) no-repeat 0 0}
+.newBook2 > div.book ul li > div a.choice2White{width:17px;height:17px;background:url(../../../../image/ko/solution/common/myrecom/choice2BgWhite.png) no-repeat 0 0}
+.newBook2 > div.book ul li > div a.choice3White{background:url(../../../../image/ko/solution/common/myrecom/choice3BgWhite.png) no-repeat 0 0}
+.newBook2 > div.book ul li > div a.choice1White:hover{background-image:url(../../../../image/ko/solution/common/myrecom/choice1BgOn.png)}
+.newBook2 > div.book ul li > div a.choice2White:hover{background-image:url(../../../../image/ko/solution/common/myrecom/choice2BgOn.png)}
+.newBook2 > div.book ul li > div a.choice3White:hover{background-image:url(../../../../image/ko/solution/common/myrecom/choice3BgOn.png)}
+.newBook2 .btns{position:relative}
+.newBook2 .btns a{position:absolute;top:-155px}
+.newBook2 .btns a.prev{left:0}
+.newBook2 .btns a.next{right:0}
+.newBook2 a.excel{position:absolute;top:0;right:25px;}
+.newBook2 .loading{height:180px;text-align:center;display:none;}
+.newBook2 .loading img{margin-top:40px}
+@media screen and (min-width:768px) and (max-width:1147px){
+	.newBook2{float:none;width:auto}
+	.newBook2 a.excel{position:absolute;top:0;right:0;}
+}
+@media screen and (min-width:0px) and (max-width:767px){
+	.newBook2{float:none;width:auto}
+	.newBook2 a.excel{position:absolute;top:0;right:0;}
+}
+
+/* 대출기록없는 일반 이용자 화면 구성 - New Arrival */
+.myrecom .bookList1{position:relative;margin-bottom:40px;padding:30px 40px 15px;border:1px solid #e6e6e6}
+.myrecom .bookList1 .settings{float:right;margin:-20px -30px 0 0}
+.myrecom .bookList1 .settings > ul > li{position:relative;float:left;margin-left:15px;z-index:10}
+.myrecom .bookList1 .settings > ul > li:first-child{margin-left:0}
+.myrecom .bookList1 .books{position:relative;clear:both;width:906px;height:290px;overflow:hidden}
+.myrecom .bookList1 .books ul{position:absolute;top:0;left:0;height:290px;overflow:hidden}
+.myrecom .bookList1 .books ul li{position:relative;float:left;width:143px;height:290px;text-align:center;}
+.myrecom .bookList1 .books .bookImg{position:relative;display:inline-block;width:140px;height:198px;margin-bottom:15px;padding:1px 2px 2px 1px;background:url(../../../../image/ko/solution/common/myrecom/bookCover.png) no-repeat 0 0}
+.myrecom .bookList1 .books .bookImg img{width:140px;height:198px;}
+.myrecom .bookList1 .books .bookTitle{height:40px;margin-bottom:10px;line-heigth:20px}
+.myrecom .bookList1 .books .bookTitle a{display:block;color:#303030;font-size:13px}
+.myrecom .bookList1 .books .writer{color:#8b8b8b;font-size:12px;word-wrap:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.myrecom .bookList1 .books ul li > div{position:absolute;top:142px;left:-1px;width:100%}
+.myrecom .bookList1 .books ul li > div div{width:141px;height:57px;margin:0 auto;background:url(../../../../image/ko/solution/common/myrecom/bookBg.png) repeat-x 0 100%;text-align:left;text-indent:15px;line-height:90px}
+.myrecom .bookList1 .books ul li > div a{display:inline-block;width:16px;height:14px;margin-left:5px;text-indent:-9999px;overflow:hidden}
+.myrecom .bookList1 .books ul li > div a:first-child{margin-left:0}
+.myrecom .bookList1 .books ul li > div a.choice1White{width:17px;height:17px;background:url(../../../../image/ko/solution/common/myrecom/choice1BgWhite.png) no-repeat 0 0}
+.myrecom .bookList1 .books ul li > div a.choice2White{width:17px;height:17px;background:url(../../../../image/ko/solution/common/myrecom/choice2BgWhite.png) no-repeat 0 0}
+.myrecom .bookList1 .books ul li > div a.choice3White{background:url(../../../../image/ko/solution/common/myrecom/choice3BgWhite.png) no-repeat 0 0}
+.myrecom .bookList1 .books ul li > div a.choice1White:hover{background-image:url(../../../../image/ko/solution/common/myrecom/choice1BgOn.png)}
+.myrecom .bookList1 .books ul li > div a.choice2White:hover{background-image:url(../../../../image/ko/solution/common/myrecom/choice2BgOn.png)}
+.myrecom .bookList1 .books ul li > div a.choice3White:hover{background-image:url(../../../../image/ko/solution/common/myrecom/choice3BgOn.png)}
+.myrecom .bookList1 .btns a{position:absolute;top:130px}
+.myrecom .bookList1 .btns a.prev{left:10px}
+.myrecom .bookList1 .btns a.next{right:10px}
+.myrecom .bookList1 .more{position:absolute;bottom:-27px;left:0;width:100%;text-align:center;}
+.myrecom .bookList1 .more a{display:inline-block;width:80px;height:25px;border:1px solid #e6e6e6;border-top-color:#fff;line-height:25px;background:url(../../../../image/ko/solution/common/myrecom/bookMore.png) no-repeat 9px 50%;text-align:left;text-indent:30px;color:#676767;font-size:12px}
+.myrecom .bookList1.on .more a{background-image:url(../../../../image/ko/solution/common/myrecom/bookMoreOff.png)}
+.myrecom .bookList1 .loading{height:240px;text-align:center;display:none;clear:both;}
+.myrecom .bookList1 .loading img{margin-top:70px}
+@media screen and (min-width:768px) and (max-width:1024px){
+	.myrecom .bookList1 .books{width:auto}
+}
+@media screen and (min-width:0px) and (max-width:767px){
+	.myrecom .bookList1 .books{width:auto}
+	.myrecom .bookList1 .books .bookImg{width:100px;height:134px;background:none}
+	.myrecom .bookList1 .books .bookImg img{width:100px;height:134px}
+	.myrecom .bookList1 .books ul li > div{top:79px}
+	.myrecom .bookList1 .books ul li > div div{width:101px}
+}
+
+/* 대출기록없는 일반 이용자 화면 구성 - 추천도서 */
+.myrecom .bookList2{position:relative;margin-bottom:40px;padding:30px 40px 15px;border:1px solid #e6e6e6}
+.myrecom .bookList2 .settings{float:right;margin:-20px -30px 0 0}
+.myrecom .bookList2 .settings > ul > li{position:relative;float:left;margin-left:15px;z-index:10}
+.myrecom .bookList2 .settings > ul > li:first-child{margin-left:0}
+.myrecom .bookList2 .books{position:relative;clear:both;width:906px;height:290px;overflow:hidden}
+.myrecom .bookList2 .books ul{position:absolute;top:0;left:0;height:290px;overflow:hidden}
+.myrecom .bookList2 .books ul li{position:relative;float:left;width:143px;height:290px;text-align:center;}
+.myrecom .bookList2 .books .bookImg{position:relative;display:inline-block;width:140px;height:198px;margin-bottom:15px;padding:1px 2px 2px 1px;background:url(../../../../image/ko/solution/common/myrecom/bookCover.png) no-repeat 0 0}
+.myrecom .bookList2 .books .bookImg img{width:140px;height:198px;}
+.myrecom .bookList2 .books .bookTitle{height:40px;margin-bottom:10px;line-heigth:20px}
+.myrecom .bookList2 .books .bookTitle a{display:block;color:#303030;font-size:13px}
+.myrecom .bookList2 .books .writer{color:#8b8b8b;font-size:12px;word-wrap:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.myrecom .bookList2 .books ul li > div{position:absolute;top:142px;left:-1px;width:100%}
+.myrecom .bookList2 .books ul li > div div{width:141px;height:57px;margin:0 auto;background:url(../../../../image/ko/solution/common/myrecom/bookBg.png) repeat-x 0 100%;text-align:left;text-indent:15px;line-height:90px}
+.myrecom .bookList2 .books ul li > div a{display:inline-block;width:16px;height:14px;margin-left:5px;text-indent:-9999px;overflow:hidden}
+.myrecom .bookList2 .books ul li > div a:first-child{margin-left:0}
+.myrecom .bookList2 .books ul li > div a.choice1White{width:17px;height:17px;background:url(../../../../image/ko/solution/common/myrecom/choice1BgWhite.png) no-repeat 0 0}
+.myrecom .bookList2 .books ul li > div a.choice2White{width:17px;height:17px;background:url(../../../../image/ko/solution/common/myrecom/choice2BgWhite.png) no-repeat 0 0}
+.myrecom .bookList2 .books ul li > div a.choice3White{background:url(../../../../image/ko/solution/common/myrecom/choice3BgWhite.png) no-repeat 0 0}
+.myrecom .bookList2 .books ul li > div a.choice1White:hover{background-image:url(../../../../image/ko/solution/common/myrecom/choice1BgOn.png)}
+.myrecom .bookList2 .books ul li > div a.choice2White:hover{background-image:url(../../../../image/ko/solution/common/myrecom/choice2BgOn.png)}
+.myrecom .bookList2 .books ul li > div a.choice3White:hover{background-image:url(../../../../image/ko/solution/common/myrecom/choice3BgOn.png)}
+.myrecom .bookList2 .btns a{position:absolute;top:130px}
+.myrecom .bookList2 .btns a.prev{left:10px}
+.myrecom .bookList2 .btns a.next{right:10px}
+.myrecom .bookList2 .more{position:absolute;bottom:-27px;left:0;width:100%;text-align:center;}
+.myrecom .bookList2 .more a{display:inline-block;width:80px;height:25px;border:1px solid #e6e6e6;border-top-color:#fff;line-height:25px;background:url(../../../../image/ko/solution/common/myrecom/bookMore.png) no-repeat 9px 50%;text-align:left;text-indent:30px;color:#676767;font-size:12px}
+.myrecom .bookList2.on .more a{background-image:url(../../../../image/ko/solution/common/myrecom/bookMoreOff.png)}
+.myrecom .bookList2 .loading{height:240px;text-align:center;display:none;clear:both;}
+.myrecom .bookList2 .loading img{margin-top:70px}
+@media screen and (min-width:768px) and (max-width:1024px){
+	.myrecom .bookList2 .books{width:auto}
+}
+@media screen and (min-width:0px) and (max-width:767px){
+	.myrecom .bookList2 .books{width:auto}
+	.myrecom .bookList2 .books .bookImg{width:100px;height:134px;background:none}
+	.myrecom .bookList2 .books .bookImg img{width:100px;height:134px}
+	.myrecom .bookList2 .books ul li > div{top:79px}
+	.myrecom .bookList2 .books ul li > div div{width:101px}
+}
+a.link{font-size:14px;color:#0b6a44;text-decoration:underline}
+
+@media (min-width:1025px) and (max-width:1210px){
+	.myrecom .recomBooks .books .bookImg{width:110px;height:156px;background-size:100% 100%;}
+	.myrecom .recomBooks .books .bookImg img{width:110px;height:156px}
+	.myrecom .recomBooks .books ul li > div{top:101px}
+	.myrecom .recomBooks .books ul li > div div{width:110px}
+}

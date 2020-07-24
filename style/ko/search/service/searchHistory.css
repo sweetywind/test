@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+.listtable td.checkbox {
+	width: 5%;
+	text-align: center;
+}
+
+.listtable td.num {
+	width: 5%;
+	text-align: center;
+}
+
+.listtable td.searck_kind {
+	width: 15%;
+	text-align: left;
+}
+
+.listtable td.display_query {
+	width: 38%;
+	text-align: left;
+}
+
+.listtable td.search_range {
+	width: 12%;
+	text-align: left;
+}
+
+.listtable td.total_count {
+	width: 8%;
+	text-align: center;
+}
+
+.listtable td.operator {
+	width: 14%;
+	text-align: center;
+}

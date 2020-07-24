@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* 임시 */
+@media screen and (max-width:1024px){
+#divWrapper {min-width:100%}
+}
+
+.libraryInfo {position:relative;}
+.libraryInfo h4 {height:35px;padding:0 20px 0 10px;background:#4460a9;font-weight:normal;line-height:35px}
+.libraryInfo h4 a {display:block;background:url(../../../../../image/ko/solution/common/ico/libraryListArrowDown.png) no-repeat right 14px;color:#fff}
+.libraryInfo h4.open a {background:url(../../../../../image/ko/solution/common/ico/libraryListArrowUp.png) no-repeat right 14px;}
+.libraryList {display:none;position:absolute;top:35px;width:100%;z-index:100}
+.libraryList li {height:35px;padding:0 0 0 10px;border-top:1px solid #314d95;background:#4460a9;font-weight:normal;line-height:35px}
+.libraryList li a {display:block;color:#fff}
+.libraryMemo {overflow:hidden;padding:20px;margin-bottom:50px;background:#eee;border:1px solid #e6e6e6}
+.libraryMemo .gradeCnt {overflow:hidden;margin-bottom:6px}
+.libraryMemo .grade {float:left}
+.libraryMemo .cnt {float:right}
+.libraryMemo .summary {margin-bottom:5px;color:#1a1a1a;line-height:1.5}
+
+.libraryMemo .buttons {float:right;margin:0;text-align:right}
+.libraryMemo .buttons input {float:left;margin:0 0 0 3px}
+
+.listInfo .listInfo2 p {padding-top:4px}
+.listInfo .listInfo2 img {width:28px;height:28px}
+
+
+.myBookList {clear:both;height:659px;background:url(../../../../../image/ko/solution/common/bg/myLibBg.png) no-repeat;background-size:100% 659px}
+.myBookList ul {height:564px;margin-bottom:40px}
+.myBookList li {float:left;width:25%;height:138px;padding:40px 0 10px 0;text-align:center}
+.myBookList li div {position:relative;display:inline-block;width:96px}
+.myBookList li .num {position:absolute;right:106px;top:3px;width:30px;color:#1a1a1a;text-align:right}
+.myBookList li input {position:absolute;right:106px;top:20px}
+.myBookList li a {position:relative;display:inline-block;padding-top:5px}
+.myBookList li a img {width:96px;height:133px;vertical-align:top}
+.myBookList li .lineBg {display:block;position:absolute;left:0;top:0;width:96px;height:138px;background:url(../../../../../image/ko/solution/common/bg/bookGuide.png) no-repeat;background-size:100% 100%}
+
+.myBookList .bookInfo {display:none;position:relative;top:-37px;width:356px;padding:8px 0 0 0;text-align:left;color:#1a1a1a;z-index:100}
+.myBookList li > div:hover .bookInfo {display:block}
+.myBookList .bookInfoL {left:0;background:url(../../../../../image/ko/solution/common/bg/myBookInfoBgL.png) no-repeat}
+.myBookList .bookInfoR {left:-260px;background:url(../../../../../image/ko/solution/common/bg/myBookInfoBgR.png) no-repeat right top}
+.myBookList .bookInfo h4, .myBookList .bookInfo dl {padding-left:20px;background:#fff;border-left:1px solid #999;border-right:1px solid #999}
+.myBookList .bookInfo h4 {padding:19px 0 12px 20px}
+.myBookList .bookInfo dl {padding-bottom:10px;border-bottom:1px solid #999}
+.myBookList .bookInfo dt {float:left;width:60px;color:#1a1a1a}
+.myBookList .bookInfo dd {margin-bottom:6px}
+.myBookList .bookInfo .type {position:relative;top:-2px;height:17px;padding:2px 0 0 0;margin:0 0 3px 60px}
+.myBookList .bookInfo .type img{vertical-align:middle;margin-right:5px}
+
+.myBookList p {float:right;padding-right:20px}
+.myBookList .selectBox2 {float:left}
+.myBookList .btnType6 {position:relative;margin-left:-1px;}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+.myBookList .bookInfo, .myBookList li > div:hover .bookInfo {display:none}
+}
+
+@media screen and (min-width:0px) and (max-width:767px){
+.myBookList {overflow:hidden;height:auto;padding-bottom:20px;background:url(../../../../../image/ko/solution/common/bg/myLibBgM02.png) repeat-y;background-size:100% 131px}
+.myBookList ul {overflow:hidden;height:auto;margin-bottom:20px;background:url(../../../../../image/ko/solution/common/bg/myLibBgM.png) no-repeat;background-size:100% 131px}
+.myBookList li {width:50%;height:101px;padding:20px 0 10px 0}
+.myBookList li div {display:inline-block;position:relative;width:70px;height:101px}
+.myBookList li .num {right:80px;top:2px}
+.myBookList li input {right:80px;}
+.myBookList li a {padding-top:4px}
+.myBookList li a img {width:70px;height:97px;vertical-align:top}
+.myBookList li .lineBg {width:70px;height:101px}
+
+.myBookList .bookInfo, .myBookList li > div:hover .bookInfo {display:none}
+
+#divWrapper {min-width:320px}
+}

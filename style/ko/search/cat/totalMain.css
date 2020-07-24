@@ -1,0 +1,61 @@
+@charset "utf-8";
+@media screen and (min-width:768px) and (max-width:1024px){
+#divContentsW {padding:0 20px 40px 20px}
+#divContents {width:100%;padding:0}
+}
+@media screen and (min-width:0px) and (max-width:767px){
+#divContentsW {width:100%}
+#divContents {width:100%;padding:0}
+}
+/* 검색 영역 */
+.dataSearch {height:40px;padding:10px 0;margin:60px auto 50px auto;background:#248bd8;text-align:center}
+.dataSearch form {overflow:hidden;width:511px;margin:0 auto}
+.dataSearch fieldset {float:left}
+.dataSearch .keyword {float:left;width:423px;height:14px;padding:12px 5px 12px 5px;border:1px solid #1d80c9;background:#fff}
+.dataSearch .keyword input {width:100%;border:0 none;outline:none}
+.dataSearch .searchBtn {float:left;display:inline-block;width:66px;height:40px;margin-left:10px;background:#1c7fc9;border:1px solid #157cc8;text-align:center;color:#fff}
+
+.totalSearchNotice, .etcSearchNotice {padding:20px 20px 0 20px;border:1px solid #e8e8e8}
+.totalSearchNotice {margin-bottom:20px}
+.etcSearchNotice {padding-bottom:3px}
+.totalSearchNotice h3, .etcSearchNotice h3{margin-bottom:17px;color:#0485e5;font-size:16px}
+.totalSearchNotice p, .etcSearchNotice li {padding-left:15px;margin-bottom:15px;background:url(../../../../image/ko/solution/common/ico/bulTotalMain.png) no-repeat 0 5px;line-height:1.2}
+
+.totalSearchNotice ul {overflow:hidden;padding:0 5px}
+.totalSearchNotice li {float:left;width:131px;margin:0 0 15px 30px}
+.totalSearchNotice li dt {width:100%;height:42px;padding-top:88px;margin-bottom:8px;text-align:center;font-weight:bold;letter-spacing:-1px}
+.totalSearchNotice .item01 {background:url(../../../../image/ko/solution/common/bg/bgTotalMain01.png) no-repeat}
+.totalSearchNotice .item02 {background:url(../../../../image/ko/solution/common/bg/bgTotalMain02.png) no-repeat}
+.totalSearchNotice .item03 {background:url(../../../../image/ko/solution/common/bg/bgTotalMain03.png) no-repeat}
+.totalSearchNotice .item04 {background:url(../../../../image/ko/solution/common/bg/bgTotalMain04.png) no-repeat}
+.totalSearchNotice .item05 {background:url(../../../../image/ko/solution/common/bg/bgTotalMain05.png) no-repeat}
+.totalSearchNotice .item06 {background:url(../../../../image/ko/solution/common/bg/bgTotalMain06.png) no-repeat}
+.totalSearchNotice li dd {margin:0 auto;line-height:1.5}
+
+.totalSearchNotice .item01 dd {width:125px}
+.totalSearchNotice .item02 dd {width:120px}
+.totalSearchNotice .item03 dd {width:120px}
+.totalSearchNotice .item04 dd {width:100px}
+.totalSearchNotice .item05 dd {width:120px}
+.totalSearchNotice .item06 dd {width:110px}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+.totalSearchNotice ul {width:453px;margin:0 auto}
+.totalSearchNotice li {min-height:202px}
+.totalSearchNotice .item01, .totalSearchNotice .item04 {margin-left:0}
+}
+
+
+@media screen and (min-width:0px) and (max-width:767px){
+.dataSearch {padding:10px;margin:20px 0}
+.dataSearch form {position:relative;display:block;width:100%}
+.dataSearch fieldset {float:none;padding-right:86px}
+.dataSearch .keyword {width:100%}
+.dataSearch .searchBtn {position:absolute;right:0;bottom:0}
+
+.totalSearchNotice {padding-bottom:5px}
+.totalSearchNotice ul {padding:0}
+.totalSearchNotice li {float:none;width:100%;margin:0 0 15px 0;background:none !important}
+.totalSearchNotice li dt {height:auto;padding:5px 0;background:#f5f5f5}
+.totalSearchNotice li dd {width:auto !important;padding-left:10px;background:url(../../../../image/ko/solution/common/ico/bulTotalMainM.png) no-repeat 0 9px;}
+}

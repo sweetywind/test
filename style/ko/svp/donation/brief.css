@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/* 가나다리스트 */
+.searchArea{margin: 18px 0 21px 0;}
+.atoz{border:1px solid #e6e6e6;background-color:#eee;margin-bottom:0;}
+.atoz div{margin:0 0 8px 0;text-align:center}
+.atoz div:first-child{margin:10px 0 8px 0}
+.atoz a{display:inline-block;width:27px;height:30px;margin:0 0 2px 2px;background-color:#fff;border:1px solid #ddd;color:#1a1a1a;line-height:2.2em}
+.atoz a:hover{font-weight:600;border:1px solid #000}
+.atoz a.atozTotal,.atoz a.atozEtc{width:64px}
+.atoz a.active{background-color:#35a1b2;border:1px solid #ddd;color:#fff;font-weight:600}
+.atozTitle{font-size:14px;background:url(../../../../image/ko/solution/common/ico/limitSearchBg.png) no-repeat 0 0;padding:0 20px 0 45px;height:33px;}
+.atozTitle a{display:block;color:#000;background:url() no-repeat 0 0;}
+.selectedAtoz{display:none;margin-bottom:10px;padding:10px 20px;background-color:#4460a9;color:#fff}
+.inputTextType1{width:278px;}
+@media screen and (min-width:0px) and (max-width:767px){
+	.atoz{display:none;margin-bottom:10px;background:none;border:none;}
+	.atoz div{width:275px;margin:0 auto;text-align:left}
+	.atoz div:first-child{margin:0 auto}
+	.atoz div a{text-align:center}
+	.atoz div a:firtst-child{}
+	.selectedAtoz{display:block;}
+}
+.atoz div a.all{width: 64px;}
+.mobileTable tr td.detail a{color: #305ed6;}
+.dbSsearch .title{display: inline-block; position: relative; top:11px;}
+td.dbTitle{width:20%; text-align: left;}
+td.content{text-align: left;}
+td.dbTitle img{margin-right:5px;vertical-align:bottom}
+td.linkUrl{width:8%;}
+td.manual{width:8%;}
+span.moreDetail{color: #305ed6; float:right;}
+span.openAccess{border-color:#1c7fca;background:#248bd8;color:#fff;}
+.searchArea input.btnType5{background: url(../../../../image/ko/solution/common/ico/limitSearch.gif) no-repeat 15px 50% #fff}
+.subjectDepth02 dl dt.selected{font-weight:600}
+.subjectDepth02 dl dd ul li.selected{font-weight:600}
+
+/*기부자 리스트*/
+.contributor h3{padding: 11px 26px; font-weight: bold; font-size: 16px; line-height: 18px; color: #fff; background: url(../../../../image/ko/solution/common/donation/titleBg.jpg) no-repeat 0 0; background-size: 100% 100%;}
+.contributor > ul > li{margin-top: 20px; background-color: #f9f9f9;}
+.contributor > ul > li:first-child{margin-top: 0;}
+.contributor .profileBox{position: relative; padding: 22px; min-height: 113px;}
+.contributor .profileImg{position: absolute; top: 22px; left: 22px; height: 112px; border: 1px solid #ccc;}
+.contributor .profileImg img{width: 93px; height: 112px;}
+.contributor .profileBox > .profileText{padding-left: 138px; line-height: 1.75em;}
+@media screen and (min-width:0px) and (max-width:767px){
+	.contributor .profileImg{position: inherit; top: auto; left: auto; width: 93px; margin: auto;}
+	.contributor .profileBox > .profileText{padding-left: 0; padding-top: 20px;}
+}

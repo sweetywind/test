@@ -1,0 +1,109 @@
+@charset "utf-8";
+@media screen and (min-width:768px) and (max-width:1024px){
+#divContentsW {padding:0 20px 40px 20px}
+#divContents {width:100%;padding:0}
+}
+@media screen and (min-width:0px) and (max-width:767px){
+#divContentsW {width:100%}
+#divContents {width:100%;padding:0}
+}
+
+.profile {padding:30px;margin-bottom:20px;border:1px solid #dbdbdb}
+.profile .profileHeader {margin-bottom:20px}
+.profile .profileHeader h3 {margin-bottom:5px;font-size:25px;color:#003777;line-height:1.2}
+.profile .profileHeader h3 span {color:#305ed6}
+.profile .profileHeader p {font-size:20px;color:#737373}
+
+.profile .profileContent {position:relative;overflow:hidden;padding-right:198px;}
+.profile .table {width:100%;word-break:break-all}
+.profile th, .profile td {height:28px;vertical-align:top;line-height:2;color:#4d4d4d;}
+#dlInfo th, #dlInfo td {height:26px;padding:0;line-height:1.8}
+.profile th {background:none;text-align:right}
+.profile #moreInfo th, .profile #dlInfo th {width:100px}
+.profile #marcInfo th {min-width:35px;text-align:center}
+.profile #marcInfo td {min-width:25px}
+.profile #moreInfo td, .profile #dlInfo td {padding:0 0 0 20px;}
+.profile #dlInfo th strong {color:#1a1a1a;font-size:15px}
+.profile table a {color:#305ed6}
+.profile #moreInfo a {text-decoration:underline}
+
+.profile .briefInfo {position:absolute;right:0;top:0;width:178px;padding:9px 0 0 0}
+.profile .briefInfo dt {margin-bottom:10px}
+.profile .briefInfo dt img {width:178px;height:245px}
+.profile .briefInfo dd {margin-bottom:10px}
+.profile .briefInfo dd span {float:right;font-size:30px;color:#f54747}
+.profile .briefInfo dd img {height:23px}
+.profile .briefInfo .addWriteBtn {text-align:right}
+.profile .briefInfo .addWriteBtn a {display:inline-block;height:31px;padding:0 10px;background:#e0985e;color:#fff;line-height:31px}
+.profile .briefInfo .bookBg {position:absolute;left:0;top:0;display:block;width:178px;height:255px;background:url(../../../../image/ko/solution/common/bg/bookGuideL.png) no-repeat;background-size:100% 100%}
+#marcInfo {display:none}
+
+.searchInfo {width:100%}
+.searchInfo .searchHeader {height:40px;padding:0 17px 0 20px;background:#305ed6}
+.searchInfo .searchHeader h3 {color:#fff;font-size:20px;line-height:40px}
+
+.searchContnets {border:3px solid #305ed6;border-top:0 none}
+.searchContnets ul {overflow:hidden;background:url(../../../../image/ko/solution/common/bg/openApiLine.gif) repeat-y 50% 0;}
+.searchContnets li {float:left;position:relative;width:50%;border-bottom:1px solid #e6e6e6;line-height:1.4}
+.searchContnets li p {padding:18px 0 16px 20px;margin-right:140px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.searchContnets span {position:absolute;top:14px;right:20px;vertical-align:middle}
+.searchContnets a {display:inline-block;vertical-align:top}
+.searchContnets .deepLink {height:23px;padding:0 10px;margin-right:3px;border:1px solid #31c2b7;background:#43cbc1;line-height:25px;color:#fff}
+.searchContnets .homeLink img {width:25px;height:25px;vertical-align:top}
+
+@media screen and (min-width:0px) and (max-width:1024px){
+.searchContnets ul {background:none}
+.searchContnets li {float:none;width:100%}
+}
+
+@media screen and (min-width:0px) and (max-width:767px){
+.profile .profileContent {padding:0}
+
+.profile #moreInfo th, .profile #dlInfo th {width:90px}
+
+.profile .briefInfo {position:relative;left:0;width:100%;min-height:0;margin-bottom:40px}
+.profile .briefInfo dl {overflow:hidden}
+.profile .briefInfo dt {width:69px;margin-bottom:0;border:1px solid #dbdbdb}
+.profile .briefInfo dt img {width:69px;height:95px;vertical-align:top}
+.profile .briefInfo dd {margin-left:76px}
+.profile .briefInfo dd img {height:13px}
+.profile .briefInfo dd span {float:left;margin-right:4px;font-size:20px}
+.profile .briefInfo .addWriteBtn {text-align:left}
+.profile .briefInfo .addWriteBtn a {height:23px;padding:0 10px;line-height:25px;font-size:12px}
+.profile .briefInfo .bookBg {display:none;}
+
+.searchContnets li p {padding:12px 18px 14px 18px;margin-right:0;overflow:visible;text-overflow:clip;white-space:normal}
+.searchContnets span {display:block;width:100%;position:relative;left:0;top:0;margin-top:6px}
+}
+
+/* 권호정보 */
+.volumeInfo{position:relative;margin-top:20px;border:1px solid #b3b3b3}
+.volumeInfo .titleArea{padding:0 17px 0 20px;background-color:#b3b3b3}
+.volumeInfo .titleArea h3{font-size:20px;color:#fff;line-height:40px}
+.volumeInfo .volume{padding:16px 19px}
+.volumeInfo .volume .volumePop{position:absolute;top:7px;right:16px;z-index:10}
+.volumeInfo .volume .volumePop > a{display:inline-block;height:23px;padding:0 8px;background-color:#fff;border:1px solid #808080;color:#4c4c4c;font-size:13px;line-height:23px}
+.volumeInfo .volume .volumePop > div{display:none;position:absolute;top:30px;right:0;width:327px;border:1px solid #7c7c7c;background-color:#fff}
+.volumeInfo .volume .volumePop > div p.volumeTitle{padding:15px 15px;background-color:#7c7c7c;color:#fff;font-size:14px}
+.volumeInfo .volume .volumePop > div > div{padding:15px;background-color:#fff}
+.volumeInfo .volume .volumePop > div > div > p{color:#666;font-size:14px}
+.volumeInfo .volume .volumePop > div > div > ul li{margin-top:5px}
+.volumeInfo .volume .volumePop > div > div > ul li:first-child{margin-top:0}
+.volumeInfo .volume .volumePop > div > div > ul li a{color:#666;font-size:14px}
+.volumeInfo .volume .volumePop > div a.volumeClose{position:absolute;top:17px;right:14px}
+.volumeInfo .volume .volumePop > div a.volumeClose img{vertical-align:top}
+.volumeInfo .volume .volumeContent{position:relative;}
+.volumeInfo .volume .volumeContent > div{border:1px solid #d1d0cf;overflow-y:auto}
+.volumeInfo .volume .volumeContent > div.depth1{position:absolute;top:0;left:0;width:258px;height:108px;padding:20px}
+.volumeInfo .volume .volumeContent > div.depth1 ul li{margin-top:10px}
+.volumeInfo .volume .volumeContent > div.depth1 ul li:first-child{margin-top:0}
+.volumeInfo .volume .volumeContent > div.depth1 ul li a{color:#4d4d4d;font-size:14px}
+.volumeInfo .volume .volumeContent > div.depth2{height:118px;margin-left:303px;padding:20px 0 10px 20px;overflow-y:auto}
+.volumeInfo .volume .volumeContent > div.depth2 ul li{float:left;width:33%;margin:0 0 10px 0}
+.volumeInfo .volume .volumeContent > div.depth2 ul li a{color:#1a96d9;font-size:14px;text-decoration:underline}
+@media screen and (min-width:0px) and (max-width:767px){
+	.volumeInfo .volume .volumePop > div{width:308px}
+	.volumeInfo .volume .volumeContent > div.depth1{position:static;width:auto}
+	.volumeInfo .volume .volumeContent > div.depth2{height:50px;margin:5px 0 0}
+	.volumeInfo .volume .volumeContent > div.depth2 ul li{width:50%;margin:0 0 10px 0}
+}

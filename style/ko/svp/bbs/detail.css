@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.comment .commentContent .state0001 {color:#248bd8}
+.comment .commentContent .state0002 {color:#46b048}
+.comment .commentContent .state0003 {color:#ee2b2d}
+
+#share {display:none;position:absolute;right:0;top:50px;width:178px;border:0 none;z-index:100}
+#share .shareInner {padding:20px 30px 15px 30px;background:#fff;border:1px solid #c6c6c6;}
+.boardInfo .writeInfo #share span{top:auto;right:auto}
+.addthis_toolbox .shareInner a {position:relative;display:block;height:13px;padding:8px 0 5px 24px;color:#aaa;font-size:13px}
+.addthis_toolbox .at4-icon {display:block;position:absolute;left:0;top:5px;width:16px;height:16px;text-indent:-9999em}
+.aticon-rss {background:url(../../../../image/ko/solution/common/btn/addthis_button_rss.png) no-repeat}
+.aticon-facebook {background:url(../../../../image/ko/solution/common/btn/addthis_button_facebook.png) no-repeat}
+.aticon-myspace {background:url(../../../../image/ko/solution/common/btn/addthis_button_myspace.png) no-repeat}
+.aticon-twitter {background:url(../../../../image/ko/solution/common/btn/addthis_button_twitter.png) no-repeat}
+.aticon-favorites {background:url(../../../../image/ko/solution/common/btn/addthis_button_favorites.png) no-repeat}
+.aticon-google {background:url(../../../../image/ko/solution/common/btn/addthis_button_google.png) no-repeat}
+.addthis_toolbox .more {padding-top:10px}
+.addthis_toolbox .more a {padding:5px 0;text-align:center}
+.addthis_toolbox .more span {display:none}
+
+@media screen and (min-width:0px) and (max-width:767px){
+	#share{top:34px;left:0}
+	.boardInfo .writeInfo #share span{position: absolute;top: auto;right: auto; margin-left: 0;}
+}

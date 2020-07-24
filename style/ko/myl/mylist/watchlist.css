@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.listTable tr th {padding:10px 10px}
+.listTable tr td {padding:14px 4px}
+.listTable td.num			{width:50px; text-align:center;}
+.listTable td.list_name		{width:auto; min-width:150px; padding-left:10px;}
+.listTable td.description	{width:auto; text-align:left;}
+.listTable td.item_cnt		{width:auto; min-width:100px; text-align:center;}
+.listTable td.watch_cnt		{width:auto; min-width:100px; text-align:center;}
+.listTable td.user_id		{width:auto; min-width:80px; text-align:center;}
+.listTable td.update_date	{width:auto; min-width:80px; text-align:center;}
+.listTable td.function		{width:auto; min-width:80px; text-align:center;}

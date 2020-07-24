@@ -1,0 +1,27 @@
+@charset "utf-8";
+.searchArea .inputTextType1, .searchArea .btnType5 {margin-bottom:10px}
+.searchArea .datePicker {width:115px}
+.searchArea .selectBox1 {width:auto; min-width:108px}
+.searchArea span.bunch {line-height:2.4em}
+
+.listTable tr th {padding:10px 0}
+.listTable tr td {padding:14px 0}
+.listTable thead .no {width:50px}
+.listTable thead .pollTitle {width:43.5%}
+.listTable tbody .pollTitle {padding-left:15px;text-align:left}
+.listTable .pollBtn {padding:0 8px;background:#fff;line-height:26px}
+
+@media screen and (min-width:0px) and (max-width:767px){
+.searchArea .limitSearchBtn {margin-bottom:10px}
+.searchArea .limitSearchBtn a {background-position:0 2px}
+.searchArea form {padding-top:10px;border-top:1px solid #e6e6e6}
+.searchArea .inputTextType1 {padding:0 5px;box-sizing:border-box}
+
+.mobileTable thead {display:none}
+.mobileTable.breakpoint > tbody > tr > td.expand {width:73px}
+.mobileTable.breakpoint > tbody > tr.footable-row-detail > td.footable-last-column {background:none}
+.listTable .footable-row-detail-inner {padding:0 30px}
+.mobileTable .footable-row-detail-inner div {margin-bottom:10px}
+.mobileTable .footable-row-detail-inner div:last-child {margin-bottom:0}
+.mobileTable .footable-row-detail-inner strong {display:inline-block;width:70px;height:18px;line-height:18px}
+}

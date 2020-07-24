@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+.listTable tr th {padding:10px 10px}
+.listTable tr td {padding:14px 4px}
+.listTable td.select_holding	{width:50px; text-align:center;}

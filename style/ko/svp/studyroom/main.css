@@ -1,0 +1,70 @@
+@charset "utf-8";
+#divContentsW{overflow:hidden}
+
+/* tabs */
+div.tabs{font-size:0;margin-bottom:40px;}
+div.tabs strong{display:none;color:#fff;height:27px;text-align:left;padding:8px 20px 0 20px;cursor:pointer;font-weight:normal;font-size:14px;}
+div.tabs ul{font-size:14px;display:inline-block;}
+div.tabs ul li{float:left;}
+div.tabs ul li a{display:inline-block;height:27px;text-align:center;padding:8px 20px 0 20px;background:url(../../../../image/ko/solution/common/ico/faqTabLine.gif) no-repeat 0 50%;}
+div.tabs ul li:first-child a{background-image:none}
+div.tabs li.selected a{background:#4460a9;color:#fff;}
+@media (min-width:0px) and (max-width:767px){
+	div.tabs{font-size:0;position:relative;}
+	div.tabs strong{display:block;background:#4460a9 url(../../../../image/ko/solution/common/ico/faqArrow.png) no-repeat right -108px;}
+	div.tabs ul{display:none;position:absolute;top:35px;left:0;z-index:100;background:#b3b3b3;width:100%;border-top:1px solid #314d95;}
+	div.tabs ul li{float:none;border-bottom:1px solid #314d95;}
+	div.tabs ul li a{display:block;height:27px;text-align:left;padding:8px 20px 0 20px;background:none;color:#fff;} 
+	div.tabs ul.on{display:block;}
+	div.tabs li.selected{display:none;background:none;color:none;}
+	div.tabs strong.selected{background:url(../../../../image/ko/solution/common/ico/faqArrow.png) no-repeat right -157px #4460a9;}
+}
+
+.monthSelect span{font-size:30px;color:#1a1a1a;vertical-align:middle;margin-right:10px}
+.monthSelect a{border:1px solid #ccc;border-left:none;display:inline-block;height:34px;vertical-align:middle}
+.monthSelect a.prevMonth{border-left:1px solid #ccc}
+.monthSelect a.todayBtn{padding:0 10px;font-size:13px}
+.monthSelect img{width:34px;height:34px;}
+.monthInquiry a.inquiryBtn{display:inline-block;padding:0 10px;height:33px;border:1px solid #ccc;background-color:#fff;color:#666;font-size:13px;vertical-align:top}
+
+/* 예약-달력 */
+.reserveContent1{width:55%;float:left;}
+.reserveContent1 .reserve{clear:both;}
+.reserveContent1 .reserve table{width:100%;border-top:1px solid #b3b3b3;border-collapse:collapse;margin-top:10px}
+.reserveContent1 .reserve table thead th{background-color:#eee;border:1px solid #e6e6e6;width:14%;height:24px;padding:0}
+.reserveContent1 .reserve table thead th.sunday{color:#f00}
+.reserveContent1 .reserve table thead th.saturday{color:#305ed6}
+.reserveContent1 .reserve table tbody tr{vertical-align:top}
+.reserveContent1 .reserve table tbody td{border:1px solid #e6e6e6;height:58px;padding:0}
+.reserveContent1 .reserve table tbody td a{display:block;padding:0 7px;height:58px;}
+.reserveContent1 .reserve table tbody td a > span{font-size:12px;color:#1a1a1a;margin-top:7px;display:block;line-height:1.0em}
+.reserveContent1 .reserve table tbody td span span{font-weight:600}
+.reserve table tbody td a{color:#4d4d4d}
+.reserve table tbody td.subday a{color:#f00}
+.reserve table tbody td.holiday a{color:#f00}
+.reserve table tbody td.saturday a{color:#305ed6}
+.reserve table tbody td.nonMonth a{color:#bbb}
+.reserve table tbody td.today{background-color:#fcf9ce}
+.reserve table tbody td.checkDate a{background:url(../../../../image/ko/solution/common/ico/reserveCheck.png) no-repeat 70% 5px}
+/* 예약-시간선택 */
+.reserveContent2{width:43%;float:right}
+.reserveContent2 .reserveInfo{position:relative;margin-bottom:10px;padding:0 10px 0 30px;line-height:2.5em;border:1px solid #e6e6e6;}
+.reserveContent2 .reserveInfo img{width:15px;height:15px;position:absolute;top:10px;left:10px;}
+.reserveContent2 table{width:100%;border-top:1px solid #b3b3b3;border-collapse:collapse}
+.reserveContent2 table thead th{height:24px;background-color:#eee;padding:0}
+.reserveContent2 table tbody td{text-align: center;border-bottom:1px solid #e6e6e6;padding:10px 0;}
+
+@media screen and (min-width:0) and (max-width:1024px){
+	.reserveContent1{width:100%;float:none;}
+	.reserveContent2{width:100%;float:none;margin-top:10px}
+}
+
+/* 열람실 선택 */
+.roomOption{margin-bottom:10px;overflow:hidden}
+.roomOption .daySelect{float:left}
+.roomOption .selectBox1{float:left;margin-right:5px}
+.roomOption .btnType6{float:left}
+
+/* 날짜조회 */
+.daySelect input[type="text"]{width:90px;height:33px;padding:0 10px;border:1px solid #e6e6e6;color:#666;font-size:13px}
+.daySelect input[type="submit"]{padding:0 10px;height:35px;border:1px solid #ccc;background-color:#fff;color:#666;font-size:13px}

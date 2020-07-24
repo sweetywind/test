@@ -1,0 +1,209 @@
+@charset "utf-8";
+
+/*Handler*/
+body {
+	background: #f2f2f2
+}
+
+.handlerBg {
+	background-color: #f2f2f2
+}
+
+.divhandler {
+	background-color: #f2f2f2;
+	width: auto;
+}
+
+.handlerName {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	padding: 10px 12px 9px 30px;
+	background: url(/image/ko/solution/common/ico/titleIcon.gif) no-repeat 10px 9px
+}
+
+.handlerContents {
+	width: 882px;
+	height: 100%;
+	margin: 0 10px 10px 10px;
+	line-height: 180%;
+}
+
+.handlerTopimg {
+	background-color: #fff
+}
+
+.handlerimg {
+	border: 1px solid #deded5;
+}
+
+/*readingApplication*/
+.readingApplication {
+	border: 1px solid #ccc;
+	border-bottom: 1px solid #94b3f2;
+	background: #fff;
+	padding: 12px 16px;
+	line-height: 180%;
+}
+
+.readingApplication span.date {
+	display: inline-block;
+	width: 66px;
+	font-weight: bold;
+	background: url("/image/ko/solution/common/ico/bullet_m.gif") no-repeat 1px 7px;
+	padding-left: 9px;
+	font-size: 12px;
+}
+
+.readingApplication span.user {
+	display: inline-block;
+	width: 66px;
+	background: url("/image/ko/solution/common/ico/bullet_m.gif") no-repeat 1px 7px;
+	padding-left: 9px;
+	font-size: 12px;
+	font-weight: bold;
+}
+/*handlerContent*/
+.handlerContent {
+	width: auto;
+	height: 100%;
+	border: 1px solid #ccc;
+	border-top: 0;
+	border-bottom: 1px solid #94b3f2;
+	background-color: #fff;
+	line-height: 180%;
+}
+
+.handlerTitle {
+	height: 36px;
+	background: url("/image/ko/solution/common/ico/bullet_b.gif") no-repeat 20px 20px;
+	padding: 18px 0 0 36px;
+	line-height:1.5em;
+	font-weight: bold;
+	font-size: 14px;
+	color: #3A6BC7;
+	letter-spacing: -1px;
+}
+
+.handler {
+	clear:both;
+	margin: 20px 0
+}
+
+.handler .handlertitle {
+	font-weight: bold;
+	margin: 0 24px 10px 24px;
+	padding: 3px 10px;
+	background: #e4eaf2;
+	border: 1px solid #ddd;
+	color: #224075;
+}
+
+.handlerIcon {
+	margin: 0 0 3px 10px;
+}
+
+.handlerBody {
+	line-height: 1.7em;
+	padding: 0 23px 6px 23px;
+}
+
+.handlerBody dl dt.handlertitle {
+	font-weight: bold;
+	margin: 0 0 10px 0;
+	padding: 3px 0;
+	background: #e4eaf2;
+	color: #224075;
+}
+
+.handlerBody dl dd {
+	background: url("/image/ko/solution/common/ico/bullet_m.gif") no-repeat 1px 7px;
+	padding-left: 9px;
+	margin-bottom: 3px;
+}
+
+.handlerBody #divProfile {
+	float:none;
+	padding: 0;
+}
+.profile_noImg{
+	display:block;
+	position:relative;
+	width:100%;
+    padding: 0;
+}
+.profile_noImg dl{
+	border:0; 
+	/*line-height:26px;
+	margin-right:90px;*/
+}
+.profile_noImg dl dt{
+	float: left;
+	padding:5px 0 5px 10px;
+	font-weight: bold;
+	line-height:1.25em;
+	width:150px;
+	background:url("/image/ko/solution/common/ico/bullet_m.gif") no-repeat scroll 1px 10px transparent;
+	}
+	
+.profile_noImg dl dd{
+	position:relative;
+	border-bottom:1px solid #e6e6e6;
+	margin:5px 0 5px 160px;
+	width: auto;
+	line-height:26px;
+	}
+.profile_noImg dl dd.noImg{
+	background:none;
+}
+.profile_noImg dl dd span {
+    display: inline-block;
+    margin-top: -20px;
+    padding-left: 50px;
+}
+.handlerBody #addtionalContent {
+	position: absolute;
+	top: 220px;
+	left: 670px;
+	margin: 0 16px 16px 0;
+	width: 180px
+}
+/*아래 추가*/
+.handlerFooter {
+	height: 34px;
+	padding: 20px 0;
+	background-color: #fff;
+	text-align: right;
+	border: 1px solid #ccc;
+}
+
+.handler_copyright {
+	font-size: 11px;
+	vertical-align: top;
+	padding: 0 12px 0 0;
+	position: relative;
+	top: -4px;
+}
+
+.handler_address {
+	font-size: 11px;
+	padding: 0 12px 0 0;
+}
+
+#divFooter {
+	width: 880px;
+	min-width:880px;
+	height: 34px;
+	border: 1px solid #C3CAD8;
+	background: #C3CAD8;
+	tex-align: right;
+	padding: 20px 0;
+}
+
+.handlerEmail {
+	background: url("/image/ko/solution/common/ico/bullet_m.gif") no-repeat scroll
+		1px 7px transparent;
+	margin: 4px 0;
+	padding-left: 9px;
+	font-size: 11px;
+}

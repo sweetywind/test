@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="법원도서관">
+<meta name="keyword" content="법원도서관, 법원 도서관, 법원전자도서관">
+<meta name="copyright" content="@copy; SUPREME COURT LIBRARY OF KOREA.">
+<meta content="initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, width=device-width, user-scalable=no" name="viewport">
+<meta name="format-detection" content="telephone=no" /><!--아이폰 전화번호 스타일 초기화-->
+<title>법원도서관</title>
+<link rel="stylesheet" type="text/css" href="style/ko/standard/common.css">
+<link rel="stylesheet" href="style/ko/theme/pc/sub.css">
+<link rel="stylesheet" href="style/ko/theme/tablet/sub.css" media="screen and (min-width:768px) and (max-width:1024px)">
+<link rel="stylesheet" href="style/ko/theme/mobile/sub.css" media="screen and (max-width:767px)">
+<link rel="stylesheet" href="style/ui/jquery.mThumbnailScroller.css">
+<script type="text/javascript" src="script/jquery-1.8.3.min.js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="script/css3-mediaqueries.js"></script>
+<![endif]-->
+<script type="text/javascript" src="script/sub.js"></script>
+<script type="text/javascript" src="script/jquery.mThumbnailScroller.js"></script>
+<script type="text/javascript" src="script/jquery.placeholder.min.js"></script>
+
+<link rel="stylesheet" href="style/ko/svp/thesaurus/thesaurus.css">
+
+</head>
+<body>
+<div id="divAccessibility">
+	<ul>
+		<li><a href="#divGlobalMenu">메뉴 바로가기</a></li>
+		<li><a href="#divContents">본문 바로가기(skip to content)</a></li>
+		<li><a href="#divFooter">도서관정보 바로가기</a></li>
+	</ul>
+</div>
+<div id="divWrapper">
+	<!-- divHeader -->
+	<div id="divHeader">
+		<h1 class="logo"><a href=""><img src="image/ko/local/logo.png" alt="법원도서관"></a></h1>
+		<!-- Global Menu -->
+		<div id="divGlobalMenu">
+			<ul>
+				<li class="globlaMenu1"><a href="">로그인</a></li>
+				<!-- <li class="globlaMenu1"><a href="">로그아웃</a></li> -->
+				<li class="globlaMenu1"><a href="">MY LIBRARY</a></li>
+				<li class="globlaMenu2"><a href="">희망도서신청</a></li>
+				<li class="globlaMenu2"><a href="">사용자 지원</a></li>
+			</ul>
+		</div>
+		<!-- //Global Menu -->
+		<!-- Whole Menu -->
+		<div class="wholeMenu">
+			<a href="#" role="button" class="menuOpen"><img src="image/ko/local/menuOpen.png" alt="전체메뉴보기"></a>
+			<div>
+				<div class="mobileLogin">
+					<ul>
+						<li><a href=""><img src="image/ko/local/home.png" alt="home"></a></li>
+						<li><a href=""><img src="image/ko/local/mobileSearch.png" alt="home"></a></li>
+					</ul>
+					<div>
+						<span>퓨쳐누리님</span>
+						<a href="">Logout</a>
+					</div>
+				</div>
+				<span></span>
+				<ul>
+					<li class="on"><a href="#" role="button">검색</a>
+						<ul>
+							<li><a href="">내부자원통합검색</a></li>
+							<li><a href="">내/외부자원통합검색</a></li>
+							<li><a href="">교양도서검색</a></li>
+							<li><a href="">법률잡지목차검색</a></li>
+						</ul>
+					</li>
+					<li><a href="#" role="button">도서관서비스</a>
+						<ul>
+							<li><a href="">열린법률지식백과</a></li>
+							<li><a href="">전자책</a></li>
+							<li><a href="">WEBDB</a></li>
+							<li><a href="">오디오북</a></li>
+							<li><a href="">맞춤형재판지원서비스</a></li>
+							<li><a href="">신착자료</a></li>
+						</ul>
+					</li>
+					<li><a href="#" role="button">컬렉션</a>
+						<ul>
+							<li><a href="">귀중본/고서</a></li>
+							<li><a href="">근대판례</a></li>
+							<li><a href="">최신발간자료</a></li>
+							<li><a href="">최신판례</a></li>
+							<li><a href="">외국법령자료</a></li>
+							<li><a href="">한일비교법령</a></li>
+							<li class="depth2"><a href="">법률용어</a>
+								<ul>
+									<li><a href="">시소러스</a></li>
+									<li><a href="">외국법률용어</a></li>
+									<li><a href="">법률용어사전</a></li>
+									<li><a href="">표준국어대사전</a></li>
+								</ul>
+							</li>
+							<li class="depth2"><a href="">확회정보</a>
+								<ul>
+									<li><a href="">학회검색</a></li>
+									<li><a href="">학술논문검색</a></li>
+									<li><a href="">학술대회일정</a></li>
+									<li><a href="">학술정보공지사항</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#" role="button">유관 서비스</a>
+						<ul>
+							<li><a href="">종합법률정보</a></li>
+							<li><a href="">법원역사관</a></li>
+							<li><a href="">RISS상호대차</a></li>
+							<li><a href="">도서요약서비스</a></li>
+						</ul>
+					</li>
+					<li><a href="#" role="button">MY LIBRARY</a>
+						<ul>
+							<li><a href="">희망구입도서신청</a></li>
+							<li><a href="">대출/이력조회</a></li>
+							<li><a href="">예약조회</a></li>
+							<li><a href="">자료전송신청조회</a></li>
+							<li><a href="">검색이력</a></li>
+							<li><a href="">바구니보기</a></li>
+							<li><a href="">목차속보조회</a>
+								<ul>
+									<li><a href="">연속간행물</a></li>
+									<li><a href="">키워드/분류명</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#" role="button">사용자지원</a>
+						<ul>
+							<li><a href="">공지사항</a></li>
+							<li><a href="">FAQ</a></li>
+							<li><a href="">QnA</a></li>
+							<li><a href="">법률문장맞춤법검사기</a></li>
+							<li><a href="">뷰어다운로드</a></li>
+							<li><a href="">메뉴얼다운로드</a></li>
+							<li><a href="">관련사이트</a></li>
+							<li><a href="">맞춤형재판지원서비스</a></li>
+						</ul>
+					</li>
+				</ul>
+				<a href="#" role="button" class="mobileClose"><img src="image/ko/local/mobileClose.png" alt="전체메뉴닫기"></a>
+			</div>
+			<a href="#" role="button" class="menuClose"><img src="image/ko/local/menuClose.png" alt="전체메뉴닫기"></a>
+		</div>
+	</div>
+	<!-- //divHeader -->
+	<hr>
+	<!-- divContents -->
+	<div id="divContentsW">
+		<div id="divContents">
+			<div class="contentsHeader">
+				<div>
+					<div id="divSearch">
+						<form>
+							<fieldset>
+								<legend>소장자료검색</legend>
+								<input type="text" class="searchInput" placeholder="소장자료 검색, 검색어를 입력하세요" title="검색어 입력">
+								<input class="searchBtn" type="submit" value="검색" title="검색">
+							</fieldset>
+						</form>
+					</div>
+					<h2 id="divTitle">WebDB</h2>
+					<div id="divLocation">
+						<ul>
+							<li class="home"><a href="">Home</a></li>
+							<li><a href="">법률용어</a></li>
+							<li class="currentPage">WebDB</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="divTabMenu">
+				<div>
+					<ul>
+						<li class="selected"><a href="">시소러스</a></li>
+						<li><a href="">외국법률용어</a></li>
+						<li><a href="">법률용어사전</a></li>
+						<li><a href="">표준국어대사전</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="divContent">
+				<div class="thesaurus">
+					<div class="thesaurusSearch">
+						<form>
+							<fieldset>
+								<legend>검색어 입력</legend>
+								<label for="keyword">검색어</label>
+								<input type="text" id="keyword">
+								<input type="submit" value="검 색" title="검색">
+							</fieldset>
+						</form>
+					</div>
+					<div class="thesaurusTables">
+						<div class="thesaurusTable1">
+							<table>
+								<caption>관련검색어</caption>
+								<thead>
+									<tr>
+										<th scope="col">관련검색어</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<ul>
+												<li class="on"><a href="">憲法</a></li>
+												<li><a href="">憲法の改正</a></li>
+												<li><a href="">憲法保留</a></li>
+												<li><a href="">憲法制定</a></li>
+												<li><a href="">憲法制定權力</a></li>
+												<li><a href="">憲法史</a></li>
+												<li><a href="">憲法學</a></li>
+												<li><a href="">憲法改正の限界</a></li>
+												<li><a href="">憲法改正權力</a></li>
+												<li><a href="">憲法改正界限</a></li>
+												<li><a href="">憲法爭議</a></li>
+												<li><a href="">憲法裁判</a></li>
+												<li><a href="">憲法裁判所</a></li>
+												<li><a href="">憲法裁判所裁判官</a></li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="thesaurusTable2">
+							<div>
+								<table>
+									<caption>검색어 관계 및 관련어항목</caption>
+									<colgroup>
+									<col style="width:30%">
+									<col style="width:30%">
+									</colgroup>
+									<thead>
+										<tr>
+											<th scope="col" style="width:30%"><div>관계</div></th>
+											<th scope="col" style="width:70%"><div>관련어항목</div></th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td rowspan="5">상위어</td>
+											<td>공법[公法]</td>
+										</tr>
+										<tr>
+											<td>법령[法令]</td>
+										</tr>
+										<tr>
+											<td>법원(법의연원)[法源]</td>
+										</tr>
+										<tr>
+											<td>성문법[成文法]</td>
+										</tr>
+										<tr>
+											<td>실체법[實體法]</td>
+										</tr>
+										<tr>
+											<td rowspan="12">하위어</td>
+											<td>하위어</td>
+										</tr>
+										<tr>
+											<td>경성헌법[硬性憲法]</td>
+										</tr>
+										<tr>
+											<td>국약헌법[國約憲法]</td>
+										</tr>
+										<tr>
+											<td>명목적헌법[名目的憲法]</td>
+										</tr>
+										<tr>
+											<td>미합중국헌법[美合衆國憲法]</td>
+										</tr>
+										<tr>
+											<td>민정헌법[民定憲法]</td>
+										</tr>
+										<tr>
+											<td>바이마르헌법[--憲法]</td>
+										</tr>
+										<tr>
+											<td>발췌헌법[拔萃憲法]</td>
+										</tr>
+										<tr>
+											<td>연성헌법[軟性憲法]</td>
+										</tr>
+										<tr>
+											<td>하위어</td>
+										</tr>
+										<tr>
+											<td>하위어</td>
+										</tr>
+										<tr>
+											<td>하위어</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //divContents -->
+	<hr>
+	<!-- divFooter -->
+	<div id="divFooter">
+		<div>
+			<ul>
+				<li class="privacy"><a href="">개인정보처리방침</a></li>
+				<li><a href="">이메일무단수집거부</a></li> 
+				<li><a href="">홈페이지용 개선의견 수렴</a></li>
+			</ul>
+			<img src="image/ko/local/cc.jpg" alt="CC(creative commons) 인증마크" class="ccMark">
+			<div class="address">
+				<p>법원도서관에서 운영하는 모든 사이트의 콘텐츠는 저작권의 보호를 받는바 무단전재, 복사, 배포를 금합니다.</p>
+				<address>(01413) 경기도 고양시 일산동구 호수로 550 법원도서관</address>
+			</div>
+			<p class="copyright">Copyright ⓒ  2020 SUPREME COURT LIBRARY OF KOREA. ALL RIGHTS RESERVED</p>
+		</div>
+	</div>
+	<!-- //divFooter -->
+</div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+@charset "utf-8";
+.searchArea .inputTextType5, .searchArea .btnType5 {margin-bottom:10px}
+.searchArea .datePicker {width:90px}
+.searchArea .selectBox1 {width:auto; min-width:95px}
+.searchArea span.bunch {line-height:2.4em}
+
+.listTable tr th {padding:10px 3px}
+.listTable tr td {padding:14px 3px}
+.listTable thead .check {width:30px}
+.listTable thead .no {width:50px}
+.listTable thead .displayTitle {width:auto}
+.listTable tbody .displayTitle {padding-left:10px;text-align:left}
+.listTable tbody .organization {width:12%}
+.listTable tbody .writer_name {width:8%}
+.listTable tbody .insert_date {width:10%}
+.listTable tbody .display_date {width:25%}
+.listTable tbody .status {width:60px}

@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+/* 약관동의 */
+.agree input[type='checkbox']{margin-right:5px;border:1px solid red;vertical-align:middle}
+.agree .title{display:block;background-color:#eee;border:1px solid #e7e7e7;border-bottom:none;line-height:100%;margin-top:40px;padding:12px 20px;font-size:16px;color:#1a1a1a}
+.agree .agreeContent{height:204px;margin-bottom:0 0 20px;padding:25px 20px;background-color:#f9f9f9;border:1px solid #e7e7e7;overflow-y:scroll}
+.agree .checkBox{margin:20px 0 0;}

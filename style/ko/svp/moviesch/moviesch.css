@@ -1,0 +1,101 @@
+@charset "utf-8";
+.paging {margin-top:20px}
+.listInfo {overflow:visible;height:35px}
+.scheduleType ul{border:1px solid #ccc;height:33px;padding:0 10px;}
+.scheduleType ul li{float:left;margin-left:10px;}
+.scheduleType ul li:first-child{margin:0}
+.scheduleType ul li span{display:none}
+.scheduleType ul li img{vertical-align:middle;width:14px;height:14px;}
+.schTypeSelect{display:none;}
+
+.movieList {word-break:break-all}
+.movieList ul {overflow:hidden}
+.movieList li {position:relative;float:left;width:50%;margin-bottom:20px}
+.movieList li div {position:relative;height:133px;padding:20px 20px 20px 126px;border:1px solid #e6e6e6}
+.movieList li.even {float:right}
+.movieList li.even div {margin-left:10px}
+.movieList li.odd div {margin-right:10px}
+.movieList .movie {position:absolute;top:20px;left:20px;width:96px;height:133px}
+.movieList .movie img {width:96px;height:133px}
+.movieList li .moviewGrade {position:absolute;top:25px;left:25px;width:20px;height:20px;z-index:10}
+.movieList li .moviewGrade img {width:20px;height:20px}
+.movieList li dl {}
+.movieList li dt {margin-bottom:4px}
+.movieList li dd {line-height:1.5}
+.movieList li .last-child {margin-bottom:0}
+.movieList li a {color:#1a1a1a;font-size:18px}
+
+/*연대 국제 Creative talks*/
+.movieList li div.movList {position:relative;height:60px;padding:20px 20px 20px 126px;border:1px solid #e6e6e6}
+.movieList .mov {position:absolute;top:20px;left:20px;width:96px;height:60px}
+.movieList .mov img {width:96px;height:60px}
+.movieList li p{margin-bottom:4px;line-height: 1.5}
+
+
+
+
+
+
+/* 무비이미지 우측으로 할경우 */
+/*.movieList li div {height:133px;padding:20px 126px 20px 20px}
+.movieList .movie {position:absolute;top:20px;right:20px;width:96px;height:133px}
+.movieList .moviewGrade {position:absolute;top:25px;right:91px;width:20px;height:20px;z-index:90}*/
+
+
+/* 상세 페이지 */
+.movieInfo {position:relative;padding:20px 20px 16px 128px;background:#eee;border-top:1px solid #b3b3b3;border-bottom:1px solid #e6e6e6}
+.movieInfo .movie {position:absolute;top:20px;left:20px;width:96px;height:133px}
+.movieInfo .movie img {width:96px;height:133px}
+.movieInfo dt {overflow:hidden;margin-bottom:5px;color:#1a1a1a;font-size:20px;font-weight:bold;text-overflow:ellipsis;white-space:nowrap}
+.movieInfo dd {margin-bottom:1px;line-height:1.5}
+.movieInfo dd span {font-weight:bold}
+.movieInfo .grade {margin-top:-5px}
+.movieInfo dd img {display:inline-block;position:relative;top:5px;width:20px;height:20px}
+.movieInfo .last-child {margin-bottom:0}
+
+.boardDetail {border-bottom:1px solid #b3b3b3;}
+.boardContent {border-bottom:0 none}
+.additionalItems {overflow:hidden;border-top:1px solid #e6e6e6;border-bottom:0 none}
+.additionalItems div {float:left}
+.additionalItems .last-child {float:right}
+.additionalItems ul {min-height:64px}
+.additionalItems ul.addList {background:url(../../../../image/ko/solution/common/ico/moveList.png) no-repeat 0 0}
+.additionalItems li {text-align:left}
+
+@media screen and (min-width:0px) and (max-width:1024px){
+.movieList li {float:none !important;width:auto}
+.movieList li.even div {margin-left:0}
+.movieList li.odd div {margin-right:0}
+}
+
+@media screen and (min-width:0px) and (max-width:767px){
+.schTypeSelect{display:block;border:1px solid #ccc;padding:0 10px;height:33px}
+.scheduleType{position:relative;}
+.scheduleType ul{display:none;position:absolute;top:34px;right:0;width:88px;background-color:#fff;height:auto;z-index:110}
+.scheduleType ul li{float:none;margin:0}
+.scheduleType ul li span{display:inline;margin-left:10px;}
+.schTypeSelect img{vertical-align:middle;width:7px;height:4px;}
+.schTypeSelect img:first-child{width:14px;height:14px;margin-right:5px}
+
+.movieList li {}
+.movieList li div {height:auto;min-height:96px;padding-left:102px}
+/*.movieList li div {height:auto;min-height:96px;padding-right:102px} 무비이미지 우측으로 할경우 */
+
+.movieList li dl {height:auto}
+.movieList li dd {margin-bottom:2px}
+.movieList .movie {width:70px;height:96px}
+.movieList .movie img {width:70px;height:96px}
+.movieList li .moviewGrade {right:65px}
+
+/* 상세 페이지 */
+.movieInfo {padding-left:111px}
+.movieInfo .movie {width:70px;height:96px}
+.movieInfo .movie img {width:70px;height:96px}
+.additionalItems ul.addList {background-size:50px 50px;background-position:20px 50%}
+
+/*연대 국제 Creative talks*/
+.movieList li div.movList {position:relative;min-height:44px;height:auto; padding:20px 20px 20px 106px;border:1px solid #e6e6e6}
+.movieList .mov {position:absolute;top:20px;left:20px;width:70px;height:44px}
+.movieList .mov img {width:70px;height:44px}
+.movieList li p{margin-bottom:4px;line-height: 1.5}
+}
