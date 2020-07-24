@@ -52,10 +52,12 @@
 .wholeMenu > div > ul > li > ul > li{margin-top:20px;padding:0 35px}
 .wholeMenu > div > ul > li > ul > li:first-child{margin-top:0}
 .wholeMenu > div > ul > li > ul > li > a{color:#a3b1c0;font-size:16px;font-family:NotoSansL, sans-serif;letter-spacing:-1px;}
+.wholeMenu > div > ul > li > ul > li > a:hover, .wholeMenu > div > ul > li > ul > li > a:focus{color:#43fff4}
 .wholeMenu > div > ul > li > ul > li > ul{padding:10px 0 0 10px}
 .wholeMenu > div > ul > li > ul > li > ul > li{margin-top:5px;}
 .wholeMenu > div > ul > li > ul > li > ul > li:first-child{margin-top:0}
 .wholeMenu > div > ul > li > ul > li > ul > li > a{display:inline-block;padding-left:8px;background: url(../../../../image/ko/local/bullet1.gif) no-repeat 0 10px;color:#c6cad2;font-size:14px;font-family:NotoSansL, sans-serif;}
+.wholeMenu > div > ul > li > ul > li > ul > li > a:hover, .wholeMenu > div > ul > li > ul > li > ul > li > a:focus{color:#43fff4}
 .wholeMenu .mobileClose{display:none}
 .wholeMenu .menuClose{display:none;position:absolute;top:25px;right:20px}
 .wholeMenu .menuClose img{vertical-align:top}
