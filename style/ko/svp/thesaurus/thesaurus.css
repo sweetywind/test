@@ -27,12 +27,12 @@
 .thesaurusTable2 table thead th div{width:inherit;position:absolute;top:0;background-color:#f0f5f9;line-height:58px;border:1px solid #ddd}
 .thesaurusTable2 td{padding:10px 20px}
 
-
 .thesaurusTable3{position:relative;padding-top:59px;margin-left:-1px;box-sizing:border-box;}
 .thesaurusTable3 > div{max-height:515px;overflow-y:auto;border-bottom:1px solid #ddd}
 .thesaurusTable3 table{border-top:none}
 .thesaurusTable3 table thead th{border:none;height:0;padding:0}
 .thesaurusTable3 table thead th div{width:inherit;position:absolute;top:0;background-color:#f0f5f9;line-height:58px;border:1px solid #ddd}
+.thesaurusTable3 table tbody th{background-color:#f8f8f8}
 .thesaurusTable3 td{padding:10px 20px}
 
 @media screen and (min-width:768px) and (max-width:1024px){
